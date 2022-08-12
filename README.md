@@ -2,6 +2,13 @@
 
 Composes a list of Magic cards legal in the Middle School format 
 
+## List of Middle School legal cards
+
+You can download the list in the following formats:
+
+- [JSON](output/middleschool.json)
+- [CSV](output/middleschool.csv)
+
 ## The process: the Jupyter notebook
 
 Feel free to take a look at [the notebook](https://github.com/alecrem/middleschool-cardlist/blob/main/middleschool-cardlist.ipynb)
@@ -18,8 +25,3 @@ Python modules:
 
 - json
 - pandas
-
-## The result: output files
-
-- [middleschool.json ](https://github.com/alecrem/middleschool-cardlist/blob/main/output/middleschool.json)
-- [middleschool.csv](https://github.com/alecrem/middleschool-cardlist/blob/main/output/middleschool.csv)
