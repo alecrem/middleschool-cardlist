@@ -43,7 +43,7 @@
 41,ea93acc8-0c1f-42a2-bed3-f385d210d58f,Aegis of Honor,名誉の神盾
 42,0cf78877-bf08-413c-8ecb-8c3265ac1c4a,Aegis of the Meek,
 43,d13aff7c-f0ee-44e2-ae1c-62cd86ad46a6,Aerial Caravan,天駆ける隊商
-44,99dcde0b-4f4d-4d7a-89aa-8a89c256e38f,Aesthir Glider,
+44,99dcde0b-4f4d-4d7a-89aa-8a89c256e38f,Aesthir Glider,エイスサーの滑空機
 45,0fe602b7-9f88-4d3d-af24-7790df867ed5,Aether Barrier,Æther Barrier
 46,1e33f39b-a61a-4a09-a541-16cc1bd53d02,Aether Burst,Æther Burst
 47,15e83068-6253-4c65-8679-7295f3dc2075,Aether Charge,Æther Charge
@@ -206,7 +206,7 @@
 204,5acc8b39-3c3e-4012-8cfd-ac3c2c4ca982,Arc Lightning,弧状の稲妻
 205,011bb6cc-f1a1-4790-befc-373acabf63b8,Arc Mage,弧炎の魔道士
 206,8ead94c5-8447-4f20-87ec-efdccde689fc,Arcades Sabboth,アルカデス・サボス
-207,ab1cc360-b9de-48d9-9983-4dfe4a7d2a37,Arcane Denial,
+207,ab1cc360-b9de-48d9-9983-4dfe4a7d2a37,Arcane Denial,秘儀の否定
 208,f5e3c26c-c28c-455f-a682-2597e4b92d10,Arcane Laboratory,秘儀の研究室
 209,0b633017-bfdf-47cd-a60f-c93816b47e9c,Arcane Teachings,秘儀の教示
 210,8a7183cc-161c-444d-a889-a17519c8061b,Arcanis the Omnipotent,全能なる者アルカニス
@@ -218,11 +218,11 @@
 216,c56671e1-28a6-40c3-bad5-b5e617ddb7da,Arctic Merfolk,北極マーフォーク
 217,c9e7218f-07f2-46f3-bc63-eb5c0d32538b,Arctic Wolves,北極狼
 218,40960ec8-e3be-45f2-8d27-316d82c69123,Arcum's Sleigh,
-219,b4e57fba-5fa3-4fd5-8f0a-7b61593ade72,Arcum's Weathervane,
+219,b4e57fba-5fa3-4fd5-8f0a-7b61593ade72,Arcum's Weathervane,アーカムの風見
 220,de691eed-d90b-48f9-bae4-f982767f2bfd,Arcum's Whistle,
 221,23625877-b6db-480c-8885-a62b7d0457df,Ardent Militia,献身的民兵団
 222,a56d301b-8f4c-4f12-8ee0-34c6b66faee0,Ardent Soldier,献身的兵士
-223,12326d23-1fb5-4084-a23a-d6e2c90ea36c,Arena,
+223,12326d23-1fb5-4084-a23a-d6e2c90ea36c,Arena,闘技場
 224,12584f75-77c1-4b6b-ae9d-1882792b6b94,Arena of the Ancients,古き者どもの闘技場
 225,465843dc-57d0-46fd-ac47-238723034563,Arenson's Aura,アレンスンのオーラ
 226,0b6c74a7-d7d3-4c05-84b1-bcb580bb476f,Argivian Find,アーギヴィーアの発見
@@ -256,7 +256,7 @@
 254,e32c0de7-132d-4a39-85fb-da0ed1132878,Ascendant Evincar,隆盛なるエヴィンカー
 255,67b4a4bc-0b02-4cef-b5c8-41c839eaf0cd,Ascending Aven,上昇するエイヴン
 256,7246e3a0-f8b7-4c1b-ae75-a1eb8990a728,Ashen Firebeast,灰燼の火獣
-257,46fbcbdf-73d0-4fa2-8db7-3b19bfc7ac22,Ashen Ghoul,
+257,46fbcbdf-73d0-4fa2-8db7-3b19bfc7ac22,Ashen Ghoul,灰燼のグール
 258,d906965a-0f33-4d75-8abe-66f2cf4817b8,Ashen Powder,死灰の秘粉
 259,944a52d9-bb14-43c5-8d05-2afaf023dc9f,Ashes to Ashes,灰は灰に
 260,4d18bcba-a346-445e-a182-6cc30b7e066d,Ashnod's Altar,アシュノッドの供犠台
@@ -344,7 +344,7 @@
 342,23720758-f572-45e3-9bec-f6d3b974d7f5,Balduvian Barbarians,バルデュヴィアの蛮族
 343,32c10a3e-85b0-49af-9b23-81d0b7e407df,Balduvian Bears,
 344,3eb21641-90e1-4865-b7be-a21d52b7b56b,Balduvian Conjurer,
-345,18d6b89a-3588-43d9-a247-4747a7d784fc,Balduvian Dead,
+345,18d6b89a-3588-43d9-a247-4747a7d784fc,Balduvian Dead,バルデュヴィアの死者
 346,fd2a94d3-901d-4b46-aa9b-a30ed6dea6bd,Balduvian Horde,バルデュヴィアの大軍
 347,29a12f75-d66d-457f-85c4-6b9450adc0d8,Balduvian Hydra,
 348,3354c3d3-5713-4139-beb2-4fa17f6b47d9,Balduvian Shaman,
@@ -563,7 +563,7 @@
 561,e43413e4-be17-49af-978a-26210d05f52a,Bottomless Vault,底無しの縦穴
 562,4fa46972-d953-4328-9c31-96e134234133,Bouncing Beebles,活発なビーブル
 563,2fd1cfc5-fbcd-4d31-ba8b-759d8c41b435,Bounty Hunter,賞金かせぎ
-564,77a43c24-398f-42c6-a0d3-b28b33a0ce12,Bounty of the Hunt,
+564,77a43c24-398f-42c6-a0d3-b28b33a0ce12,Bounty of the Hunt,狩りの報奨
 565,d85aa59b-c6aa-4b2f-885c-59d6e5e6e8b9,"Braids, Cabal Minion",陰謀団の先手ブレイズ
 566,d52b72ff-a82d-430e-94c7-675c83b43e50,Braidwood Cup,ブレイドウッドの杯
 567,b44816b4-44ef-446d-a254-b4b7bc015a42,Braidwood Sextant,ブレイドウッドの六分儀
@@ -614,7 +614,7 @@
 612,b0a54050-3493-4ff6-8eca-e43b92c1f3d3,Broodhatch Nantuko,大群を産むナントゥーコ
 613,ee9208e7-2075-45b9-9ed7-b18e1a280d79,Brothers of Fire,火の兄弟
 614,11cd0c42-4148-4d82-9172-b1a1967fe319,Browbeat,怒鳴りつけ
-615,5b42e91a-e3bd-4f69-9abf-ed6273715fff,Brown Ouphe,
+615,5b42e91a-e3bd-4f69-9abf-ed6273715fff,Brown Ouphe,茶色のアウフ
 616,49491601-e272-4603-9348-185a2953bd4b,Browse,拾い読み
 617,d87e580f-eca1-4f91-962b-82d684cba5e7,Brush with Death,死の茂み
 618,5eb8b497-ec9a-4a89-ad29-1ec3ca82da7c,Brushland,低木林地
@@ -717,7 +717,7 @@
 715,ed0cf504-c365-4486-92bc-c329b83b99d0,Carrion Wurm,屍肉ワーム
 716,24315f60-731a-40bb-85ba-eedba1b011ff,Carrionette,操り骸骨人形
 717,50d33663-5d83-4e3c-9ed7-074fe29a9fc8,Cartographer,地図作り
-718,5a747256-4215-4334-98ab-0c2e4ed92e47,Casting of Bones,
+718,5a747256-4215-4334-98ab-0c2e4ed92e47,Casting of Bones,骨投げ
 719,f3179c3c-7e53-44d2-b579-b9e677efe9d9,Castle,城壁
 720,c7f0251a-9341-4ff2-8b15-31c06eb4f2e7,Castle Sengir,
 721,16aea5b3-9f43-4852-b8b8-80e87909b794,Cat Burglar,身軽な泥棒
@@ -854,7 +854,7 @@
 852,6f8cc374-e76c-4bfa-bf20-28dea0bfefbe,Cinder Marsh,燃えがらの湿地帯
 853,64b63797-9db0-41fa-b2eb-fbf51de0e337,Cinder Seer,燃えがらの予見者
 854,9e120284-0fcc-432c-9471-9106eab71025,Cinder Shade,燃えがらの影
-855,c7971968-c4ee-4437-92ec-1238bce1935f,Cinder Storm,
+855,c7971968-c4ee-4437-92ec-1238bce1935f,Cinder Storm,燃えがらの嵐
 856,16128b90-9b81-476e-8999-3ef498728c39,Cinder Wall,燃えがらの壁
 857,4ad57fbf-69f3-4367-b061-ed8e0b83b9af,Circle of Despair,絶望の魔法円
 858,2e61e9c0-a2b9-4a24-8cb0-5160accce183,Circle of Protection: Artifacts,秘宝の防御円
@@ -921,7 +921,7 @@
 919,af354337-424c-4c7e-8ca5-6149261368d2,Cockatrice,コカトリス
 920,9e35d450-00af-4f40-a4ee-bc7844ff5628,Cocoon,繭
 921,68413337-ddb9-46f8-8c8e-f3d2d672c652,Coercion,強要
-922,e49771ab-cabb-4a5f-aef3-a0ac8147e6bf,Coffin Puppets,
+922,e49771ab-cabb-4a5f-aef3-a0ac8147e6bf,Coffin Puppets,棺の操り人形
 923,9db5aa54-3deb-45ee-82a2-e88a4367c6d9,Coffin Purge,棺の追放
 924,c19ec6aa-aadd-4767-b695-384fd07b4ded,Coffin Queen,棺の女王
 925,8b4aae48-be01-4b42-8d32-45071650da03,Cognivore,認識を食うもの
@@ -1168,7 +1168,7 @@
 1166,d445032b-b243-4203-9c88-a0ac357fb9b5,Death Pit Offering,死の奈落の捧げ物
 1167,aead53ef-ffcf-4ae2-ab81-40aa9627adc9,Death Pits of Rath,ラースの死の奈落
 1168,2227bab2-36a0-47f1-a797-7b82323eca9d,Death Pulse,死の脈動
-1169,4b23a89c-89ba-41ad-b894-ec02221689eb,Death Spark,
+1169,4b23a89c-89ba-41ad-b894-ec02221689eb,Death Spark,死の火花
 1170,4a1db129-cc7c-410a-a41e-d633e30cfdad,Death Speakers,死者の代弁者
 1171,3ebaa91f-5cbf-4a82-9759-9bd4d93a3e87,Death Stroke,死の一撃
 1172,0544b707-ec67-43e3-a25d-fd7005ab673d,Death Ward,蘇生の印
@@ -1384,7 +1384,7 @@
 1382,eb70d548-9769-4569-ae79-cddc0e623aef,Dreamwinder,夢繰り
 1383,efc9498a-b740-44de-aef3-01a1fa4ee49a,Dredge,底ざらい
 1384,8126e60b-cf3d-4bf0-bfb5-f1e914d3e20e,Dregs of Sorrow,悲しみの残りカス
-1385,bcea5e7e-655d-48ea-871e-28ca49e5c574,Drift of the Dead,
+1385,bcea5e7e-655d-48ea-871e-28ca49e5c574,Drift of the Dead,死者の漂い
 1386,fdea1945-0bb6-4a83-8cb1-5ba6a4dc39bd,Drifting Djinn,漂うジン
 1387,c6eb2814-0021-4308-ad44-6c8cc59b0d1c,Drifting Meadow,漂う牧草地
 1388,6208534d-e7c7-43ef-b8b2-fea1d82459e8,Drinker of Sorrow,悲しみを飲み込むもの
@@ -1492,7 +1492,7 @@
 1490,ae997fee-2c1f-43c8-9dba-8b409d8e449e,Elven Warhounds,エルフの軍用犬
 1491,1d25b831-c1de-4f79-bbb3-1582eda96452,Elvish Aberration,エルフの逸脱者
 1492,534ce8e2-53a1-407c-9881-d3b5347d43c3,Elvish Archers,エルフの射手
-1493,094b778f-95a0-436f-a9d0-20a46a674486,Elvish Bard,
+1493,094b778f-95a0-436f-a9d0-20a46a674486,Elvish Bard,エルフの吟遊詩人
 1494,c9046281-dedb-4246-8e5d-7786fe0c41c7,Elvish Berserker,エルフの狂戦士
 1495,7e40f37c-9a0c-40e0-b195-7ea94b12f798,Elvish Champion,エルフのチャンピオン
 1496,557d2af0-04c5-461d-826b-7208c4535dc2,Elvish Fury,エルフの憤激
@@ -1507,7 +1507,7 @@
 1505,092f2c34-1f75-4998-b219-2cf1ca73656d,Elvish Ranger,エルフのレインジャー
 1506,81b2242b-40c9-475a-a198-28dd348235ec,Elvish Scrapper,エルフの潰し屋
 1507,10b0b60f-9976-41f9-855b-1786b6f86f55,Elvish Soultiller,魂を養うエルフ
-1508,6b0e23cf-7d68-4329-86db-7adc26abd86b,Elvish Spirit Guide,
+1508,6b0e23cf-7d68-4329-86db-7adc26abd86b,Elvish Spirit Guide,エルフの指導霊
 1509,4163aa30-7e3d-424f-b003-f4a300f0071e,Elvish Vanguard,エルフの先兵
 1510,da587161-da7e-48ae-8af6-7f02ee71afd8,Elvish Warrior,エルフの戦士
 1511,42e95ad5-c10a-46fe-ab97-c7a734138586,Embalmed Brawler,腐れざる喧嘩屋
@@ -1537,7 +1537,7 @@
 1535,cde3e29c-31fd-4dce-a008-283bbe90bfc6,Endless Scream,終わりなき悲鳴
 1536,ce4d714c-c22b-47be-a372-a3139c4e5b1c,Endless Wurm,無限のワーム
 1537,e9ef7f8c-21ef-45f0-af64-8ffa9f0089d1,Endoskeleton,内骨格器
-1538,47a080c4-ff04-4f52-aca0-2b8e4f4d931e,Enduring Renewal,
+1538,47a080c4-ff04-4f52-aca0-2b8e4f4d931e,Enduring Renewal,永劫の輪廻
 1539,708b0321-7de9-4ffd-9d7a-9f4813dd542e,Energizer,エネルギー発生機
 1540,959bcf99-3c9a-4f99-98b2-13514d3dac16,Energy Arc,
 1541,5c19db44-0eae-4d22-9bf4-7e6cdc6b9d8f,Energy Bolt,エネルギー・ボルト
@@ -1576,7 +1576,7 @@
 1574,7feba745-7d27-4225-bc9d-9b7a8692872d,Erg Raiders,アーグの盗賊団
 1575,d48a38c9-3dcd-4c18-8840-1b057ede3ff0,Erhnam Djinn,アーナム・ジン
 1576,45645a97-f41d-47fb-b943-293ffc18fc82,Erithizon,エリシゾン
-1577,cabcc2b7-0cdb-4ec2-b6a3-47644335abff,Eron the Relentless,
+1577,cabcc2b7-0cdb-4ec2-b6a3-47644335abff,Eron the Relentless,情け知らずのエロン
 1578,155ee24f-a458-4df4-86d5-5eb7396ebf45,Erosion,浸食
 1579,977f0d8d-4359-44ae-8f22-2103ea909c40,Errand of Duty,
 1580,80459049-bd89-4736-82f8-03c603644033,Errant Minion,
@@ -1594,7 +1594,7 @@
 1592,17f2342b-4dd8-445a-a7c1-4a15a5688294,Escaped Shapeshifter,逃亡した多相の戦士
 1593,76f839b0-1d4c-4ad9-b44f-a8a13d6d109f,Essence Bottle,精油のボトル
 1594,b9f63388-d1ac-4895-84c5-e5b1db187463,Essence Filter,
-1595,9bdc79c9-c8b0-4db1-89d9-0ca7920b6576,Essence Flare,
+1595,9bdc79c9-c8b0-4db1-89d9-0ca7920b6576,Essence Flare,本質のほとばしり
 1596,31a49fb9-1081-46c3-a352-0444869afdc9,Essence Fracture,本質の裂け目
 1597,cb02daf6-9013-4ccc-bf1f-773b757ac468,Essence Leak,エッセンスの漏出
 1598,1f35f5e3-ddd1-4293-96f8-1181bbda77eb,Essence Sliver,精油スリヴァー
@@ -1686,7 +1686,7 @@
 1684,ee04afb0-184f-4a13-8d44-0fbe121b1eff,Favorable Destiny,運命の好意
 1685,355bbe9b-59bf-470f-8600-410af4c7fe18,Fear,畏怖
 1686,274d89b8-1e59-4992-9299-dc793b7f6752,Feast of the Unicorn,一角獣の饗宴
-1687,485f710d-5bc2-4c8f-b7e9-eed6caa261a6,Feast or Famine,
+1687,485f710d-5bc2-4c8f-b7e9-eed6caa261a6,Feast or Famine,饗宴か飢餓か
 1688,ffa64ac6-fe55-48b8-b015-849982cd7ad8,Fecundity,繁殖力
 1689,2ff92886-5c17-47a4-a02b-a97432d9203e,Feedback,フィードバック
 1690,d14fa263-a6ae-4ab4-b391-2f1ff356fa54,Feeding Frenzy,餌の取り合い
@@ -1720,7 +1720,7 @@
 1718,730809d7-cb8c-495c-8972-7e85b967358e,Field Surgeon,野戦外科医
 1719,4d7a5b14-8fce-41f2-a0d5-fff3d15f41f6,Field of Souls,魂のフィールド
 1720,5104053a-d394-4b00-82a4-60fd9f051a6e,Fierce Empath,激情の共感者
-1721,333809cb-e196-45f2-8a67-31374438e56e,Fiery Justice,
+1721,333809cb-e196-45f2-8a67-31374438e56e,Fiery Justice,焦熱の裁き
 1722,1b553ed4-12eb-4a53-8e1f-d47ec92b1d65,Fiery Mantle,焦熱のマントル
 1723,f07bd49d-8e71-4d56-be2a-638514011318,Fiery Temper,癇しゃく
 1724,2fc42640-983a-49ca-9020-7756135077b4,Fight or Flight,闘争か逃亡か
@@ -1852,7 +1852,7 @@
 1850,896ea218-3019-47e4-b0a0-2487335872bb,Force Spike,魔力の乱れ
 1851,469bdca3-d373-4420-9266-921b6605f327,Force Void,
 1852,e3c4c27d-f263-4c69-a4fe-2928136ff68b,Force of Nature,大地の怒り
-1853,956381ba-6d37-4a8a-846c-bad79222dbee,Force of Will,
+1853,956381ba-6d37-4a8a-846c-bad79222dbee,Force of Will,意志の力
 1854,457dc141-bc72-42ad-b482-c78183462e34,Forced March,強行軍
 1855,ccf1336c-2ea5-4582-84a5-0b29b3cca6c2,Forced Retreat,強制撤退
 1856,c8c5cd28-4f27-424d-92bc-e7d6f15a5f9f,Forcemage Advocate,腕力魔道士の代言者
@@ -1921,7 +1921,7 @@
 1919,6d1f8073-4da2-4abc-abb4-2053c4a40bbf,Fyndhorn Brownie,フィンドホーンのブラウニー
 1920,98e51f1a-ed6e-4286-a41b-e4656d08c934,Fyndhorn Druid,
 1921,507bdb1a-90b4-4fd3-a1a3-e8be316e97f3,Fyndhorn Elder,フィンドホーンの古老
-1922,df317532-7d36-40fd-938f-e972749c8792,Fyndhorn Elves,
+1922,df317532-7d36-40fd-938f-e972749c8792,Fyndhorn Elves,フィンドホーンのエルフ
 1923,2f18967d-c2cd-449d-a288-df6343672743,Fyndhorn Pollen,
 1924,e8521fdf-0896-4747-8c66-ea3bb69eb876,Gabriel Angelfire,天使の炎ガブリエル
 1925,5aadbd03-c459-4893-aa1b-efcf193faa1b,Gaea's Balance,ガイアの均衡
@@ -1943,7 +1943,7 @@
 1941,c6921cfe-48f9-4378-b145-d9b430c2aaf6,Gamekeeper,猟場番
 1942,b99d6d51-3ead-4b81-8e0c-f458619ebb24,Gang of Elk,大鹿の一団
 1943,103c6037-18ff-44d8-84a1-fd6bdb3040c5,Gangrenous Goliath,壊疽の大巨人
-1944,d0d844f2-6cf4-49f2-95db-64e932a15b17,Gangrenous Zombies,
+1944,d0d844f2-6cf4-49f2-95db-64e932a15b17,Gangrenous Zombies,壊疽のゾンビ
 1945,8314bdf5-1539-4215-949e-f46584cb43bb,Gargantuan Gorilla,
 1946,896af9a9-12a2-4dd6-957c-e52150b5f3a2,Gaseous Form,ガス化
 1947,924ef69f-9977-439c-ace9-353b429e4be6,Gauntlets of Chaos,混沌の篭手
@@ -1981,19 +1981,19 @@
 1979,b07d8095-c5e2-4bf8-b055-af97ce5df4a4,Ghostly Wings,かそけき翼
 1980,042e0533-faf4-475e-be7b-438d23c6e605,Ghoul's Feast,食屍鬼の饗宴
 1981,8b59cacb-46ff-4400-a7f6-b258c81a9b14,Giant Albatross,
-1982,a4109138-5d69-4510-a228-7c1f88c0c8c0,Giant Badger,
+1982,a4109138-5d69-4510-a228-7c1f88c0c8c0,Giant Badger,大アナグマ
 1983,43a515f2-b53a-4bb4-bb6e-0d79c9162359,Giant Caterpillar,大イモムシ
 1984,c8b49b28-d364-4cf0-a2a5-56f6f7dc1b22,Giant Cockroach,巨大ゴキブリ
 1985,780f029f-e2e1-431b-9a8b-a1af51d7da77,Giant Crab,巨大ガニ
 1986,5748ebf1-24e3-499d-ab7c-c2cebd462a24,Giant Growth,巨大化
 1987,481ede6a-3ac3-45bc-85aa-311b3dbefc40,Giant Mantis,大カマキリ
 1988,c181d2a4-5959-4409-9bd3-ecedf8ec9516,Giant Octopus,大ダコ
-1989,062b4d84-5ba3-417b-b8e1-65afce7b05e3,Giant Oyster,
+1989,062b4d84-5ba3-417b-b8e1-65afce7b05e3,Giant Oyster,巨大カキ
 1990,1ce7f356-1f9b-44dc-9b05-f7b1ecc5d755,Giant Slug,大ナメクジ
 1991,e740ce2f-2134-473c-afa1-1b6d2d1e38ef,Giant Spider,大蜘蛛
 1992,db85ba13-f00d-4cdd-99e1-22a4d39c8837,Giant Strength,巨人の力
 1993,2dd50d7f-941f-4deb-a15c-ee2357844c35,Giant Tortoise,象亀
-1994,2c87565b-3902-4b11-b894-6922f66008ba,Giant Trap Door Spider,
+1994,2c87565b-3902-4b11-b894-6922f66008ba,Giant Trap Door Spider,巨大トタテグモ
 1995,0eb41c36-5910-41fd-97fc-1cae2332e5c5,Giant Warthog,巨大イボイノシシ
 1996,2a073f00-0d03-43d0-a0a8-f5bcee0855fc,Gibbering Hyenas,つぶやくハイエナ
 1997,1bd70be6-752c-4ecb-a3e8-2bacec4b94fc,Gift of Estates,土地の寄進
@@ -2036,7 +2036,7 @@
 2034,be77e3f8-76a3-4d03-a8be-ad4b0b72f929,Goblin Cavaliers,ゴブリンの騎兵隊
 2035,6ef0dd51-31df-4fd3-8153-49a427a7fdcf,Goblin Chariot,ゴブリンの戦車
 2036,08a01139-1b1e-4a32-bb00-3a9660cce1ef,Goblin Clearcutter,ゴブリンの乱伐者
-2037,76c02534-35e3-4950-b4b3-90c679cdf6a7,Goblin Commando,
+2037,76c02534-35e3-4950-b4b3-90c679cdf6a7,Goblin Commando,ゴブリンの猛士
 2038,8408f2a1-e321-43f5-a7d1-1911eba9d706,Goblin Digging Team,ゴブリン穴掘り部隊
 2039,381fdb36-2467-421c-8b89-419d14955175,Goblin Dynamo,ゴブリンの働き者
 2040,a6a8861c-b6fe-45a6-86e4-9160c36362ff,Goblin Elite Infantry,ゴブリン精鋭歩兵部隊
@@ -2049,7 +2049,7 @@
 2047,72bce821-46f0-40eb-abdb-575d4305b8fd,Goblin Glider,ゴブリンの滑空者
 2048,e91bcf01-113b-4532-9f78-2a155b17be4f,Goblin Goon,ゴブリンのうすのろ
 2049,48c1c84c-f690-42ce-9c5a-dd09b1e4197c,Goblin Grappler,ゴブリンの闘士
-2050,20aecb7b-7e37-4efe-ac27-f9f9042203f4,Goblin Grenade,
+2050,20aecb7b-7e37-4efe-ac27-f9f9042203f4,Goblin Grenade,ゴブリンの手投げ弾
 2051,be83a518-cfab-46b1-9fe9-7e3d54311c37,Goblin Grenadiers,ゴブリン擲弾兵
 2052,ee969637-a20e-4163-97c0-9fd5cb17b741,Goblin Hero,ゴブリンの勇士
 2053,d236b3fc-0d3f-4d99-875d-e32a33fe5767,Goblin King,ゴブリンの王
@@ -2064,7 +2064,7 @@
 2062,145737a7-c597-4dec-b752-207c2d0501e3,Goblin Matron,ゴブリンの女看守
 2063,457bee4c-2332-440c-9336-36f6a69614f9,Goblin Medics,ゴブリンの衛生兵
 2064,356e2df2-2b41-4d9d-8723-3e6a17a090e8,Goblin Mountaineer,ゴブリンの山岳民
-2065,540e1371-baa9-412f-a17a-22ea833ea3e8,Goblin Mutant,
+2065,540e1371-baa9-412f-a17a-22ea833ea3e8,Goblin Mutant,ゴブリンの突然変異
 2066,25cb5c86-83cd-4a06-b0d1-a0f6fc9158a6,Goblin Offensive,ゴブリンの攻勢
 2067,edf25cbe-fa28-44ca-b4be-1d2312e4f6ac,Goblin Patrol,ゴブリン巡視部隊
 2068,50608184-90d3-43d2-a221-deb186c78323,Goblin Piker,ゴブリンの長槍使い
@@ -2082,7 +2082,7 @@
 2080,e98396d0-6952-4755-992f-813f565b9189,Goblin Ski Patrol,
 2081,9e0ebf3b-9295-43a9-9b5c-4ffac6a6b630,Goblin Sky Raider,ゴブリンの空襲部隊
 2082,ae93292a-458a-441b-a7de-4b10f0d20cc0,Goblin Sledder,ゴブリンのそり乗り
-2083,38e9ad30-4bbf-4b58-8bb2-47520ce351a3,Goblin Snowman,
+2083,38e9ad30-4bbf-4b58-8bb2-47520ce351a3,Goblin Snowman,ゴブリンの雪だるま
 2084,a9277df9-1417-45bc-bebf-d9a7595f54c9,Goblin Soothsayer,ゴブリンの占い屋
 2085,0534a514-2847-4dbc-8178-6a2886c75bf6,Goblin Spelunkers,ゴブリンの洞窟探検家
 2086,5f1e8aa2-6b85-4e2e-92e4-876470447d6f,Goblin Spy,ゴブリンのスパイ
@@ -2108,7 +2108,7 @@
 2106,6373c66d-edfc-44cb-af2a-2273e0ba53e0,Gorilla Berserkers,
 2107,4137ee86-bbf0-49dc-87c5-b48a384baac4,Gorilla Chieftain,ゴリラの酋長
 2108,f2c8814b-581b-483b-a7ae-d3d7b962aec1,Gorilla Pack,
-2109,9f53b691-da24-4264-a2a0-d0b95a385963,Gorilla Shaman,
+2109,9f53b691-da24-4264-a2a0-d0b95a385963,Gorilla Shaman,ゴリラのシャーマン
 2110,9ce80c55-a995-4226-8506-901f6cf06efc,Gorilla Titan,ゴリラのタイタン
 2111,60a7f61c-41ad-4dce-b556-a99bf38c3d73,Gorilla War Cry,
 2112,c0e6ae0f-6cf7-48ca-acb8-73d4c38b9005,Gorilla Warrior,ゴリラの戦士
@@ -2153,7 +2153,7 @@
 2151,331233ba-0ddc-4cb2-b3b7-1b782e03529f,Grim Feast,無惨の饗宴
 2152,37445e06-88a1-4e2e-a432-383736c9b977,Grim Lavamancer,渋面の溶岩使い
 2153,229d6627-1292-4ae1-8849-b0f956fa6540,Grim Monolith,厳かなモノリス
-2154,e62f8d69-a559-4f13-a5c9-5fb750b4af2c,Grim Tutor,
+2154,e62f8d69-a559-4f13-a5c9-5fb750b4af2c,Grim Tutor,不気味な教示者
 2155,97560adc-814e-450c-9ca7-f9364e910a0b,Grindstone,丸砥石
 2156,3db0207d-d80b-4915-b157-6a3e5b3a154e,Grinning Demon,にやにや笑いの悪魔
 2157,fa798a3d-7797-4795-b251-a45f0429d169,Grinning Totem,にやにや笑いのトーテム像
@@ -2169,7 +2169,7 @@
 2167,a1b87d5d-9493-4001-8c7e-553f40de61ea,"Guan Yu's 1,000-Li March",関羽の千里行
 2168,f7ee3935-4510-485a-a863-ac38dffa1908,"Guan Yu, Sainted Warrior",列聖の武将 関羽
 2169,490af644-2e85-49c7-af63-d5f0a9babff8,Guard Dogs,護衛犬
-2170,65ad90f5-4dae-494b-83fb-8052e77e0b12,Guerrilla Tactics,
+2170,65ad90f5-4dae-494b-83fb-8052e77e0b12,Guerrilla Tactics,ゲリラ戦術
 2171,f4b30f6c-09ac-407e-9c72-da64d212ce93,Guided Passage,誘導路
 2172,a215e813-df7e-4f21-9718-eb264eb62813,Guided Strike,狙い撃ち
 2173,c474b52f-2f50-416e-b6c2-07043c7b339d,Guiding Spirit,導きの聖霊
@@ -2185,7 +2185,7 @@
 2183,715b4a12-a392-411b-935b-7bd64a270421,Gustcloak Sentinel,疾風衣の歩哨
 2184,5c9f4fde-b96f-41bf-b214-f83511df1f8e,Gustcloak Skirmisher,疾風衣の散兵
 2185,120e9013-b07b-49d9-8b86-f6c26315581d,Gustha's Scepter,
-2186,73eacb1f-3d35-4ead-bead-f85e6cfc17ab,Hail Storm,
+2186,73eacb1f-3d35-4ead-bead-f85e6cfc17ab,Hail Storm,雹の嵐
 2187,43e99cba-a6e3-4abc-a92b-aaf5839c72d2,"Hakim, Loreweaver",伝承の紡ぎ手ハキーム
 2188,fb85d8d1-6938-48bf-9a6d-d4616b05b4f6,Halam Djinn,ハラム・ジン
 2189,1c3c23b5-b771-4117-83b5-febf7e96281a,Halberdier,矛槍兵
@@ -2357,18 +2357,18 @@
 2355,d17f5afa-a884-4b99-aa9e-89ddb3d43b22,Hurr Jackal,ハール・ジャッカル
 2356,9c021685-4017-49c7-9f58-2ae0243361a0,Hurricane,ハリケーン
 2357,eaa0c6c2-eee5-443a-867f-ab77b995b6ef,Hush,静穏
-2358,bc3576fb-3c08-456e-b3b6-9eb01b2366d6,Hyalopterous Lemure,
+2358,bc3576fb-3c08-456e-b3b6-9eb01b2366d6,Hyalopterous Lemure,透け羽の霊命
 2359,b94c0336-2ca8-4bb1-bb1f-e9babd1826ad,Hydroblast,水流破
 2360,c426c2b0-82fa-4ea0-bbdb-3a40e60c495e,Hydromorph Guardian,ハイドロモルフの守護者
 2361,124fea1b-c0e9-4e56-b026-82dddee0d36e,Hydromorph Gull,ハイドロモルフのカモメ
 2362,f06fca68-593b-4fbd-a5a9-618060311172,Hymn of Rebirth,
-2363,992d9a72-d34d-47d7-96fb-37f0efb515ef,Hymn to Tourach,
+2363,992d9a72-d34d-47d7-96fb-37f0efb515ef,Hymn to Tourach,トーラックへの賛歌
 2364,277757c6-4c4c-4a4c-84f6-4a64fe3b3bfe,Hypnotic Cloud,惑乱の雲
 2365,759af941-f6a3-4726-91f2-9b1e4e55ea71,Hypnotic Specter,惑乱の死霊
 2366,b850015f-527f-4e5a-87a6-46a0814bdb70,Hypnox,催眠魔
 2367,74c90ddc-4c6e-479d-ad68-b444d3109258,Hypochondria,気病み
 2368,17191fa9-e956-4f46-b541-465790125b6b,Hystrodon,ヒストロドン
-2369,26112ba7-2859-4af3-93c3-e62c31177216,Icatian Javelineers,
+2369,26112ba7-2859-4af3-93c3-e62c31177216,Icatian Javelineers,アイケイシアの投槍兵
 2370,a1160b8d-c4e4-4869-b7a5-c6a826eb1ba4,Icatian Phalanx,アイケイシアの密集軍
 2371,b1a9f49a-b0e2-481f-806d-0bc321517a4f,Icatian Scout,アイケイシアの斥候
 2372,87a0e0b9-6c2d-47a4-a3ed-7e0ae62fbffc,Icatian Store,アイケイシアの貯蔵庫
@@ -2376,14 +2376,14 @@
 2374,2b7e4e70-53b1-4d4f-bdcc-56c2e15f367a,Ice Cauldron,
 2375,c532ecd2-feeb-41f5-bda0-b05e86f86a45,Ice Cave,氷の洞窟
 2376,cfaaead2-09e8-47cb-9e39-8570b8d8de86,Ice Floe,浮氷塊
-2377,cff3fba2-9c5d-4e98-9ff0-0cc0b3bc8dbe,Iceberg,
+2377,cff3fba2-9c5d-4e98-9ff0-0cc0b3bc8dbe,Iceberg,氷山
 2378,8c0a6ac1-b1cc-405a-95fb-f06b7fecbb54,Icequake,
 2379,5261ba70-b641-461d-9d9f-fce17764ad67,Ichorid,イチョリッド
-2380,3608f1f7-8dc5-4dd1-ae91-c830e1de9529,Icy Manipulator,
+2380,3608f1f7-8dc5-4dd1-ae91-c830e1de9529,Icy Manipulator,氷の干渉器
 2381,d4e2cc1a-4212-4284-9ebe-d3c40931de50,Icy Prison,
 2382,7c4408eb-b3e2-407f-9018-197787edeae7,Igneous Golem,炎血のゴーレム
 2383,52a61983-53e2-440f-af03-cebe57b102f2,Ignoble Soldier,下賤の兵士
-2384,5eb29367-4ec3-4bd2-887e-13eeeecae8fa,Ihsan's Shade,
+2384,5eb29367-4ec3-4bd2-887e-13eeeecae8fa,Ihsan's Shade,イーサンの影
 2385,c88eff74-def5-42ea-873c-b3b479f6fe18,Ill-Gotten Gains,不正利得
 2386,dea8c725-455e-4668-877a-df388fe22255,Illicit Auction,無道の競り
 2387,f944c245-08ff-41a8-bdfc-7d21a6a63eae,Illuminate,照射
@@ -2438,7 +2438,7 @@
 2436,0bf359ef-669f-41dc-8ab5-ba8e58b2f398,Initiates of the Ebon Hand,漆黒の手の信徒
 2437,2ae36d31-08b7-481a-bfa1-a5c65921dee0,Inner Sanctum,至上の聖域
 2438,6791ec3c-c397-4087-8c8c-84d3797df415,Innocent Blood,無垢の血
-2439,ff3eeed9-6801-4cab-a97a-72f5f28acb24,Insidious Bookworms,
+2439,ff3eeed9-6801-4cab-a97a-72f5f28acb24,Insidious Bookworms,腹黒い紙虫
 2440,4badd4e0-e5d7-4516-b220-cea2b02c79aa,Insidious Dreams,腹黒い夢
 2441,c77afbeb-cc9b-4770-9a48-e7460562895f,Insight,自己洞察
 2442,518684d9-467a-4936-a3d9-17d23db4622c,Insist,力説
@@ -2569,7 +2569,7 @@
 2567,871549e6-24c0-4fbd-8b71-ba8639b0ee47,Karoo Meerkat,カルー・ミーアキャット
 2568,bd912666-f37f-4767-af6f-9e6d0fcccacf,Karplusan Forest,カープルーザンの森
 2569,f0fac3bc-a566-448e-a9a2-10927a49f182,Karplusan Giant,
-2570,d6d84884-4a58-4187-aa5c-20b39b379590,Karplusan Yeti,
+2570,d6d84884-4a58-4187-aa5c-20b39b379590,Karplusan Yeti,カープルーザンのイエティ
 2571,70446c56-07de-4d7f-94ae-4da88fba41cf,Katabatic Winds,下降気流
 2572,84c00644-d0e2-418b-b931-4e972ecb3366,Kavu Aggressor,カヴーの攻め手
 2573,82c583ab-8158-4074-a3ff-b7a05ecc8ab1,Kavu Chameleon,カヴーのカメレオン
@@ -2618,22 +2618,22 @@
 2616,24982bfe-5276-44a8-99a5-43b497ebf51f,King Crab,タラバガニ
 2617,4e3f89e2-2be6-4b96-b81c-007b6840af82,King's Assassin,王の暗殺者
 2618,2a70f3d7-9b5c-455e-8c4b-55870d77bd7d,Kingfisher,カワセミ
-2619,fbbc3acb-c917-44ff-ac6f-9dd6ebe3f4ad,Kird Ape,
+2619,fbbc3acb-c917-44ff-ac6f-9dd6ebe3f4ad,Kird Ape,密林の猿人
 2620,4f21a664-96e3-49be-ba9f-4af4b6bd7475,Kirtar's Desire,カーターの願望
 2621,4f66d82a-492f-4638-9f77-190d4a33ad7f,Kirtar's Wrath,カーターの怒り
 2622,81fdd1c4-d43b-4f8b-8712-7c2bf45a3e0b,Kismet,宿命
 2623,c2c25406-e84a-47b0-8a46-fe60f9b0cffa,Kiss of Death,死のくちづけ
 2624,35e2730e-b3aa-4080-aae8-7b3ad1e59848,Kithkin Armor,キスキンの鎧
 2625,61e00946-7df7-4298-91b2-c656169e6601,Kjeldoran Dead,キイェルドーの死者
-2626,a1f6df2a-fc97-44d4-a0d1-902d8df94002,Kjeldoran Elite Guard,
+2626,a1f6df2a-fc97-44d4-a0d1-902d8df94002,Kjeldoran Elite Guard,キイェルドーの精鋭守護兵
 2627,1c6c1604-0724-40b1-9df6-71e57e5063c9,Kjeldoran Escort,
 2628,39050823-ccda-43c0-818d-d5db15d82b99,Kjeldoran Frostbeast,
 2629,bd699cf8-56c7-4375-920e-8dd22c83a82c,Kjeldoran Guard,
-2630,5f7ae611-a78d-4535-9d76-755001bda34c,Kjeldoran Home Guard,
+2630,5f7ae611-a78d-4535-9d76-755001bda34c,Kjeldoran Home Guard,キイェルドーの本拠守護兵
 2631,5d7747b4-061d-4459-ba80-51361526cbfa,Kjeldoran Knight,
 2632,8b370db5-dfb9-4ea0-9017-bae3e767b041,Kjeldoran Outpost,
 2633,a8563a4f-a23b-4cb5-b6e5-795bf8d74ee6,Kjeldoran Phalanx,
-2634,515fb257-ec07-4978-af16-47a10a22ba3c,Kjeldoran Pride,
+2634,515fb257-ec07-4978-af16-47a10a22ba3c,Kjeldoran Pride,キイェルドーの誇り
 2635,8137e765-4df9-469f-a527-dee91d58fb7e,Kjeldoran Royal Guard,キイェルドーの近衛隊
 2636,7160ebce-ee3f-42ac-a3f7-b55f17f2c49f,Kjeldoran Skycaptain,キイェルドーの飛空隊長
 2637,b06db20f-84c4-4e2e-a184-3cd70ea0d10d,Kjeldoran Skyknight,
@@ -2675,7 +2675,7 @@
 2673,a4c15223-784f-43a7-8626-30f96ccfdcaf,Krovikan Horror,
 2674,609c3b1c-d9ad-4616-b685-52b85528fde8,Krovikan Plague,
 2675,00e6808c-1f9e-4b6a-807c-83f433b81a41,Krovikan Sorcerer,クロヴの魔術師
-2676,8fa93c01-f9ea-4d48-a040-418d1ca6be19,Krovikan Vampire,
+2676,8fa93c01-f9ea-4d48-a040-418d1ca6be19,Krovikan Vampire,クロヴの吸血鬼
 2677,280148c5-3a2f-48f7-a147-4578f2068073,Kukemssa Pirates,クーケムッサの海賊
 2678,49e3ac82-7c22-4dec-b61a-b581148c0419,Kukemssa Serpent,クーケムッサの大海蛇
 2679,6ce6aed2-b959-4572-96fd-fee340d5a5ee,Kurgadon,クーガドン
@@ -2718,7 +2718,7 @@
 2716,3196e1f4-7f94-4eb6-ae2b-ed11ba392552,Last Rites,最後の儀式
 2717,4d2a465e-9ebd-4002-b6cd-e0eab08bad54,Last Stand,最後の抵抗
 2718,cdd8d7cf-28f2-4a4d-a373-40d48bff615b,Last-Ditch Effort,土壇場の努力
-2719,f885ee54-3b26-4d61-9783-3930b0e625aa,Lat-Nam's Legacy,
+2719,f885ee54-3b26-4d61-9783-3930b0e625aa,Lat-Nam's Legacy,ラト＝ナムの遺産
 2720,2f3c66db-efc1-4571-a4db-371a3d532615,Latulla's Orders,ラトゥーラの指令
 2721,86b2879b-6c54-4d96-ab81-a3f2c87d42d9,"Latulla, Keldon Overseer",ケルドの軍監ラトゥーラ
 2722,9e3b373f-05f5-44df-9568-bd1f8039aa54,Launch,離陸
@@ -2750,7 +2750,7 @@
 2748,aa1a248d-2f76-4f15-b065-08f299af07b9,Legacy Weapon,レガシーの兵器
 2749,106ca7bd-6dad-43fe-af58-8667ebddb2eb,Legacy's Allure,レガシーの魅惑
 2750,107d5f67-1395-444f-b612-c5cc770df956,Legerdemain,手品
-2751,70b69803-1870-4441-954b-dba5b433fcb2,Legions of Lim-Dûl,
+2751,70b69803-1870-4441-954b-dba5b433fcb2,Legions of Lim-Dûl,リム＝ドゥールの軍勢
 2752,ced4538a-4919-4ef8-8bf2-2de9e0388587,Leshrac's Rite,レシュラックの秘儀
 2753,98388eba-31ab-4302-be9e-ea67ea2b8c1a,Leshrac's Sigil,
 2754,7e162cc1-9482-4812-8897-209ec2927ec0,Lesser Gargadon,レッサー・ガルガドン
@@ -2794,7 +2794,7 @@
 2792,7f9116e1-9aab-470b-90eb-f51a3fbb3c0e,Lim-Dûl's Hex,
 2793,b0873be6-0b77-4ca4-8c45-a1207b184771,Lim-Dûl's High Guard,
 2794,c4161335-1150-4f0d-bd2b-9211efb3bea6,Lim-Dûl's Paladin,
-2795,3f8e7a45-4c6e-4ee6-93d0-b7de9715ec97,Lim-Dûl's Vault,
+2795,3f8e7a45-4c6e-4ee6-93d0-b7de9715ec97,Lim-Dûl's Vault,リム＝ドゥールの櫃
 2796,0dddf5a9-fdf3-49e5-8103-a8cfd62f55c6,Limestone Golem,石灰石のゴーレム
 2797,5b287dcc-f853-4df1-8ddf-5b8b2adc2873,Limited Resources,限りある資源
 2798,6c3847b6-9bfb-49b5-8f1a-bdb40e6900f1,"Lin Sivvi, Defiant Hero",果敢な勇士リン・シヴィー
@@ -2849,7 +2849,7 @@
 2847,041cc2d0-eb67-484e-8da1-e91ddb2b3f70,Lowland Giant,低地の巨人
 2848,de06b33f-0793-419a-bf65-1961634af8e7,Lowland Tracker,低地の足跡追い
 2849,55b88d43-ec45-4435-a316-1c8aee249ff0,Loyal Retainers,忠臣
-2850,54b1a496-1f8e-4581-8260-bad57b25c6e3,Loyal Sentry,
+2850,54b1a496-1f8e-4581-8260-bad57b25c6e3,Loyal Sentry,忠誠な歩哨
 2851,ff959f1f-0982-4761-a6b0-3044dff1d617,"Lu Bu, Master-at-Arms",武芸の達人 呂布
 2852,a1e2a966-6aad-4325-b644-3ced319bdd7d,"Lu Meng, Wu General",呉の将軍 呂蒙
 2853,59238ba1-fde4-4e43-9f24-b24125e59de0,"Lu Su, Wu Advisor",呉の参謀 魯粛
@@ -2985,7 +2985,7 @@
 2983,9d96671c-7a98-48ec-b479-bc451e18264d,Mercenaries,
 2984,245e26ec-39eb-4af8-99af-8cc22edbc261,Mercenary Informer,傭兵の密告人
 2985,ed5429bb-233a-4528-bf7d-df5f6b192b1c,Mercenary Knight,傭兵騎士
-2986,86cebe2a-95e7-4f22-99cc-e805aeaf347e,Merchant Scroll,
+2986,86cebe2a-95e7-4f22-99cc-e805aeaf347e,Merchant Scroll,商人の巻物
 2987,f6aebd42-0150-4741-84c2-4c85893640e9,Merchant of Secrets,秘密の商人
 2988,92f2a27d-3ec6-445c-9962-96b099f793ee,Mercurial Kite,気まぐれなトビ
 2989,67362406-b1ca-49e2-800d-9050bfe8742a,Merfolk Looter,マーフォークの物あさり
@@ -2993,7 +2993,7 @@
 2991,2351a9fa-17b5-41fc-93d0-34731d54f915,Merfolk Seer,マーフォークの予見者
 2992,8af6646a-10ba-448b-bd5e-48feb70de5e5,Merfolk Traders,マーフォークの交易商人
 2993,218d9277-c179-4de3-9c7f-79b5a6d4fa38,Merfolk of the Pearl Trident,真珠三叉矛の人魚
-2994,288fdfbb-1236-4732-afd7-e7eaba860007,Merieke Ri Berit,
+2994,288fdfbb-1236-4732-afd7-e7eaba860007,Merieke Ri Berit,メリーキ・リ・ベリット
 2995,bc4c5f33-0f3d-4815-9974-fb12ac725d08,Mesa Falcon,メサ・ファルコン
 2996,8161f5b8-6aab-4133-ba2c-2e7b5774153e,Mesa Pegasus,メサ・ペガサス
 2997,fb46b300-8a39-40d2-8bc7-31b90c822e22,Mesmeric Fiend,催眠の悪鬼
@@ -3081,7 +3081,7 @@
 3079,4ee994a1-fd3b-43cf-be3c-9c705e60754a,Misstep,つまずき
 3080,448f5c55-7334-4fa4-9d90-0e57bae19444,Mist Dragon,霧のドラゴン
 3081,e78673c4-a969-443f-b1a4-0eb37b8111af,Mist of Stagnation,淀みの霧
-3082,d57409dc-22fa-40c1-a043-cab94d5f3b5f,Mistfolk,
+3082,d57409dc-22fa-40c1-a043-cab94d5f3b5f,Mistfolk,霧の民
 3083,5c679c43-5990-4dcf-a36e-865c17bdea32,Mistform Dreamer,霧衣の夢幻
 3084,bbb2ac2e-de5c-441a-9707-5ced64df43a6,Mistform Mask,霧衣の仮面
 3085,0f4350e2-48c7-4d2b-9384-4864232756ad,Mistform Mutant,霧衣の突然変異
@@ -3197,7 +3197,7 @@
 3195,9d3931a2-baba-4e6e-b923-44df00900e51,Mystic Familiar,神秘の使い魔
 3196,967eca77-d273-4fc6-97d1-df7d8cc6ff59,Mystic Might,
 3197,d3d59704-569d-42a7-8b31-8a31b9c0395f,Mystic Penitent,秘教の改悛者
-3198,8a52f3c0-2552-4425-b2e3-5496eb2232a7,Mystic Remora,
+3198,8a52f3c0-2552-4425-b2e3-5496eb2232a7,Mystic Remora,神秘的負荷
 3199,161b6d06-e6a7-488e-9f9c-d266c1402a3a,Mystic Snake,神秘の蛇
 3200,43c88fcd-aac9-4741-8fd6-31ac81c5bb6f,Mystic Veil,神秘のヴェール
 3201,bde74bcc-41b8-4014-b28e-2f6326e20799,Mystic Visionary,秘教の幻想家
@@ -3209,7 +3209,7 @@
 3207,da7bc9d6-a0cc-407a-bed9-d677c2dd74f2,Nafs Asp,ナフス・アスプ
 3208,ce969713-fdaa-4c31-b164-76a9b0b9ff81,Nakaya Shade,ナカイヤの影
 3209,fb5ec55d-4a35-432a-be6e-c295f1b2e603,Naked Singularity,
-3210,0887dc95-3e75-4f72-bf05-4067d3785376,Nalathni Dragon,
+3210,0887dc95-3e75-4f72-bf05-4067d3785376,Nalathni Dragon,ナラスニ・ドラゴン
 3211,bd8d0498-53f9-484c-a59a-78daca468859,Nameless One,名も無き者
 3212,c40bd057-d1be-45e2-9ebf-4ab176195f17,Nantuko Blightcutter,ナントゥーコの病木刈り
 3213,d4409b15-b9f8-4bdb-9857-5cd70a0d3193,Nantuko Calmer,ナントゥーコの鎮め役
@@ -3366,9 +3366,9 @@
 3364,76c06de7-39ff-4b80-8e54-20910372cffd,Orcish Captain,オークの隊長
 3365,d99e1d08-32ca-49c5-97cc-e064d661202f,Orcish Conscripts,オーク徴集兵部隊
 3366,c3039d19-8c98-4953-8943-9922b6ab45ef,Orcish Farmer,オークの農夫
-3367,9b7a0c9d-1045-4fc0-b5e3-18616106da08,Orcish Healer,
-3368,3a05904d-5439-446d-a2a1-1475c9c7371d,Orcish Librarian,
-3369,383e3fe4-8558-4561-8632-6eadb5d5963c,Orcish Lumberjack,
+3367,9b7a0c9d-1045-4fc0-b5e3-18616106da08,Orcish Healer,オークの癒し手
+3368,3a05904d-5439-446d-a2a1-1475c9c7371d,Orcish Librarian,オークの司書
+3369,383e3fe4-8558-4561-8632-6eadb5d5963c,Orcish Lumberjack,オークの木こり
 3370,a6bfa03e-6317-4550-960b-fbd2a30e521f,Orcish Mine,
 3371,0b16a650-68b0-44dc-a9e1-15b7966e0b18,Orcish Oriflamme,オークの軍旗
 3372,8b8d4ae0-0d18-4f06-a883-0edff494d06b,Orcish Settlers,オークの移住者
@@ -3474,7 +3474,7 @@
 3472,16b4a48a-fec2-433c-948d-e0b16c961172,Pegasus Stampede,ペガサスの暴走
 3473,ada2f380-bca7-4d64-9587-bab11c776ba8,Pemmin's Aura,ペミンのオーラ
 3474,7818d6e0-74d8-46ae-94f6-d2a349c9507b,Penance,罪の償い
-3475,f70e72e1-9abe-485b-9fea-e8b35352f5b3,Pendelhaven,
+3475,f70e72e1-9abe-485b-9fea-e8b35352f5b3,Pendelhaven,ペンデルヘイヴン
 3476,8d8981df-4cdc-4fd4-acd8-095fa3281281,Pendrell Drake,ペンドレルのドレイク
 3477,fe902db2-3b1d-4266-88eb-307f878fc317,Pendrell Flux,ペンドレルの変転
 3478,b18b8415-a0b1-459d-8c6b-896381184935,Pendrell Mists,ペンドレルの霧
@@ -3496,7 +3496,7 @@
 3494,aedf022c-6065-42cb-85bb-225ae1650a5c,Petravark,土喰い豚
 3495,c4bc5bc4-e589-42c5-91fa-2ebc96448e85,Petrified Field,石化した原野
 3496,09d01406-b529-4c3b-900e-d8c889a4c400,Phage the Untouchable,触れられざる者フェイジ
-3497,821ce349-5379-4415-89e2-224e21dda24b,Phantasmal Fiend,
+3497,821ce349-5379-4415-89e2-224e21dda24b,Phantasmal Fiend,幻影の悪鬼
 3498,06a158c6-7e36-49f8-a8e0-a7b7df5fd7ed,Phantasmal Forces,幻影の軍団
 3499,8c7723a5-04c7-4241-b0ba-6a821449ca43,Phantasmal Mount,
 3500,4230c7a3-4591-411e-afab-d2bfb58446de,Phantasmal Sphere,
@@ -3722,7 +3722,7 @@
 3720,745a2815-8487-4b78-93b7-d1d4ef6adc8f,Pyric Salamander,紅蓮のサラマンダー
 3721,ecc435e2-deb1-420a-a79f-01dd08747314,Pyroblast,紅蓮破
 3722,e4bcd4ea-e7cd-4471-8f3b-18bb51d3d70c,Pyroclasm,紅蓮地獄
-3723,d001febc-d511-4e65-a631-91dc9415056b,Pyrokinesis,
+3723,d001febc-d511-4e65-a631-91dc9415056b,Pyrokinesis,紅蓮操作
 3724,71a176ce-cbe7-4cec-a2ca-58abf59ad964,Pyromancy,紅蓮術
 3725,2c89cf19-8dc6-422e-bbf8-4dd5a399c630,Pyromania,放火狂
 3726,3b5b87da-5a00-449a-97ef-fa1e2c1c4b4b,Pyrostatic Pillar,紅蓮光電の柱
@@ -3880,7 +3880,7 @@
 3878,89390a33-b289-4edd-a114-6616e49a49c2,Regeneration,再生
 3879,436b5989-9b8c-4e03-a82e-046837c891ca,Reign of Chaos,混沌の支配
 3880,67d12a5a-9e0c-4550-86ad-cd1e173fea8f,Reign of Terror,恐怖の支配
-3881,ff27ff96-afd2-45df-b799-3046179e27c6,Reinforcements,
+3881,ff27ff96-afd2-45df-b799-3046179e27c6,Reinforcements,増援
 3882,96381388-1e82-411c-8290-1f3e909d3b5f,Reins of Power,手綱
 3883,35069cdb-e5bd-4224-a1a8-b329054e003b,Rejuvenate,回春
 3884,c1ebe189-db71-47cd-a763-8cb8c305383a,Rejuvenation Chamber,回春の間
@@ -4034,7 +4034,7 @@
 4032,d8fe0115-5d98-4251-a48c-5e849430a445,Root Spider,
 4033,d3edbb47-6892-4853-badc-cc01499d4e55,Rootbreaker Wurm,根切りワーム
 4034,e7438616-cc42-4a6d-a7e3-5856cb0782fa,Rooting Kavu,根こそぎカヴー
-4035,0dcee3a3-6cb1-45ce-958c-1f57ced80be4,Roots,
+4035,0dcee3a3-6cb1-45ce-958c-1f57ced80be4,Roots,樹根
 4036,29ec9b49-fbe5-49ac-8ad6-7159cb88bc66,Roots of Life,生命の根
 4037,4dda5f21-11d6-40ce-be24-7c9529272c25,Rootwalla,ルートワラ
 4038,2bf84938-6049-4d03-b09e-85bd0763a187,Rootwater Alligator,ルートウォーターのアリゲーター
@@ -4056,9 +4056,9 @@
 4054,eb44f5eb-1c6a-49f0-9751-23d167bf8288,Rowen,二度目の収穫
 4055,9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57,Royal Assassin,凄腕の暗殺者
 4056,fca14cbd-5ffc-441f-bccb-7ec22b03acbb,Royal Decree,
-4057,a247a7e7-83bb-46f8-9a31-85b0d8ede919,Royal Falcon,
+4057,a247a7e7-83bb-46f8-9a31-85b0d8ede919,Royal Falcon,威容の隼
 4058,b3baf498-3be7-4a22-8fed-806d8d8ac748,Royal Herbalist,
-4059,e31510d5-b74e-4a8d-94e8-8bd098cac3c7,Royal Trooper,
+4059,e31510d5-b74e-4a8d-94e8-8bd098cac3c7,Royal Trooper,近衛の強兵
 4060,bd3eeaba-964b-49ea-bb11-5875a78b8a4c,Rubinia Soulsinger,魂の歌姫ルビニア
 4061,ec6195a0-2701-40a4-882f-eb563668791a,Ruby Leech,ルビーのヒル
 4062,0c367958-729e-416d-988b-098e90e7a1fd,Ruby Medallion,ルビーの大メダル
@@ -4172,7 +4172,7 @@
 4170,5f085af7-ce66-4019-9516-d1650ee7b6e0,Scarab of the Unseen,
 4171,d7548770-5c60-4c3f-b1d6-554ab5f931f9,Scare Tactics,攪乱戦術
 4172,e28e1921-797b-4e6e-8058-3929af46eeb5,Scarred Puma,傷痕のピューマ
-4173,5f0ad09f-a9ee-42df-b32d-9d842ce5dd00,Scars of the Veteran,
+4173,5f0ad09f-a9ee-42df-b32d-9d842ce5dd00,Scars of the Veteran,古参兵の傷痕
 4174,e0fefaf0-da20-4d58-8db7-019dba16c780,Scathe Zombies,スケイズ・ゾンビ
 4175,ed3652da-0127-4c9e-9913-f20becdd0ba9,Scattershot,乱射
 4176,2d3010d5-5c21-4342-ad79-a737b6731230,Scavenged Weaponry,拾い集めた武具
@@ -4210,7 +4210,7 @@
 4208,a1f20695-6f08-4d5c-9fba-b0018bee298e,Scryb Sprites,スクリブ・スプライト
 4209,ca16b32c-3f1e-4f8d-821a-064f922c45d8,Scrying Glass,占いの鏡
 4210,44d1029f-604e-44d6-89f6-bd18344f5d79,Sea Drake,海のドレイク
-4211,acb57162-7093-4a3c-9818-d3b61ce757c6,Sea Eagle,
+4211,acb57162-7093-4a3c-9818-d3b61ce757c6,Sea Eagle,海の鷲
 4212,21b07ce7-b4f9-438c-8c09-e624557d62d2,Sea Monster,シー・モンスター
 4213,f17954dd-c8e0-4983-b81e-5440cca41afc,Sea Scryer,海の占術師
 4214,c16495fc-784d-4bac-9a68-ed437008df73,Sea Serpent,大海蛇
@@ -4285,7 +4285,7 @@
 4283,66a3ffde-4c81-4798-b99b-a6cc3a93c3e3,Serra's Hymn,セラの聖歌
 4284,17b7b7e4-4ae8-495d-bf0c-d18697f250ea,Serra's Liturgy,セラの儀式文
 4285,34187c71-6033-4058-aadc-2bc266f762be,Serra's Sanctum,セラの聖域
-4286,5fa4607a-6731-4599-80f3-19d6097b4b28,Serrated Arrows,
+4286,5fa4607a-6731-4599-80f3-19d6097b4b28,Serrated Arrows,鋸刃の矢
 4287,c8552706-83f2-41d7-8068-75891abb8bde,Serrated Biskelion,ギザギザ・バイスケリオン
 4288,4e389b61-7b31-42ba-a19b-2502f63fd34a,Servant of Volrath,ヴォルラスの召使い
 4289,76fe7cfa-c3db-4122-b262-f7c5c90fcdd7,Seton's Desire,シートンの願望
@@ -4406,7 +4406,7 @@
 4404,aa7cd6e6-35a6-4c18-9d66-dc2a95206401,Silver Knight,銀騎士
 4405,bcc7e32a-9cf9-4fdf-a0a4-e90ae42f1353,Silver Seraph,銀の熾天使
 4406,4baa8f05-1ef8-4770-8c66-ef5f0f02a717,Silver Wyvern,銀のワイヴァーン
-4407,a72f9437-d652-4a64-99df-a307a6dd9a0d,Silverback Ape,
+4407,a72f9437-d652-4a64-99df-a307a6dd9a0d,Silverback Ape,シルバーバック
 4408,a6d5d164-a06a-4383-b9d2-a7a33400631d,Silverglade Elemental,シルバーグレイド峡谷の精霊
 4409,ac00d3db-d9e4-4fc3-a4ea-dd1187f406bb,Silverglade Pathfinder,シルバーグレイド峡谷の開拓者
 4410,665b8bbf-c30b-4875-a5c2-fc3b9767ecac,"Silvos, Rogue Elemental",悪辣な精霊シルヴォス
@@ -4522,14 +4522,14 @@
 4520,e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d,Sneak Attack,騙し討ち
 4521,0b76bb3b-1ada-4c78-bd13-3464371d4fa0,Sneaky Homunculus,こそこそするホムンクルス
 4522,3e7f67d6-db12-4034-b8e3-9c9d401c8f57,Snorting Gahr,鼻を鳴らすガア
-4523,e743b4ec-65bf-4e8d-ad87-6746a2e6ba73,Snow Devil,
+4523,e743b4ec-65bf-4e8d-ad87-6746a2e6ba73,Snow Devil,雪竜巻
 4524,7709ed84-ed71-4dd2-b002-b257418dd79e,Snow Fortress,
 4525,2fe8512f-826c-400d-ba6d-1de4f315b617,Snow Hound,
-4526,5f0d3be8-e63e-4ade-ae58-6b0c14f2ce6d,Snow-Covered Forest,
-4527,5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0,Snow-Covered Island,
-4528,ca9f660b-e07d-4f42-a46e-abd0ca72510c,Snow-Covered Mountain,
-4529,ac8cc74d-e43b-4118-bba0-dfa8b9c04d45,Snow-Covered Plains,
-4530,d8239a86-7184-4005-ba1e-2dddcd756c47,Snow-Covered Swamp,
+4526,5f0d3be8-e63e-4ade-ae58-6b0c14f2ce6d,Snow-Covered Forest,冠雪の森
+4527,5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0,Snow-Covered Island,冠雪の島
+4528,ca9f660b-e07d-4f42-a46e-abd0ca72510c,Snow-Covered Mountain,冠雪の山
+4529,ac8cc74d-e43b-4118-bba0-dfa8b9c04d45,Snow-Covered Plains,冠雪の平地
+4530,d8239a86-7184-4005-ba1e-2dddcd756c47,Snow-Covered Swamp,冠雪の沼
 4531,3f8bfa3d-7490-4259-a403-d13585ed2f66,Snowblind,
 4532,5ffed544-1656-4753-ac8f-ad8fb4442c7f,Snowfall,
 4533,324824cb-f938-401c-b9b5-d8908b431ef0,Snuff Out,殺し
@@ -4564,7 +4564,7 @@
 4562,86541bba-7db8-4893-addf-8a4a42168ce4,Somnophore,睡魔
 4563,ab4b6524-3667-4db3-b5cb-1b02ee944906,Song of Blood,血の歌
 4564,4c543799-1b72-4f32-a5be-475c0134ac0f,Song of Serenity,静寂の歌
-4565,39419d29-47e7-4d71-953b-96a2e14ae964,Songs of the Damned,
+4565,39419d29-47e7-4d71-953b-96a2e14ae964,Songs of the Damned,忌むべき者の歌
 4566,eec72bcf-ccbc-43fc-8bdd-7bf4faa1fad7,Songstitcher,歌縫い師
 4567,144d42b8-5c44-4a36-9028-75229047e56c,Sonic Burst,音波の炸裂
 4568,f43c68f1-97ac-47a4-82d3-a41277259388,Sonic Seizure,大音響攻撃
@@ -4769,12 +4769,12 @@
 4767,03136fe1-17e2-4b1c-860a-dc6373c8fdb5,Storage Matrix,保管庫集合所
 4768,5a51b168-02d1-4eb4-8ccc-614ab6f6cffa,Storm Cauldron,嵐の大釜
 4769,000d5588-5a4c-434e-988d-396632ade42c,Storm Crow,嵐雲のカラス
-4770,f1fee486-660e-4356-896e-671e8b675ad8,Storm Elemental,
+4770,f1fee486-660e-4356-896e-671e8b675ad8,Storm Elemental,嵐の精霊
 4771,3c8044b7-3999-4825-8448-0a1a325f1b48,Storm Front,豪雨前線
 4772,e694bf97-9deb-44f1-9d26-264b57596346,Storm Seeker,嵐の運び手
 4773,65e07c0f-4eff-4b38-9785-63684d67c0d8,Storm Shaman,嵐のシャーマン
 4774,6a413d09-dd67-4c3e-b81b-7bfe8b864dc9,Storm Spirit,
-4775,78f50668-36fc-4911-84f7-93667436b0c7,Stormbind,
+4775,78f50668-36fc-4911-84f7-93667436b0c7,Stormbind,嵐の束縛
 4776,cf2bacd3-b1ac-4863-b9c7-1e0a8d4854f3,Stormscape Apprentice,嵐景学院の弟子
 4777,38ee748d-adcd-41df-9b23-d2a34829784c,Stormscape Battlemage,嵐景学院の戦闘魔道士
 4778,a8f5a11f-3291-4ee9-a96d-4fa38af14932,Stormscape Familiar,嵐景学院の使い魔
@@ -4850,7 +4850,7 @@
 4848,db43b866-13e0-4336-a580-b64fe1ee5954,Suq'Ata Assassin,スークアタの暗殺者
 4849,c9c0bb7e-8dfc-481c-80f7-b6652b63df39,Suq'Ata Firewalker,スークアタの火渡り
 4850,f348b326-8a73-4df9-8faf-e271a36ce373,Suq'Ata Lancer,スークアタの槍騎兵
-4851,bd3e55cf-ffca-402c-91ea-2420035a9dd1,Surge of Strength,
+4851,bd3e55cf-ffca-402c-91ea-2420035a9dd1,Surge of Strength,力のうねり
 4852,61a1748c-e772-4338-9edd-720cd5d2fc12,Surprise Deployment,奇襲の配備
 4853,119d719d-e965-45b4-9bc9-ac03211b10c2,Survival of the Fittest,適者生存
 4854,2c99d52d-f909-4494-aeee-937ae779fd4a,Sustainer of the Realm,世界を支える者
@@ -4859,7 +4859,7 @@
 4857,8b4715b0-63d9-4ff8-a667-21a762518687,Sutured Ghoul,縫合グール
 4858,5578cf33-62f5-456c-a58c-f744a25df79b,Svyelunite Temple,シヴィエルナイトの寺院
 4859,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,Swamp,沼
-4860,4bb4844c-2678-45c7-8f5e-9cf185fd484b,Swamp Mosquito,
+4860,4bb4844c-2678-45c7-8f5e-9cf185fd484b,Swamp Mosquito,沼地の蚊
 4861,7fe21ade-01f1-45ff-9b70-bc6302c3d284,Swarm of Rats,ネズミの大群
 4862,7bb5c5af-6943-4958-a666-0c322d5b9f33,Swat,虫つぶし
 4863,9a7e2298-8855-43a7-8cb1-4b31e4058c3f,Sway of Illusion,幻影の影響
@@ -5045,7 +5045,7 @@
 5043,81a47019-1343-4a63-893a-0d8ba5e848d5,Thrull Retainer,従者スラル
 5044,ead5a2bf-f48a-43a2-89bb-df3cc587c843,Thrull Surgeon,スラルの外科医
 5045,a8f1f55a-7a85-4338-b4d1-3d28f10f69a7,Thumbscrews,親指締め具
-5046,70d9579f-c8a6-4406-afe1-9291fe5ee736,Thunder Dragon,
+5046,70d9579f-c8a6-4406-afe1-9291fe5ee736,Thunder Dragon,雷のドラゴン
 5047,904b9056-ad76-4805-b14f-c426e4a57bae,Thunder Wall,
 5048,4b505a4c-ccc3-4461-bbc4-ad5d39f9b879,Thunder of Hooves,とどろく蹄音
 5049,6ffae2fa-511a-45bf-93c4-5d53c85324f5,Thunderbolt,いかづち
@@ -5068,7 +5068,7 @@
 5066,8fc72080-8d4d-427d-ae30-065bc8ee9a28,Tidal Visionary,高潮の幻想家
 5067,9a1bc869-08a1-4a70-9c9f-2e02e47cd95b,Tidal Warrior,高潮の戦士
 5068,c5f5b7e5-af1e-4c8a-8d44-3e2152955d4e,Tidal Wave,高波
-5069,72897780-094d-4a21-8b1c-419a9defd2fb,Tidings,
+5069,72897780-094d-4a21-8b1c-419a9defd2fb,Tidings,連絡
 5070,2ef8ebc9-4f95-42f8-86e6-85eff0b8f021,Tiger Claws,虎のかぎ爪
 5071,d2be289e-e560-405d-9728-d8a4ee9cbf56,Tigereye Cameo,虎目石のカメオ
 5072,35d07ac9-b184-4b5f-8192-34b1db042f69,Timber Wolves,森林狼
@@ -5085,7 +5085,7 @@
 5083,aa8c5467-190a-4c6a-872c-56b8f8d01a2b,Timid Drake,臆病ドレイク
 5084,0d5fe27f-db51-4323-aa74-b6fdb4309425,Tin-Wing Chimera,ブリキの翼のキマイラ
 5085,af0ad159-8264-4526-9a95-eddd32c0a13f,Tinder Farm,ほくちの加工場
-5086,dd2f698c-b3b4-4dc8-9950-9be03ca7dc9e,Tinder Wall,
+5086,dd2f698c-b3b4-4dc8-9950-9be03ca7dc9e,Tinder Wall,ほくちの壁
 5087,254878f0-be90-4653-a395-0c41258fceaf,Tinker,修繕
 5088,5dfbcdb4-d2ad-477d-b37d-db4725410b27,Tireless Tribe,不屈の部族
 5089,0bf4c01d-3cb0-47be-b84a-6a399bc2d3fc,Titania's Boon,ティタニアの加護
@@ -5337,10 +5337,10 @@
 5335,2241ef7d-3e9d-44ee-88ac-e8ad6fb2444e,Vernal Equinox,春分
 5336,1dabfade-79e5-44e2-afa6-b20498c6bb8b,Vertigo,めまい
 5337,77a963a3-473a-4c34-bc46-8ef016a92c0c,Veteran Brawlers,老練の喧嘩屋
-5338,2d02cfce-a142-4b3b-a01f-4e156e75164e,Veteran Cavalier,
+5338,2d02cfce-a142-4b3b-a01f-4e156e75164e,Veteran Cavalier,歴戦の騎兵
 5339,fa9677d2-1535-4c57-baa8-c0408e15da47,Veteran Explorer,老練の探険者
 5340,68d25ba4-d710-4090-bceb-5cfbd6bb63a1,Veteran's Voice,
-5341,2fd5b7e5-496c-4f6d-85e0-256afb7544d1,Vexing Arcanix,
+5341,2fd5b7e5-496c-4f6d-85e0-256afb7544d1,Vexing Arcanix,難問の秘儀具
 5342,30d3645f-307d-4164-a8f0-336d484b5020,Vexing Beetle,いらつき甲虫
 5343,1759547a-52b3-4bae-817a-658a6fd047e3,Vhati il-Dal,ヴァティ・イル＝ダル
 5344,d9c9b933-74f4-4898-bbb8-2da76b86ccda,Viashino Bey,ヴィーアシーノの長
@@ -5378,7 +5378,7 @@
 5376,5315ed83-cb93-4522-b439-3784e7f31e37,Virtuous Charge,高徳の突撃
 5377,79b999bc-2d4b-41e1-b64e-f0c080a9a2c5,Visara the Dreadful,戦慄をなす者ヴィザラ
 5378,87b4cbec-3521-4bdb-bf01-64ddb526b655,Viscerid Armor,
-5379,5fd4be4c-70a3-4c91-a4c6-788a2051ff13,Viscerid Drone,
+5379,5fd4be4c-70a3-4c91-a4c6-788a2051ff13,Viscerid Drone,ヴィセリッドの徒食者
 5380,05b9dccb-2364-4bca-a12e-8cb54a3f3a0b,Viseling,万力機械人
 5381,c56d2c5b-c3e3-4236-bc38-286e250aa4f7,Vision Charm,幻視の魔除け
 5382,448fa4e3-7269-446b-8089-675bc1bff5f9,Visions,未来視
@@ -5543,7 +5543,7 @@
 5541,c3b1b7bd-cff8-4275-b6d3-868f4e4b2cc0,Wellwisher,幸運を祈る者
 5542,96cf3320-c730-4618-8768-28a179f4d9c0,Werebear,熊人間
 5543,d2cbdbf9-9b08-419e-bb3e-482972d58e74,Western Paladin,西の聖騎士
-5544,a65fadeb-c9bc-409f-8e90-ff8e55485a4c,Whalebone Glider,
+5544,a65fadeb-c9bc-409f-8e90-ff8e55485a4c,Whalebone Glider,鯨骨の滑空機
 5545,a7c6f07c-3cc3-4271-bbc7-9f7d5bbed3e8,Wheel and Deal,権謀術数
 5546,7a3e6e84-a8c2-472d-99fb-7cd14850b5ce,Wheel of Torture,拷問の車輪
 5547,940e461c-b205-4075-bd1f-a1534c33db6c,Whetstone,研磨石
@@ -5592,7 +5592,7 @@
 5590,8b60fcfe-fb90-4a00-a708-25b59bfc9b5a,Will-o'-the-Wisp,鬼火
 5591,0aae277e-e58e-4115-b5fd-0459451e17ec,Willbender,意志を曲げる者
 5592,19d5eb29-2d35-44e7-afa1-3ba8d812ed41,Willow Dryad,柳のドライアド
-5593,f88db161-3d00-4f45-b2a4-cbdc4f8e5312,Willow Elf,
+5593,f88db161-3d00-4f45-b2a4-cbdc4f8e5312,Willow Elf,柳のエルフ
 5594,5390bb44-985e-473b-883e-c9562c06f210,Willow Faerie,
 5595,630eab2b-c1fd-46bb-8ae0-ff837e46db1c,Willow Priestess,
 5596,e9903d75-f71d-45d0-ac5f-955c0c227e02,Wind Dancer,風の踊り手
@@ -5614,7 +5614,7 @@
 5612,c593f66d-0e9a-4d46-a9c6-ac7a70bf17ea,Wing Storm,翼の嵐
 5613,857392fe-1ce6-4d53-b039-98339d292ebb,Wingbeat Warrior,羽ばたく戦士
 5614,24e96682-14ca-4a62-a920-2d686c8a5dbf,Winged Sliver,有翼スリヴァー
-5615,06413d87-d119-4c04-93d5-5ced7ad4a858,Wings of Aesthir,
+5615,06413d87-d119-4c04-93d5-5ced7ad4a858,Wings of Aesthir,エイスサーの翼
 5616,c1df6359-edf4-48cf-b8d1-6240ac291cf7,Wings of Hope,希望の翼
 5617,1b2ad355-3f1e-4c8b-93ee-848934646b23,Winnow,選り分け
 5618,594827de-e85f-4aac-b0e6-d92878f0f26c,Winter Blast,北風
@@ -5656,7 +5656,7 @@
 5654,0bd8917c-bec4-4603-bc3f-8e0c2afae56a,Wooden Sphere,森の宝球
 5655,96b3c4ff-b5f7-4315-9b39-2e2146ef10d1,Woodland Druid,森林地帯のドルイド
 5656,d0653734-9eb7-48c6-9042-65ffdd50fd2a,Woodripper,木裂獣
-5657,6e5f1088-a5ab-48ec-be27-c88eb164cf63,Woolly Mammoths,
+5657,6e5f1088-a5ab-48ec-be27-c88eb164cf63,Woolly Mammoths,長毛マンモス
 5658,811c6f52-03cb-49a9-a3c7-7f4ae40e7155,Woolly Spider,
 5659,8bbc9f21-2b4d-4d03-aef1-f5bf0b79257c,Word of Binding,束縛の言葉
 5660,8b391f24-992f-4cc0-ac4d-31456983fc03,Word of Blasting,倒壊の言葉
@@ -5682,7 +5682,7 @@
 5680,99f9a4c8-b59f-4a41-8577-6c1e4684b240,Worship,崇拝
 5681,b24063f7-157f-47c0-919a-33856d53b902,Worthy Cause,価値ある理由
 5682,34515b16-c9a4-4f98-8c77-416a7a523407,Wrath of God,神の怒り
-5683,740cafc6-9521-403a-ab5f-11582bf55af0,Wrath of Marit Lage,
+5683,740cafc6-9521-403a-ab5f-11582bf55af0,Wrath of Marit Lage,マリット・レイジの怒り
 5684,f8beeb0a-750f-4afa-a244-10011342bbeb,Wretched Anurid,卑劣なアヌーリッド
 5685,578c5b92-9f7e-4645-9624-f2c1a16b6aaf,Wu Admiral,呉の水軍の将
 5686,7dc5d729-0553-46fb-aff7-2f0d9573837b,Wu Elite Cavalry,呉の精鋭騎兵部隊
@@ -5701,7 +5701,7 @@
 5699,fb5fea4a-1b04-45c6-a207-e2e8493ea968,"Xun Yu, Wei Advisor",魏の参謀 荀イク
 5700,f0f24c6d-80fb-4e99-a74d-6ed9d349ed3d,Yare,早技
 5701,0e91a873-a680-4ca2-b073-26aa39376d77,Yavimaya Ancients,
-5702,3f5bbfaa-cbd7-47af-9aa2-abb49d672734,Yavimaya Ants,
+5702,3f5bbfaa-cbd7-47af-9aa2-abb49d672734,Yavimaya Ants,ヤヴィマヤの蟻
 5703,04576b4d-2977-4cdf-b4a5-b0b47995e962,Yavimaya Barbarian,ヤヴィマヤの蛮族
 5704,40b36bc6-c185-4bda-99e7-0118953c2c97,Yavimaya Coast,ヤヴィマヤの沿岸
 5705,7fd4c452-07f2-492c-9c78-d1c6362d9eec,Yavimaya Elder,ヤヴィマヤの古老
@@ -5771,5 +5771,5 @@
 5769,ae8773a3-05f2-4074-9a53-033b0c127235,"Zuo Ci, the Mocking Sage",嘲笑する仙人 左慈
 5770,c6eaa147-3566-43a9-999a-d58b877496f5,Zur's Weirding,ズアーの運命支配
 5771,ee0f883f-d7c9-4acf-a78f-f733b6f268d3,Zuran Enchanter,
-5772,08cb8a30-9cb4-4517-bee5-8848aa60d1a2,Zuran Orb,
-5773,bc7b90b1-3517-4e5d-9bd8-68b4d8a259fd,Zuran Spellcaster,
+5772,08cb8a30-9cb4-4517-bee5-8848aa60d1a2,Zuran Orb,ズアーの宝珠
+5773,bc7b90b1-3517-4e5d-9bd8-68b4d8a259fd,Zuran Spellcaster,ズアーの投呪士
