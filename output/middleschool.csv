@@ -44,15 +44,15 @@
 42,0cf78877-bf08-413c-8ecb-8c3265ac1c4a,Aegis of the Meek,
 43,d13aff7c-f0ee-44e2-ae1c-62cd86ad46a6,Aerial Caravan,天駆ける隊商
 44,99dcde0b-4f4d-4d7a-89aa-8a89c256e38f,Aesthir Glider,エイスサーの滑空機
-45,0fe602b7-9f88-4d3d-af24-7790df867ed5,Aether Barrier,Æther Barrier
-46,1e33f39b-a61a-4a09-a541-16cc1bd53d02,Aether Burst,Æther Burst
-47,15e83068-6253-4c65-8679-7295f3dc2075,Aether Charge,Æther Charge
-48,a3c35742-e306-49b6-b042-db4f685c6f86,Aether Flash,Æther Flash
-49,6697fe5b-90ac-4321-aa2f-cdc6ec283cb4,Aether Mutation,Aether Mutation
+45,0fe602b7-9f88-4d3d-af24-7790df867ed5,Aether Barrier,上天の障壁
+46,1e33f39b-a61a-4a09-a541-16cc1bd53d02,Aether Burst,霊気の噴出
+47,15e83068-6253-4c65-8679-7295f3dc2075,Aether Charge,霊気の突進
+48,a3c35742-e306-49b6-b042-db4f685c6f86,Aether Flash,上天の閃光
+49,6697fe5b-90ac-4321-aa2f-cdc6ec283cb4,Aether Mutation,上天の突然変異
 50,2577ef8e-d85e-47af-ac34-629f31992751,Aether Rift,上天の裂け目
-51,61105cb5-d7a1-4021-a006-dd1b947dfa68,Aether Sting,Æther Sting
-52,ff4297d3-3d96-4bd6-a606-1bdc20a6df2b,Aether Storm,Æther Storm
-53,2fbf95b4-bcf4-4b5e-b5dc-0294f2b48d3e,Aether Tide,Æther Tide
+51,61105cb5-d7a1-4021-a006-dd1b947dfa68,Aether Sting,上天の一刺し
+52,ff4297d3-3d96-4bd6-a606-1bdc20a6df2b,Aether Storm,上天の嵐
+53,2fbf95b4-bcf4-4b5e-b5dc-0294f2b48d3e,Aether Tide,上天の潮流
 54,471f6ad3-cf01-42dd-a519-ea8e13039fea,Afflict,苦悩
 55,056a98aa-f3f7-4ac9-9755-3e8a60a59abb,Afiya Grove,アフィヤの樹
 56,4c13e2b5-961a-4031-84b1-15bd19b94286,Afterlife,死後の生命
@@ -4891,7 +4891,7 @@
 4889,390cbc61-6291-4e7d-b262-4de57c827702,Tahngarth's Glare,ターンガースのにらみ
 4890,5b0cb089-087d-4b91-9e63-8186dc737a00,Tahngarth's Rage,ターンガースの激怒
 4891,c5b4131e-13aa-4a22-b8f5-e5f9d366cb4f,"Tahngarth, Talruum Hero",タールルームの勇士ターンガース
-4892,a61ceda1-5993-479e-945f-15753eeb7049,Tainted Aether,Tainted Æther
+4892,a61ceda1-5993-479e-945f-15753eeb7049,Tainted Aether,上天のしみ
 4893,439de49b-1091-4688-9ffb-80a025df31c2,Tainted Field,汚れた原野
 4894,0222414f-98b5-458a-a0fd-831a66cd8b07,Tainted Isle,汚れた島
 4895,1a85ba2b-ae10-4917-954a-7709b75a9740,Tainted Pact,汚れた契約
@@ -4915,7 +4915,7 @@
 4913,371c993a-69b8-4a51-af89-982b79940b2d,Taniwha,タニーワ
 4914,960b1251-12af-4766-8df1-bb98e7e967f5,Taoist Hermit,道教の隠者
 4915,e705ec38-b8f7-4f99-8cb9-8448dc3e50ec,Taoist Mystic,道士
-4916,05a7ca83-e820-433f-b9e9-151e817d3708,Tar Pit Warrior,Tar Pit Warrior
+4916,05a7ca83-e820-433f-b9e9-151e817d3708,Tar Pit Warrior,タール坑の戦士
 4917,e96b0560-1d91-48df-b42f-3b7d9c6d94bd,Tariff,関税
 4918,66ae2562-68e9-4c77-ba0a-57f8ff37f656,Tarnished Citadel,色あせた城塞
 4919,b1e1ebc8-cd09-4280-a169-58ab7ece43ff,Tarpan,ターパン
