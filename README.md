@@ -25,3 +25,4 @@ Python modules:
 
 - json
 - pandas
+- HTMLSession
