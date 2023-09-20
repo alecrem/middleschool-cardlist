@@ -25,4 +25,14 @@ Python modules:
 
 - json
 - pandas
-- HTMLSession
+- requests_html
+
+## Streamlit web interface
+
+The app is deployed here: [middleschool.streamlit.app](https://middleschool.streamlit.app/)
+
+To run the Streamlit app locally, install the [streamlit](https://docs.streamlit.io/library/get-started) module and run:
+
+```sh
+streamlit run Middle_School_Card_List.py
+```
