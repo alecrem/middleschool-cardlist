@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 
 mslist_path = "output/middleschool.csv"
+top_results_count = 40
 
 st.write(
     """
@@ -23,4 +24,7 @@ results_ja_df = mslist_df[
 results_df = results_en_df.merge(results_ja_df, how="outer")
 if name_input:
     st.write(results_df.shape[0], f'cards found by "{name_input}"')
-    st.write(results_df[["name", "name_ja"]])
+    results_df["link"] = results_df["name"].apply(
+        lambda x: f"https://scryfall.com/search?q=prefer%3Aoldest%20!%22{x}%22"
+    )
+    st.write(results_df[["name", "name_ja", "link"]])
