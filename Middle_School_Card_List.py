@@ -1,8 +1,18 @@
 import streamlit as st
 import pandas as pd
+import urllib.parse
+
+
+def compose_scryfall_url(x):
+    return f"https://scryfall.com/search?q=prefer%3Aoldest%20!%22{urllib.parse.quote_plus(x)}%22"
+
+
+def row_to_link(x):
+    st.markdown(f"- [{x['name']} / {x.name_ja}]({x.link})")
+
 
 mslist_path = "output/middleschool.csv"
-top_results_count = 40
+number_shown_results = 20
 
 st.write(
     """
@@ -24,7 +34,7 @@ results_ja_df = mslist_df[
 results_df = results_en_df.merge(results_ja_df, how="outer")
 if name_input:
     st.write(results_df.shape[0], f'cards found by "{name_input}"')
-    results_df["link"] = results_df["name"].apply(
-        lambda x: f"https://scryfall.com/search?q=prefer%3Aoldest%20!%22{x}%22"
-    )
-    st.write(results_df[["name", "name_ja", "link"]])
+    if results_df.shape[0] > number_shown_results:
+        st.write(f"Top {number_shown_results} results:")
+    results_df["link"] = results_df["name"].apply(compose_scryfall_url)
+    results_df[:number_shown_results].transpose().apply(row_to_link)
