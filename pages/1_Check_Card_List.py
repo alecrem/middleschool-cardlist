@@ -49,8 +49,8 @@ for line in input_list.split("\n"):
     if cardname is not None:
         cardnames.append(remove_number_of_copies(cardname))
 
-input_cards = pd.DataFrame(cardnames, columns=["name"])
-input_cards["legal"] = input_cards["name"].apply(is_legal)
+input_cards = pd.DataFrame(cardnames, columns=["cardname"])
+input_cards["legal"] = input_cards["cardname"].apply(is_legal)
 
 col2.write("##### Middle School legality")
-col2.dataframe(input_cards, use_container_width=True)
+col2.dataframe(input_cards[["legal", "cardname"]], use_container_width=True)
