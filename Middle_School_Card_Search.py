@@ -14,6 +14,11 @@ def row_to_link(x):
 mslist_path = "output/middleschool.csv"
 number_shown_results = 20
 
+st.set_page_config(
+    page_title="Middle School | Card Search",
+    page_icon="🃏",
+    layout="wide",
+)
 st.write(
     """
     # Middle School Card Search
