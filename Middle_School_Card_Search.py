@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import urllib.parse
+import streamlit_common.footer
 
 
 def compose_scryfall_url(x):
@@ -22,6 +23,8 @@ st.set_page_config(
 st.write(
     """
     # Middle School Card Search
+
+    Enter any English or Japanese text to find all Middle School legal card titles which include it.
     """
 )
 
@@ -43,3 +46,5 @@ if name_input:
         st.write(f"Top {number_shown_results} results:")
     results_df["link"] = results_df["name"].apply(compose_scryfall_url)
     results_df[:number_shown_results].transpose().apply(row_to_link)
+
+streamlit_common.footer.write_footer()

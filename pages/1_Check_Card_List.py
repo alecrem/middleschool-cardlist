@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import re
+import streamlit_common.footer
 
 
 def remove_number_of_copies(line: str) -> str:
@@ -54,3 +55,5 @@ input_cards["legal"] = input_cards["cardname"].apply(is_legal)
 
 col2.write("##### Middle School legality")
 col2.dataframe(input_cards[["legal", "cardname"]], use_container_width=True)
+
+streamlit_common.footer.write_footer()
