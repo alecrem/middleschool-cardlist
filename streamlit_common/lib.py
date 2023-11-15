@@ -55,3 +55,13 @@ def is_cardname_legal(cardname: str, mslist_df: pd.DataFrame) -> bool:
     if mslist_df[mslist_df["name_ja"] == cardname].shape[0] > 0:
         return True
     return False
+
+
+def split_names_list(row: pd.DataFrame):
+    """Splits the English and Japanese card names in a list into two different columns"""
+    if not isinstance(row["legalnames"], list):
+        return row
+    row["English"] = row["legalnames"][0]
+    if row["legalnames"][1] is not None:
+        row["日本語"] = row["legalnames"][1]
+    return row
