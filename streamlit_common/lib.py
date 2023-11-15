@@ -18,24 +18,35 @@ def row_to_link(row: pd.DataFrame) -> None:
 
 
 def get_legal_cardnames(cardname: str, mslist_df: pd.DataFrame) -> list:
-    """Returns a list with the English and Japanese names for the card
-    if there is an exact match, or `None` if there is not.
+    """Returns a list with legality (boolean) plus the English and Japanese
+    names for the card if there is an exact match, or the user's input if there is not.
     """
+    cardname_en_list = []
+    cardname_ja_list = []
+    legal = False
     english_match = mslist_df[mslist_df["name"].str.lower() == cardname.lower()]
-    cardname_en_list = None
     if english_match.shape[0] > 0:
+        legal = True
         cardname_en_list = english_match["name"].to_list()
         cardname_ja_list = english_match["name_ja"].to_list()
     japanese_match = mslist_df[mslist_df["name_ja"] == cardname]
     if japanese_match.shape[0] > 0:
+        legal = True
         cardname_en_list = japanese_match["name"].to_list()
         cardname_ja_list = japanese_match["name_ja"].to_list()
-    if cardname_en_list is not None and len(cardname_en_list) > 0:
-        return [
-            cardname_en_list[0] or None,
-            cardname_ja_list[0] or None,
-        ]
-    return None
+    if len(cardname_en_list) > 0:
+        legalname_en = cardname_en_list[0]
+    else:
+        legalname_en = cardname
+    if len(cardname_ja_list) > 0:
+        legalname_ja = cardname_ja_list[0]
+    else:
+        legalname_ja = cardname
+    return [
+        legal,
+        legalname_en,
+        legalname_ja,
+    ]
 
 
 def remove_number_of_copies(line: str) -> str:
@@ -57,11 +68,20 @@ def is_cardname_legal(cardname: str, mslist_df: pd.DataFrame) -> bool:
     return False
 
 
+def legal_to_checkmark(row: pd.DataFrame) -> pd.DataFrame:
+    if row["islegal"]:
+        row["Legal"] = "✅"
+        return row
+    row["Legal"] = "🚫"
+    return row
+
+
 def split_names_list(row: pd.DataFrame):
     """Splits the English and Japanese card names in a list into two different columns"""
     if not isinstance(row["legalnames"], list):
         return row
-    row["English"] = row["legalnames"][0]
+    row["islegal"] = row["legalnames"][0]
+    row["English"] = row["legalnames"][1]
     if row["legalnames"][1] is not None:
-        row["日本語"] = row["legalnames"][1]
+        row["日本語"] = row["legalnames"][2]
     return row
