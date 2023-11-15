@@ -9,16 +9,28 @@ def compose_scryfall_url(x: str) -> str:
 
 
 def row_to_link(x: pd.DataFrame) -> None:
-    st.markdown(f"- [{x['name']} / {x.name_ja}]({x.link})")
+    cardname = x["name"]
+    if x.name_ja is not "":
+        cardname = f"{cardname} / {x.name_ja}"
+    st.markdown(f"- [{cardname}]({x.link})")
 
 
-def is_legal(cardname: str) -> str:
+def is_legal(cardname: str) -> list:
     english_match = mslist_df[mslist_df["name"].str.lower() == cardname.lower()]
+    cardname_en_list = None
     if english_match.shape[0] > 0:
-        return english_match["name"].to_list()[0]
+        cardname_en_list = english_match["name"].to_list()
+        cardname_ja_list = english_match["name_ja"].to_list()
     japanese_match = mslist_df[mslist_df["name_ja"] == cardname]
     if japanese_match.shape[0] > 0:
-        return japanese_match["name_ja"].to_list()[0]
+        cardname_en_list = japanese_match["name"].to_list()
+        cardname_ja_list = japanese_match["name_ja"].to_list()
+    if cardname_en_list is not None and len(cardname_en_list) > 0:
+        return [
+            cardname_en_list[0] or None,
+            cardname_ja_list[0] or None,
+        ]
+
     return None
 
 
@@ -53,8 +65,11 @@ results_ja_df = mslist_df[
 results_df = results_en_df.merge(results_ja_df, how="outer")
 if name_input:
     if exact_match is not None:
+        cardname = exact_match[0]
+        if exact_match[1] is not None:
+            cardname = f"{cardname} / {exact_match[1]}"
         st.write(
-            f"✅ [{exact_match}]({compose_scryfall_url(exact_match)}) is an exact match"
+            f"✅ [{cardname}]({compose_scryfall_url(exact_match[0])}) is an exact match"
         )
     st.write(results_df.shape[0], f'cards found by "{name_input}"')
     if results_df.shape[0] > number_shown_results:
