@@ -15,7 +15,7 @@ def row_to_link(x: pd.DataFrame) -> None:
     st.markdown(f"- [{cardname}]({x.link})")
 
 
-def is_legal(cardname: str) -> list:
+def get_legal_cardnames(cardname: str, mslist_df: pd.DataFrame) -> list:
     english_match = mslist_df[mslist_df["name"].str.lower() == cardname.lower()]
     cardname_en_list = None
     if english_match.shape[0] > 0:
@@ -30,7 +30,6 @@ def is_legal(cardname: str) -> list:
             cardname_en_list[0] or None,
             cardname_ja_list[0] or None,
         ]
-
     return None
 
 
@@ -55,7 +54,7 @@ mslist_df.fillna("", inplace=True)
 st.write(mslist_df.shape[0], "cards are legal")
 
 name_input = st.text_input(f"Search by card name").strip()
-exact_match = is_legal(name_input)
+exact_match = get_legal_cardnames(name_input, mslist_df)
 results_en_df = mslist_df[
     mslist_df["name"].str.contains(name_input.lower(), case=False)
 ]

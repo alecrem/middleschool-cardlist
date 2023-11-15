@@ -11,7 +11,7 @@ def remove_number_of_copies(line: str) -> str:
     return pattern.sub("", line)
 
 
-def is_legal(cardname: str) -> bool:
+def is_cardname_legal(cardname: str, mslist_df: pd.DataFrame) -> bool:
     if mslist_df[mslist_df["name"].str.lower() == cardname.lower()].shape[0] > 0:
         return True
     if mslist_df[mslist_df["name_ja"] == cardname].shape[0] > 0:
@@ -51,7 +51,9 @@ for line in input_list.split("\n"):
         cardnames.append(remove_number_of_copies(cardname))
 
 input_cards = pd.DataFrame(cardnames, columns=["cardname"])
-input_cards["legal"] = input_cards["cardname"].apply(is_legal)
+input_cards["legal"] = input_cards["cardname"].apply(
+    is_cardname_legal, args=[mslist_df]
+)
 
 col2.write("##### Middle School legality")
 col2.dataframe(input_cards[["legal", "cardname"]], use_container_width=True)
