@@ -33,12 +33,12 @@ results_ja_df = mslist_df[
 ]
 results_df = results_en_df.merge(results_ja_df, how="outer")
 if name_input:
-    if exact_match is not None:
-        cardname = exact_match[0]
-        if exact_match[1] is not None:
-            cardname = f"{cardname} / {exact_match[1]}"
+    if exact_match[0]:
+        cardname = exact_match[1]
+        if exact_match[2] is not None:
+            cardname = f"{cardname} / {exact_match[2]}"
         st.write(
-            f"✅ [{cardname}]({lib.compose_scryfall_url(exact_match[0])}) is an exact match"
+            f"✅ [{cardname}]({lib.compose_scryfall_url(exact_match[1])}) is an exact match"
         )
     st.write(results_df.shape[0], f'cards found by "{name_input}"')
     if results_df.shape[0] > number_shown_results:
