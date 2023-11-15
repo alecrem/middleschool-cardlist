@@ -1,6 +1,6 @@
 # middleschool-cardlist
 
-Composes a list of Magic cards legal in the Middle School format 
+Composes a list of Magic cards legal in the Middle School format
 
 ## List of Middle School legal cards
 
@@ -29,7 +29,7 @@ Python modules:
 
 ## Streamlit web interface
 
-The app is deployed here: [middleschool.streamlit.app](https://middleschool.streamlit.app/)
+The app is deployed here: [middleschoolmtg.streamlit.app](https://middleschoolmtg.streamlit.app/)
 
 To run the Streamlit app locally, install the [streamlit](https://docs.streamlit.io/library/get-started) module and run:
 
