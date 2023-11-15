@@ -35,11 +35,18 @@ for line in input_list.split("\n"):
         cardnames.append(lib.remove_number_of_copies(cardname))
 
 input_cards = pd.DataFrame(cardnames, columns=["cardname"])
-input_cards["legal"] = input_cards["cardname"].apply(
-    lib.is_cardname_legal, args=[mslist_df]
+input_cards["legalnames"] = input_cards["cardname"].apply(
+    lib.get_legal_cardnames, args=[mslist_df]
 )
+input_cards = input_cards.apply(lib.split_names_list, axis=1)
+input_cards = input_cards.apply(lib.legal_to_checkmark, axis=1)
 
 col2.write("##### Middle School legality")
-col2.dataframe(input_cards[["legal", "cardname"]], use_container_width=True)
+if "English" in input_cards and "日本語" in input_cards:
+    col2.dataframe(
+        input_cards[["Legal", "English", "日本語"]],
+        use_container_width=True,
+        hide_index=True,
+    )
 
 streamlit_common.footer.write_footer()
