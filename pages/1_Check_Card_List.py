@@ -1,23 +1,7 @@
 import streamlit as st
 import pandas as pd
-import re
 import streamlit_common.footer
-
-
-def remove_number_of_copies(line: str) -> str:
-    if len(line.strip()) < 1:
-        return None
-    pattern = re.compile("^([0-9]+) +")
-    return pattern.sub("", line)
-
-
-def is_cardname_legal(cardname: str, mslist_df: pd.DataFrame) -> bool:
-    if mslist_df[mslist_df["name"].str.lower() == cardname.lower()].shape[0] > 0:
-        return True
-    if mslist_df[mslist_df["name_ja"] == cardname].shape[0] > 0:
-        return True
-    return False
-
+import streamlit_common.lib as lib
 
 mslist_path = "output/middleschool.csv"
 
@@ -46,13 +30,13 @@ input_list = col1.text_area(
 cardnames = []
 
 for line in input_list.split("\n"):
-    cardname = remove_number_of_copies(line)
+    cardname = lib.remove_number_of_copies(line)
     if cardname is not None:
-        cardnames.append(remove_number_of_copies(cardname))
+        cardnames.append(lib.remove_number_of_copies(cardname))
 
 input_cards = pd.DataFrame(cardnames, columns=["cardname"])
 input_cards["legal"] = input_cards["cardname"].apply(
-    is_cardname_legal, args=[mslist_df]
+    lib.is_cardname_legal, args=[mslist_df]
 )
 
 col2.write("##### Middle School legality")
