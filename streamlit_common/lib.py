@@ -14,7 +14,7 @@ def row_to_link(row: pd.DataFrame) -> None:
     cardname = row["name"]
     if row.name_ja is not "":
         cardname = f"{cardname} / {row.name_ja}"
-    st.markdown(f"- [{cardname}]({row.link})")
+    st.link_button(cardname, row.link)
 
 
 def row_to_button_link(row: pd.DataFrame) -> None:
