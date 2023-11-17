@@ -6,7 +6,7 @@ fa_import = """
 x_icon = '<i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>'
 x_url = "https://x.com/KarawapoM"
 gh_icon = '<i class="fa-brands fa-github" style="color: #ffffff;"></i>'
-gh_url = "https://github.com/alecrem/middleschool-tutor/"
+gh_url = "https://github.com/alecrem/middleschool-cardlist"
 
 
 def write_header():
