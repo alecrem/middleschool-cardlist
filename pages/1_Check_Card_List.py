@@ -40,9 +40,14 @@ input_cards["legalnames"] = input_cards["cardname"].apply(
 )
 input_cards = input_cards.apply(lib.split_names_list, axis=1)
 input_cards = input_cards.apply(lib.legal_to_checkmark, axis=1)
-input_cards = input_cards.sort_values(by="Legal", ascending=False)
+if input_cards.shape[0] > 0:
+    input_cards = input_cards.sort_values(by="Legal", ascending=False)
 
-col2.write("##### Middle School legality")
+illegal_cards = 0
+if input_cards.shape[0] > 0:
+    illegal_cards = input_cards[input_cards["Legal"] != "✅"].shape[0]
+
+col2.write(f"##### This list has {illegal_cards} illegal cards")
 if "English" in input_cards and "日本語" in input_cards:
     col2.dataframe(
         input_cards[["Legal", "English", "日本語"]],
