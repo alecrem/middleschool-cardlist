@@ -55,4 +55,7 @@ if "English" in input_cards and "日本語" in input_cards:
         hide_index=True,
     )
 
+if input_cards.shape[0] > 0:
+    input_cards[input_cards["Legal"] == "✅"].apply(lib.row_to_button_link, axis=1)
+
 streamlit_common.footer.write_footer()

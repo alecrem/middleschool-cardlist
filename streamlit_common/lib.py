@@ -17,6 +17,14 @@ def row_to_link(row: pd.DataFrame) -> None:
     st.markdown(f"- [{cardname}]({row.link})")
 
 
+def row_to_button_link(row: pd.DataFrame) -> None:
+    """Prints a list item with a Scryfall link for the card in the row passed"""
+    cardname = row.English
+    if row.日本語 is not "":
+        cardname = f"{cardname} / {row.日本語}"
+    st.link_button(cardname, compose_scryfall_url(row.English))
+
+
 def get_legal_cardnames(cardname: str, mslist_df: pd.DataFrame) -> list:
     """Returns a list with legality (boolean) plus the English and Japanese
     names for the card if there is an exact match, or the user's input if there is not.
