@@ -40,6 +40,7 @@ input_cards["legalnames"] = input_cards["cardname"].apply(
 )
 input_cards = input_cards.apply(lib.split_names_list, axis=1)
 input_cards = input_cards.apply(lib.legal_to_checkmark, axis=1)
+input_cards = input_cards.sort_values(by="Legal", ascending=False)
 
 col2.write("##### Middle School legality")
 if "English" in input_cards and "日本語" in input_cards:
