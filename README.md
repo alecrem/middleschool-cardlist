@@ -1,3 +1,8 @@
+---
+sdk: streamlit
+sdk_version: 1.25.0
+---
+
 # middleschool-cardlist
 
 Composes a list of Magic cards legal in the Middle School format
