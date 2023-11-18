@@ -9,7 +9,7 @@ number_shown_results = 20
 _ = streamlit_common.locale.get_locale()
 
 st.set_page_config(
-    page_title="Middle School | Card Search",
+    page_title="MTG Middle School | Card Search",
     page_icon="🃏",
     layout="wide",
 )

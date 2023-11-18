@@ -1,7 +1,7 @@
 def get_locale():
     return {
         "search": {
-            "title": {"en": "Middle School Card Search", "ja": "ミドルスクール カード検索"},
+            "title": {"en": "MTG Middle School Card Search", "ja": "MTG ミドルスクール カード検索"},
             "instructions": {
                 "en": "Enter any English or Japanese text to find all [Middle School legal](https://www.eternalcentral.com/middleschoolrules/) card titles which include it.",
                 "ja": "カードの英語名か日本語名を入力し始めると[ミドルスクールで使用可能](https://www.eternalcentral.com/middleschoolrules/)なカード名が引っかかります。",
@@ -25,6 +25,28 @@ def get_locale():
             "top_results": {
                 "en": "Top results:",
                 "ja": "上位の検索結果：",
+            },
+        },
+        "check": {
+            "title": {
+                "en": "MTG Middle School List Check",
+                "ja": "MTG ミドルスクール リストチェック",
+            },
+            "instructions": {
+                "en": "Paste or type your list here to confirm that every card in it is [Middle School legal](https://www.eternalcentral.com/middleschoolrules/).",
+                "ja": "[ミドルスクールで使用可能](https://www.eternalcentral.com/middleschoolrules/)かどうかを確認するには、ここにリストを貼り付けたり入力したりしてください。",
+            },
+            "card_list": {
+                "en": "Card list",
+                "ja": "カードリスト",
+            },
+            "illegal_cards_1": {
+                "en": "**",
+                "ja": "使用不可カード **",
+            },
+            "illegal_cards_2": {
+                "en": "** illegal cards",
+                "ja": "**枚",
             },
         },
     }
