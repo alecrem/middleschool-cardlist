@@ -2,21 +2,23 @@ import streamlit as st
 import pandas as pd
 import streamlit_common.footer
 import streamlit_common.lib as lib
+import streamlit_common.locale
 
 mslist_path = "output/middleschool.csv"
+_ = streamlit_common.locale.get_locale()
 
 st.set_page_config(
-    page_title="Middle School | Check Card List",
+    page_title="MTG Middle School | Check Card List",
     page_icon="🃏",
     layout="wide",
 )
-st.write(
-    """
-    # Middle School List Check
-
-    Paste or type your list here to confirm that every card in it is Middle School legal.
-    """
+l = st.sidebar.radio(
+    label="luage / 言語",
+    options=["en", "ja"],
+    captions=["English", "日本語"],
 )
+st.write(f'# {_["check"]["title"][l]}')
+st.write(_["check"]["instructions"][l])
 
 mslist_df = pd.read_csv(mslist_path)
 mslist_df.fillna("", inplace=True)
@@ -24,7 +26,9 @@ mslist_df.fillna("", inplace=True)
 col1, col2 = st.columns(2)
 
 input_list = col1.text_area(
-    label="##### Card list", placeholder="4 Lightning Bolt\n4 ボール・ライトニング", height=400
+    label=f'##### {_["check"]["card_list"][l]}',
+    placeholder="4 Lightning Bolt\n4 ボール・ライトニング",
+    height=400,
 )
 
 cardnames = []
@@ -47,7 +51,9 @@ illegal_cards = 0
 if input_cards.shape[0] > 0:
     illegal_cards = input_cards[input_cards["Legal"] != "✅"].shape[0]
 
-col2.write(f"##### This list has {illegal_cards} illegal cards")
+col2.write(
+    f'##### {_["check"]["illegal_cards_1"][l]}{illegal_cards}{_["check"]["illegal_cards_2"][l]}'
+)
 if "English" in input_cards and "日本語" in input_cards:
     col2.dataframe(
         input_cards[["Legal", "English", "日本語"]],
