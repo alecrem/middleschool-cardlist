@@ -1,6 +1,7 @@
 ---
 sdk: streamlit
 sdk_version: 1.25.0
+app_file: "Middle_School_Card_Search.py"
 ---
 
 # middleschool-cardlist

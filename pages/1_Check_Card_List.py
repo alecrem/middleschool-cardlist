@@ -12,11 +12,11 @@ st.set_page_config(
     page_icon="🃏",
     layout="wide",
 )
-l = st.sidebar.radio(
-    label="luage / 言語",
-    options=["en", "ja"],
-    captions=["English", "日本語"],
+lang = st.sidebar.radio(
+    label="Language / 言語",
+    options=["English", "日本語"],
 )
+l = "ja" if lang == "日本語" else "en"
 st.write(f'# {_["check"]["title"][l]}')
 st.write(_["check"]["instructions"][l])
 

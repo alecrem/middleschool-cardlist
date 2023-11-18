@@ -14,7 +14,7 @@ def row_to_link(row: pd.DataFrame) -> None:
     cardname = row["name"]
     if row.name_ja is not "":
         cardname = f"{cardname} / {row.name_ja}"
-    st.link_button(cardname, row.link)
+    st.write(f"- [{cardname}]({row.link})")
 
 
 def row_to_button_link(row: pd.DataFrame) -> None:
@@ -22,7 +22,7 @@ def row_to_button_link(row: pd.DataFrame) -> None:
     cardname = row.English
     if row.日本語 is not "":
         cardname = f"{cardname} / {row.日本語}"
-    st.link_button(cardname, compose_scryfall_url(row.English))
+    st.write(f"- [{cardname}]({compose_scryfall_url(row.English)})")
 
 
 def get_legal_cardnames(cardname: str, mslist_df: pd.DataFrame) -> list:
