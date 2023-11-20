@@ -4,7 +4,7 @@ import streamlit_common.footer
 import streamlit_common.lib as lib
 import streamlit_common.locale
 
-mslist_path = "output/middleschool.csv"
+mslist_path = "output/middleschool_extra_fields.csv"
 number_shown_results = 20
 _ = streamlit_common.locale.get_locale()
 
@@ -25,16 +25,24 @@ mslist_df = pd.read_csv(mslist_path)
 mslist_df.fillna("", inplace=True)
 st.write(f'**{mslist_df.shape[0]}**{_["search"]["cards_are_legal"][l]}')
 
-name_input = st.text_input(_["search"]["search_by_card_name"][l]).strip()
-exact_match = lib.get_legal_cardnames(name_input, mslist_df)
-results_en_df = mslist_df[
-    mslist_df["name"].str.contains(name_input.lower(), case=False)
-]
-results_ja_df = mslist_df[
-    mslist_df["name_ja"].str.contains(name_input.lower(), case=False)
-]
+results_df = mslist_df
+
+# Filter by card name
+input_name = st.text_input(_["search"]["search_by_card_name"][l]).strip()
+exact_match = lib.get_legal_cardnames(input_name, mslist_df)
+results_en_df = results_df[results_df["name"].str.contains(input_name, case=False)]
+results_ja_df = results_df[results_df["name_ja"].str.contains(input_name, case=False)]
 results_df = results_en_df.merge(results_ja_df, how="outer")
-if name_input:
+
+# Filter by type
+input_type = st.text_input(_["search"]["search_by_type"][l]).strip()
+results_df = results_df[results_df["type"].str.contains(input_type, case=False)]
+
+# Filter by text
+input_text = st.text_input(_["search"]["search_by_text"][l]).strip()
+results_df = results_df[results_df["text"].str.contains(input_text, case=False)]
+
+if results_df.shape[0] < mslist_df.shape[0]:
     if exact_match[0]:
         cardname = exact_match[1]
         if exact_match[2] is not None:

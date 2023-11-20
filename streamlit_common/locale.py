@@ -11,8 +11,16 @@ def get_locale():
                 "ja": "枚 のカードが使用可能です。",
             },
             "search_by_card_name": {
-                "en": "Search by card name:",
-                "ja": "カード名で検索してください：",
+                "en": "Search by card name (or part of it):",
+                "ja": "カード名（もしくは一部）で検索してください：",
+            },
+            "search_by_text": {
+                "en": "Type a part of the rules text:",
+                "ja": "テキストの一部を入力してください：",
+            },
+            "search_by_type": {
+                "en": "Type a part of the card type line:",
+                "ja": "カードタイプの一部を入力してください：",
             },
             "exact_match": {
                 "en": "is an exact match.",
