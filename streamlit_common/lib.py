@@ -29,6 +29,8 @@ def get_legal_cardnames(cardname: str, mslist_df: pd.DataFrame) -> list:
     """Returns a list with legality (boolean) plus the English and Japanese
     names for the card if there is an exact match, or the user's input if there is not.
     """
+    if len(cardname) < 1:
+        return [False, [], []]
     cardname_en_list = []
     cardname_ja_list = []
     legal = False
