@@ -19,8 +19,12 @@ def get_locale():
                 "ja": "テキストの一部を入力してください：",
             },
             "search_by_type": {
-                "en": "Type a part of the card type line:",
-                "ja": "カードタイプの一部を入力してください：",
+                "en": "Search by types, cardtypes and supertypes:",
+                "ja": "タイプ、サブタイプ、スーパータイプで検索：",
+            },
+            "select_type": {
+                "en": "Select card types:",
+                "ja": "タイプを選択してください：",
             },
             "exact_match": {
                 "en": "is an exact match.",

@@ -34,8 +34,18 @@ results_en_df = results_df[results_df["name"].str.contains(input_name, case=Fals
 results_ja_df = results_df[results_df["name_ja"].str.contains(input_name, case=False)]
 results_df = results_en_df.merge(results_ja_df, how="outer")
 
-# Filter by type
-input_type = st.text_input(_["search"]["search_by_type"][l]).strip()
+col1, col2 = st.columns(2)
+
+# Filter by type (select)
+select_types = col1.multiselect(
+    _["search"]["select_type"][l],
+    ["Artifact", "Creature", "Enchantment", "Instant", "Land", "Sorcery"],
+)
+for cardtype in select_types:
+    results_df = results_df[results_df["type"].str.contains(cardtype, case=False)]
+
+# Filter by type (text input)
+input_type = col2.text_input(_["search"]["search_by_type"][l]).strip()
 results_df = results_df[results_df["type"].str.contains(input_type, case=False)]
 
 # Filter by text
