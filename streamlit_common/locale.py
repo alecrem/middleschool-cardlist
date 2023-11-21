@@ -38,6 +38,14 @@ def get_locale():
                 "en": "Top results:",
                 "ja": "上位の検索結果：",
             },
+            "see_more": {
+                "en": "See more",
+                "ja": "さらに見る",
+            },
+            "see_20": {
+                "en": "Only show 20",
+                "ja": "20枚に戻す",
+            },
         },
         "check": {
             "title": {
