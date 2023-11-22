@@ -45,8 +45,31 @@ results_en_df = results_df[results_df["name"].str.contains(input_name, case=Fals
 results_ja_df = results_df[results_df["name_ja"].str.contains(input_name, case=False)]
 results_df = results_en_df.merge(results_ja_df, how="outer")
 
-col1, col2 = st.columns(2)
+# Filter by color
+(
+    colorcol0,
+    colorcol1,
+    colorcol2,
+    colorcol3,
+    colorcol4,
+    colorcol5,
+    colorcol6,
+) = st.columns(7)
+colorcol0.write(_["search"]["search_by_color"][l])
+if colorcol1.checkbox(_["search"]["color_w"][l]):
+    results_df = results_df[results_df["w"] == True]
+if colorcol2.checkbox(_["search"]["color_u"][l]):
+    results_df = results_df[results_df["u"] == True]
+if colorcol3.checkbox(_["search"]["color_b"][l]):
+    results_df = results_df[results_df["b"] == True]
+if colorcol4.checkbox(_["search"]["color_r"][l]):
+    results_df = results_df[results_df["r"] == True]
+if colorcol5.checkbox(_["search"]["color_g"][l]):
+    results_df = results_df[results_df["g"] == True]
+if colorcol6.checkbox(_["search"]["color_c"][l]):
+    results_df = results_df[results_df["c"] == True]
 
+col1, col2 = st.columns(2)
 # Filter by type (select)
 select_types = col1.multiselect(
     _["search"]["select_type"][l],

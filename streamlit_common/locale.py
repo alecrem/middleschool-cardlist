@@ -30,6 +30,34 @@ def get_locale():
                 "en": "is an exact match.",
                 "ja": "が完全一致します。",
             },
+            "search_by_color": {
+                "en": "Color:",
+                "ja": "色：",
+            },
+            "color_w": {
+                "en": "W",
+                "ja": "白",
+            },
+            "color_u": {
+                "en": "U",
+                "ja": "青",
+            },
+            "color_b": {
+                "en": "B",
+                "ja": "黒",
+            },
+            "color_r": {
+                "en": "R",
+                "ja": "赤",
+            },
+            "color_g": {
+                "en": "G",
+                "ja": "緑",
+            },
+            "color_c": {
+                "en": "C",
+                "ja": "無/茶",
+            },
             "cards_found": {
                 "en": " cards were found.",
                 "ja": "枚 のカードが見つかりました。",
