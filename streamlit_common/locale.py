@@ -34,6 +34,46 @@ def get_locale():
                 "en": "Color:",
                 "ja": "色：",
             },
+            "cards_found": {
+                "en": " cards were found.",
+                "ja": "枚 のカードが見つかりました。",
+            },
+            "top_results": {
+                "en": "Top results:",
+                "ja": "上位の検索結果：",
+            },
+            "see_more": {
+                "en": "See more results",
+                "ja": "さらに表示する",
+            },
+            "see_20": {
+                "en": "Reset to 20 results",
+                "ja": "上位20枚表示に戻す",
+            },
+        },
+        "check": {
+            "title": {
+                "en": "MTG Middle School List Check",
+                "ja": "MTG ミドルスクール リストチェック",
+            },
+            "instructions": {
+                "en": "Paste or type your list here to confirm that every card in it is [Middle School legal](https://www.eternalcentral.com/middleschoolrules/).",
+                "ja": "[ミドルスクールで使用可能](https://www.eternalcentral.com/middleschoolrules/)かどうかを確認するには、ここにリストを貼り付けたり入力したりしてください。",
+            },
+            "card_list": {
+                "en": "Card list",
+                "ja": "カードリスト",
+            },
+            "illegal_cards_1": {
+                "en": "**",
+                "ja": "使用不可カード **",
+            },
+            "illegal_cards_2": {
+                "en": "** illegal cards",
+                "ja": "**枚",
+            },
+        },
+        "basic": {
             "color_w": {
                 "en": "W",
                 "ja": "白",
@@ -57,44 +97,6 @@ def get_locale():
             "color_c": {
                 "en": "C",
                 "ja": "無/茶",
-            },
-            "cards_found": {
-                "en": " cards were found.",
-                "ja": "枚 のカードが見つかりました。",
-            },
-            "top_results": {
-                "en": "Top results:",
-                "ja": "上位の検索結果：",
-            },
-            "see_more": {
-                "en": "See more",
-                "ja": "さらに見る",
-            },
-            "see_20": {
-                "en": "Only show 20",
-                "ja": "20枚に戻す",
-            },
-        },
-        "check": {
-            "title": {
-                "en": "MTG Middle School List Check",
-                "ja": "MTG ミドルスクール リストチェック",
-            },
-            "instructions": {
-                "en": "Paste or type your list here to confirm that every card in it is [Middle School legal](https://www.eternalcentral.com/middleschoolrules/).",
-                "ja": "[ミドルスクールで使用可能](https://www.eternalcentral.com/middleschoolrules/)かどうかを確認するには、ここにリストを貼り付けたり入力したりしてください。",
-            },
-            "card_list": {
-                "en": "Card list",
-                "ja": "カードリスト",
-            },
-            "illegal_cards_1": {
-                "en": "**",
-                "ja": "使用不可カード **",
-            },
-            "illegal_cards_2": {
-                "en": "** illegal cards",
-                "ja": "**枚",
             },
         },
     }
