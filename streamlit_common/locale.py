@@ -98,5 +98,51 @@ def get_locale():
                 "en": "C",
                 "ja": "無/茶",
             },
+            "type_artifact": {
+                "en": "Artifact",
+                "ja": "アーティファクト",
+            },
+            "type_creature": {
+                "en": "Creature",
+                "ja": "クリーチャー",
+            },
+            "type_enchantment": {
+                "en": "Enchantment",
+                "ja": "エンチャント",
+            },
+            "type_instant": {
+                "en": "Instant",
+                "ja": "インスタント",
+            },
+            "type_land": {
+                "en": "Land",
+                "ja": "土地",
+            },
+            "type_sorcery": {
+                "en": "Sorcery",
+                "ja": "ソーサリー",
+            },
         },
+    }
+
+
+def get_type_options():
+    _ = get_locale()
+    return {
+        "en": [
+            _["basic"]["type_artifact"]["en"],
+            _["basic"]["type_creature"]["en"],
+            _["basic"]["type_enchantment"]["en"],
+            _["basic"]["type_instant"]["en"],
+            _["basic"]["type_land"]["en"],
+            _["basic"]["type_sorcery"]["en"],
+        ],
+        "ja": [
+            _["basic"]["type_artifact"]["ja"],
+            _["basic"]["type_creature"]["ja"],
+            _["basic"]["type_enchantment"]["ja"],
+            _["basic"]["type_instant"]["ja"],
+            _["basic"]["type_land"]["ja"],
+            _["basic"]["type_sorcery"]["ja"],
+        ],
     }

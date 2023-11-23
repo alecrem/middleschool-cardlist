@@ -71,12 +71,16 @@ if colorcol6.checkbox(_["basic"]["color_c"][l]):
 
 col1, col2 = st.columns(2)
 # Filter by type (select)
+type_list = streamlit_common.locale.get_type_options()
 select_types = col1.multiselect(
     _["search"]["select_type"][l],
-    ["Artifact", "Creature", "Enchantment", "Instant", "Land", "Sorcery"],
+    type_list[l],
 )
 for cardtype in select_types:
-    results_df = results_df[results_df["type"].str.contains(cardtype, case=False)]
+    type_to_search = cardtype
+    if l == "ja":
+        type_to_search = type_list["en"][type_list["ja"].index(cardtype)]
+    results_df = results_df[results_df["type"].str.contains(type_to_search, case=False)]
 
 # Filter by type (text input)
 input_type = col2.text_input(_["search"]["search_by_type"][l]).strip()
