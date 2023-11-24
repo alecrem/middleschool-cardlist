@@ -11,20 +11,36 @@ def get_locale():
                 "ja": "枚 のカードが使用可能です。",
             },
             "search_by_card_name": {
-                "en": "Search by card name (or part of it):",
-                "ja": "カード名（もしくは一部）で検索してください：",
+                "en": "Search by card name:",
+                "ja": "カード名で検索：",
             },
-            "search_by_text": {
-                "en": "Type a part of the rules text:",
-                "ja": "テキストの一部を入力してください：",
-            },
-            "search_by_type": {
-                "en": "Search by types, cardtypes and supertypes:",
-                "ja": "タイプ、サブタイプ、スーパータイプで検索：",
+            "search_by_card_name_placeholder": {
+                "en": "Type a card name or part of it",
+                "ja": "カード名もしくはその一部を入力してください",
             },
             "select_type": {
                 "en": "Select card types:",
                 "ja": "タイプを選択してください：",
+            },
+            "search_by_type": {
+                "en": "Search by card types:",
+                "ja": "カードタイプで検索：",
+            },
+            "search_by_type_placeholder": {
+                "en": "Type a types, subtypes or supertypes",
+                "ja": "タイプ、サブタイプ、スーパータイプを入力",
+            },
+            "select_type_placeholder": {
+                "en": "Select card types",
+                "ja": "カードタイプ選択",
+            },
+            "search_by_text": {
+                "en": "Search by rules text:",
+                "ja": "テキストで検索：",
+            },
+            "search_by_text_placeholder": {
+                "en": "Type a part of the rules text",
+                "ja": "テキストの一部を入力してください",
             },
             "exact_match": {
                 "en": "is an exact match.",
