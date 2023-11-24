@@ -19,19 +19,19 @@ def get_locale():
                 "ja": "カード名もしくはその一部を入力してください",
             },
             "select_type": {
-                "en": "Select card types:",
+                "en": "Select card type:",
                 "ja": "タイプを選択してください：",
             },
             "search_by_type": {
-                "en": "Search by card types:",
+                "en": "Search by card type:",
                 "ja": "カードタイプで検索：",
             },
             "search_by_type_placeholder": {
-                "en": "Type a types, subtypes or supertypes",
+                "en": "Type a type, subtype or supertype",
                 "ja": "タイプ、サブタイプ、スーパータイプを入力",
             },
             "select_type_placeholder": {
-                "en": "Select card types",
+                "en": "Select card type(s)",
                 "ja": "カードタイプ選択",
             },
             "search_by_text": {
