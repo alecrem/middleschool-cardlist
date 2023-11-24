@@ -1,7 +1,7 @@
 def get_locale():
     return {
         "search": {
-            "title": {"en": "MTG Middle School Card Search", "ja": "MTG ミドルスクール カード検索"},
+            "title": {"en": "Card Search", "ja": "カード検索"},
             "instructions": {
                 "en": "Enter any English or Japanese text to find all [Middle School legal](https://www.eternalcentral.com/middleschoolrules/) card titles which include it.",
                 "ja": "カードの英語名か日本語名を入力し始めると[ミドルスクールで使用可能](https://www.eternalcentral.com/middleschoolrules/)なカード名が引っかかります。",
@@ -69,8 +69,8 @@ def get_locale():
         },
         "check": {
             "title": {
-                "en": "MTG Middle School List Check",
-                "ja": "MTG ミドルスクール リストチェック",
+                "en": "List Check",
+                "ja": "リストチェック",
             },
             "instructions": {
                 "en": "Paste or type your list here to confirm that every card in it is [Middle School legal](https://www.eternalcentral.com/middleschoolrules/).",

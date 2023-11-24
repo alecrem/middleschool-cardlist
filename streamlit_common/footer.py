@@ -3,9 +3,9 @@ import streamlit as st
 fa_import = """
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 """
-x_icon = '<i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>'
+x_icon = '<i class="fa-brands fa-x-twitter" style="color: #000000;"></i>'
 x_url = "https://x.com/KarawapoM"
-gh_icon = '<i class="fa-brands fa-github" style="color: #ffffff;"></i>'
+gh_icon = '<i class="fa-brands fa-github" style="color: #000000;"></i>'
 gh_url = "https://github.com/alecrem/middleschool-cardlist"
 
 
