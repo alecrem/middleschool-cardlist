@@ -39,28 +39,65 @@ st.write(f'**{mslist_df.shape[0]}**{_["search"]["cards_are_legal"][l]}')
 results_df = mslist_df
 
 # Filter by card name
-input_name = st.text_input(_["search"]["search_by_card_name"][l]).strip()
+input_name = st.text_input(
+    f'**{_["search"]["search_by_card_name"][l]}**',
+    placeholder=_["search"]["search_by_card_name_placeholder"][l],
+).strip()
 exact_match = lib.get_legal_cardnames(input_name, mslist_df)
 results_en_df = results_df[results_df["name"].str.contains(input_name, case=False)]
 results_ja_df = results_df[results_df["name_ja"].str.contains(input_name, case=False)]
 results_df = results_en_df.merge(results_ja_df, how="outer")
 
-col1, col2 = st.columns(2)
+# Filter by color
+(
+    colorcol0,
+    colorcol1,
+    colorcol2,
+    colorcol3,
+    colorcol4,
+    colorcol5,
+    colorcol6,
+) = st.columns(7)
+colorcol0.write(f'**{_["search"]["search_by_color"][l]}**')
+if colorcol1.checkbox(_["basic"]["color_w"][l]):
+    results_df = results_df[results_df["w"] == True]
+if colorcol2.checkbox(_["basic"]["color_u"][l]):
+    results_df = results_df[results_df["u"] == True]
+if colorcol3.checkbox(_["basic"]["color_b"][l]):
+    results_df = results_df[results_df["b"] == True]
+if colorcol4.checkbox(_["basic"]["color_r"][l]):
+    results_df = results_df[results_df["r"] == True]
+if colorcol5.checkbox(_["basic"]["color_g"][l]):
+    results_df = results_df[results_df["g"] == True]
+if colorcol6.checkbox(_["basic"]["color_c"][l]):
+    results_df = results_df[results_df["c"] == True]
 
+col1, col2 = st.columns(2)
 # Filter by type (select)
+type_list = streamlit_common.locale.get_type_options()
 select_types = col1.multiselect(
-    _["search"]["select_type"][l],
-    ["Artifact", "Creature", "Enchantment", "Instant", "Land", "Sorcery"],
+    f'**{_["search"]["select_type"][l]}**',
+    type_list[l],
+    placeholder=_["search"]["select_type_placeholder"][l],
 )
 for cardtype in select_types:
-    results_df = results_df[results_df["type"].str.contains(cardtype, case=False)]
+    type_to_search = cardtype
+    if l == "ja":
+        type_to_search = type_list["en"][type_list["ja"].index(cardtype)]
+    results_df = results_df[results_df["type"].str.contains(type_to_search, case=False)]
 
 # Filter by type (text input)
-input_type = col2.text_input(_["search"]["search_by_type"][l]).strip()
+input_type = col2.text_input(
+    f'**{_["search"]["search_by_type"][l]}**',
+    placeholder=_["search"]["search_by_type_placeholder"][l],
+).strip()
 results_df = results_df[results_df["type"].str.contains(input_type, case=False)]
 
 # Filter by text
-input_text = st.text_input(_["search"]["search_by_text"][l]).strip()
+input_text = st.text_input(
+    f'**{_["search"]["search_by_text"][l]}**',
+    placeholder=_["search"]["search_by_text_placeholder"][l],
+).strip()
 results_df = results_df[results_df["text"].str.contains(input_text, case=False)]
 
 if results_df.shape[0] < mslist_df.shape[0]:

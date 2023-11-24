@@ -11,24 +11,44 @@ def get_locale():
                 "ja": "枚 のカードが使用可能です。",
             },
             "search_by_card_name": {
-                "en": "Search by card name (or part of it):",
-                "ja": "カード名（もしくは一部）で検索してください：",
+                "en": "Search by card name:",
+                "ja": "カード名で検索：",
             },
-            "search_by_text": {
-                "en": "Type a part of the rules text:",
-                "ja": "テキストの一部を入力してください：",
-            },
-            "search_by_type": {
-                "en": "Search by types, cardtypes and supertypes:",
-                "ja": "タイプ、サブタイプ、スーパータイプで検索：",
+            "search_by_card_name_placeholder": {
+                "en": "Type a card name or part of it",
+                "ja": "カード名もしくはその一部を入力してください",
             },
             "select_type": {
                 "en": "Select card types:",
                 "ja": "タイプを選択してください：",
             },
+            "search_by_type": {
+                "en": "Search by card types:",
+                "ja": "カードタイプで検索：",
+            },
+            "search_by_type_placeholder": {
+                "en": "Type a types, subtypes or supertypes",
+                "ja": "タイプ、サブタイプ、スーパータイプを入力",
+            },
+            "select_type_placeholder": {
+                "en": "Select card types",
+                "ja": "カードタイプ選択",
+            },
+            "search_by_text": {
+                "en": "Search by rules text:",
+                "ja": "テキストで検索：",
+            },
+            "search_by_text_placeholder": {
+                "en": "Type a part of the rules text",
+                "ja": "テキストの一部を入力してください",
+            },
             "exact_match": {
                 "en": "is an exact match.",
                 "ja": "が完全一致します。",
+            },
+            "search_by_color": {
+                "en": "Color:",
+                "ja": "色：",
             },
             "cards_found": {
                 "en": " cards were found.",
@@ -39,12 +59,12 @@ def get_locale():
                 "ja": "上位の検索結果：",
             },
             "see_more": {
-                "en": "See more",
-                "ja": "さらに見る",
+                "en": "See more results",
+                "ja": "さらに表示する",
             },
             "see_20": {
-                "en": "Only show 20",
-                "ja": "20枚に戻す",
+                "en": "Reset to 20 results",
+                "ja": "上位20枚表示に戻す",
             },
         },
         "check": {
@@ -69,4 +89,76 @@ def get_locale():
                 "ja": "**枚",
             },
         },
+        "basic": {
+            "color_w": {
+                "en": "W",
+                "ja": "白",
+            },
+            "color_u": {
+                "en": "U",
+                "ja": "青",
+            },
+            "color_b": {
+                "en": "B",
+                "ja": "黒",
+            },
+            "color_r": {
+                "en": "R",
+                "ja": "赤",
+            },
+            "color_g": {
+                "en": "G",
+                "ja": "緑",
+            },
+            "color_c": {
+                "en": "C",
+                "ja": "無/茶",
+            },
+            "type_artifact": {
+                "en": "Artifact",
+                "ja": "アーティファクト",
+            },
+            "type_creature": {
+                "en": "Creature",
+                "ja": "クリーチャー",
+            },
+            "type_enchantment": {
+                "en": "Enchantment",
+                "ja": "エンチャント",
+            },
+            "type_instant": {
+                "en": "Instant",
+                "ja": "インスタント",
+            },
+            "type_land": {
+                "en": "Land",
+                "ja": "土地",
+            },
+            "type_sorcery": {
+                "en": "Sorcery",
+                "ja": "ソーサリー",
+            },
+        },
+    }
+
+
+def get_type_options():
+    _ = get_locale()
+    return {
+        "en": [
+            _["basic"]["type_artifact"]["en"],
+            _["basic"]["type_creature"]["en"],
+            _["basic"]["type_enchantment"]["en"],
+            _["basic"]["type_instant"]["en"],
+            _["basic"]["type_land"]["en"],
+            _["basic"]["type_sorcery"]["en"],
+        ],
+        "ja": [
+            _["basic"]["type_artifact"]["ja"],
+            _["basic"]["type_creature"]["ja"],
+            _["basic"]["type_enchantment"]["ja"],
+            _["basic"]["type_instant"]["ja"],
+            _["basic"]["type_land"]["ja"],
+            _["basic"]["type_sorcery"]["ja"],
+        ],
     }
