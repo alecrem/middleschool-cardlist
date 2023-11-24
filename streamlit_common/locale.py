@@ -1,7 +1,7 @@
 def get_locale():
     return {
         "search": {
-            "title": {"en": "MTG Middle School Card Search", "ja": "MTG ミドルスクール カード検索"},
+            "title": {"en": "Card Search", "ja": "カード検索"},
             "instructions": {
                 "en": "Enter any English or Japanese text to find all [Middle School legal](https://www.eternalcentral.com/middleschoolrules/) card titles which include it.",
                 "ja": "カードの英語名か日本語名を入力し始めると[ミドルスクールで使用可能](https://www.eternalcentral.com/middleschoolrules/)なカード名が引っかかります。",
@@ -19,19 +19,19 @@ def get_locale():
                 "ja": "カード名もしくはその一部を入力してください",
             },
             "select_type": {
-                "en": "Select card types:",
+                "en": "Select card type:",
                 "ja": "タイプを選択してください：",
             },
             "search_by_type": {
-                "en": "Search by card types:",
+                "en": "Search by card type:",
                 "ja": "カードタイプで検索：",
             },
             "search_by_type_placeholder": {
-                "en": "Type a types, subtypes or supertypes",
+                "en": "Type a type, subtype or supertype",
                 "ja": "タイプ、サブタイプ、スーパータイプを入力",
             },
             "select_type_placeholder": {
-                "en": "Select card types",
+                "en": "Select card type(s)",
                 "ja": "カードタイプ選択",
             },
             "search_by_text": {
@@ -69,8 +69,8 @@ def get_locale():
         },
         "check": {
             "title": {
-                "en": "MTG Middle School List Check",
-                "ja": "MTG ミドルスクール リストチェック",
+                "en": "List Check",
+                "ja": "リストチェック",
             },
             "instructions": {
                 "en": "Paste or type your list here to confirm that every card in it is [Middle School legal](https://www.eternalcentral.com/middleschoolrules/).",

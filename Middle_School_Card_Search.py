@@ -20,8 +20,8 @@ def reset_more_results():
 
 
 st.set_page_config(
-    page_title="MTG Middle School | Card Search",
-    page_icon="🃏",
+    page_title="Middle School Tutor | Card Search",
+    page_icon="favicon.ico",
     layout="wide",
 )
 lang = st.sidebar.radio(
@@ -29,7 +29,10 @@ lang = st.sidebar.radio(
     options=["English", "日本語"],
 )
 l = "ja" if lang == "日本語" else "en"
-st.write(f'# {_["search"]["title"][l]}')
+headcol1, headcol2 = st.columns([1, 7])
+headcol1.image("favicon.ico", width=80)
+headcol2.write(f"# Middle School Tutor")
+st.write(f'## {_["search"]["title"][l]}')
 st.write(_["search"]["instructions"][l])
 
 mslist_df = pd.read_csv(mslist_path)
