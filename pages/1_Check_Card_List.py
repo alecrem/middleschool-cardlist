@@ -7,6 +7,9 @@ import streamlit_common.locale
 mslist_path = "output/middleschool.csv"
 _ = streamlit_common.locale.get_locale()
 
+if "lang" not in st.session_state:
+    st.session_state["lang"] = "en"
+
 st.set_page_config(
     page_title="Middle School Tutor | Check Card List",
     page_icon="favicon.ico",
@@ -15,8 +18,10 @@ st.set_page_config(
 lang = st.sidebar.radio(
     label="Language / 言語",
     options=["English", "日本語"],
+    index=1 if st.session_state["lang"] == "ja" else 0,
 )
-l = "ja" if lang == "日本語" else "en"
+st.session_state["lang"] = "ja" if lang == "日本語" else "en"
+l = st.session_state["lang"]
 headcol1, headcol2 = st.columns([1, 7])
 headcol1.image("favicon.ico", width=80)
 headcol2.write(f"# Middle School Tutor")
