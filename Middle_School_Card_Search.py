@@ -79,8 +79,19 @@ if colorcol5.checkbox(_["basic"]["color_g"][l]):
 if colorcol6.checkbox(_["basic"]["color_c"][l]):
     results_df = results_df[results_df["c"] == True]
 
-col1, col2 = st.columns(2)
+# Filter by mana value
+min_mv = mslist_df["mv"].min()
+max_mv = mslist_df["mv"].max()
+mv_options = [mv for mv in range(min_mv, max_mv + 1)]
+start_mv, end_mv = st.select_slider(
+    f'**{_["search"]["search_by_mv"][l]}**', options=mv_options, value=(min_mv, max_mv)
+)
+cond1 = results_df["mv"] >= start_mv
+cond2 = results_df["mv"] <= end_mv
+results_df = results_df[cond1 & cond2]
+
 # Filter by type (select)
+col1, col2 = st.columns(2)
 type_list = streamlit_common.locale.get_type_options()
 select_types = col1.multiselect(
     f'**{_["search"]["select_type"][l]}**',
