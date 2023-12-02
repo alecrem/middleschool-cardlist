@@ -50,6 +50,10 @@ def get_locale():
                 "en": "Color:",
                 "ja": "色：",
             },
+            "search_by_mv": {
+                "en": "Mana value:",
+                "ja": "マナ総量：",
+            },
             "cards_found": {
                 "en": " cards were found.",
                 "ja": "枚 のカードが見つかりました。",

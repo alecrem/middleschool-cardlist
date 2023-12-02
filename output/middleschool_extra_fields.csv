@@ -1,4 +1,4 @@
-,Unnamed: 0,oracle_id,name,name_ja,mw,rarity,text,type,power,toughness,w,u,b,r,g,c
+,Unnamed: 0,oracle_id,name,name_ja,mv,rarity,text,type,power,toughness,w,u,b,r,g,c
 0,0,8adbba6e-03ef-4278-aec5-8a4496b377a8,Abandon Hope,断念,2,uncommon,"As an additional cost to cast this spell, discard X cards.
 Look at target opponent's hand and choose X cards from it. That player discards those cards.",Sorcery,,,False,False,True,False,False,False
 1,1,5a70ccfa-d12d-4e62-a1a4-f05cda2fd442,Abandoned Outpost,見捨てられた前哨地,0,common,"Abandoned Outpost enters the battlefield tapped.

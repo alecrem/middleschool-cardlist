@@ -6,7 +6,7 @@ def add_other_fields(row: pd.DataFrame) -> pd.DataFrame:
     print(f"{row['name']} | {row['oracle_id']}")
     for index, card in enumerate(cards):
         if card["identifiers"]["scryfallOracleId"] == row["oracle_id"]:
-            row["mw"] = card["manaValue"]
+            row["mv"] = card["manaValue"]
             row["rarity"] = card["rarity"]
             row["text"] = card["text"] if "text" in card else None
             row["type"] = card["type"]
