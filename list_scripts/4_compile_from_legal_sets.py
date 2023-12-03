@@ -1,3 +1,8 @@
+# Important: run this script from the parent directory
+# (the root directory in this repository)
+#
+# python3 list_scripts/4_compile_from_legal_sets.py
+
 import json
 import pandas as pd
 

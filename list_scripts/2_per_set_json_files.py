@@ -1,7 +1,11 @@
-## Important: run this script from the parent directory
-## (the root directory in this repository)
+# Important: run this script from the parent directory
+# (the root directory in this repository)
 #
-# python3 list_scripts/1.py
+# python3 list_scripts/2_per_set_json_files.py
+#
+# Then, run the newly generated bash script:
+#
+# sh list_scripts/3_separate_json_files_per_set.sh
 
 # The Raw data is very large, so let's make JSON files for all relevant sets
 # Note: this can take a couple minutes to run

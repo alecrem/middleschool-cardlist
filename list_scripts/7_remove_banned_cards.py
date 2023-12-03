@@ -1,3 +1,8 @@
+# Important: run this script from the parent directory
+# (the root directory in this repository)
+#
+# python3 list_scripts/7_remove_banned_cards.py
+
 import pandas as pd
 
 # Remove cards that are banned in the format
