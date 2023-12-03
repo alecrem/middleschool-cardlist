@@ -1,3 +1,8 @@
+# Important: run this script from the parent directory
+# (the root directory in this repository)
+#
+# python3 list_scripts/6_find_remaining_japanese_names.py
+
 import pandas as pd
 import time
 from requests_html import HTMLSession
