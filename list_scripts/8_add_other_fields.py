@@ -5,6 +5,7 @@
 
 import json
 import pandas as pd
+import re
 
 
 def add_other_fields(row: pd.DataFrame) -> pd.DataFrame:
@@ -15,8 +16,16 @@ def add_other_fields(row: pd.DataFrame) -> pd.DataFrame:
             row["rarity"] = card["rarity"]
             row["text"] = card["text"] if "text" in card else None
             row["type"] = card["type"]
-            row["power"] = card["power"] if "power" in card else None
-            row["toughness"] = card["toughness"] if "toughness" in card else None
+            if "power" in card:
+                power = re.sub("[^0-9]", "", f"0{card['power']}")
+                row["power"] = int(power)
+            else:
+                row["power"] = None
+            if "toughness" in card:
+                toughness = re.sub("[^0-9]", "", f"0{card['toughness']}")
+                row["toughness"] = int(toughness)
+            else:
+                row["toughness"] = None
             colors = card["colors"]
             row["w"] = True if "W" in colors else False
             row["u"] = True if "U" in colors else False
@@ -33,6 +42,8 @@ with open("data/middleschool.json") as json_data:
     cards = json.loads(json_data.read())
 
 middleschool_df = middleschool_df.apply(add_other_fields, axis=1)
+middleschool_df["power"] = middleschool_df["power"].astype("Int64")
+middleschool_df["toughness"] = middleschool_df["toughness"].astype("Int64")
 
 middleschool_df.to_csv("output/middleschool_extra_fields.csv")
 middleschool_df.to_json("output/middleschool_extra_fields.json")
