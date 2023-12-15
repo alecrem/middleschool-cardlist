@@ -179,7 +179,7 @@ Flashback {1}{U} (You may cast this card from your graveyard for its flashback c
 {2}{U}, Discard a card: Return Amugaba to its owner's hand.",Creature — Illusion,6,6,False,True,False,False,False,False
 120,120,8eca999e-f7f8-4354-b419-2df4249c4361,Amulet of Kroog,クルーグの護符,2,common,"{2}, {T}: Prevent the next 1 damage that would be dealt to any target this turn.",Artifact,,,False,False,False,False,False,True
 121,121,945d5351-ce7d-488c-bc63-269ad82b74cb,Amulet of Unmaking,消滅の護符,5,rare,"{5}, {T}, Exile Amulet of Unmaking: Exile target artifact, creature, or land. Activate only as a sorcery.",Artifact,,,False,False,False,False,False,True
-122,122,7131cdb6-15d0-407e-a7e2-b2a0deef9363,An-Havva Constable,アン＝ハヴァの治安官,3,rare,An-Havva Constable's toughness is equal to 1 plus the number of green creatures on the battlefield.,Creature — Human,2,1+*,False,False,False,False,True,False
+122,122,7131cdb6-15d0-407e-a7e2-b2a0deef9363,An-Havva Constable,アン＝ハヴァの治安官,3,rare,An-Havva Constable's toughness is equal to 1 plus the number of green creatures on the battlefield.,Creature — Human,2,1,False,False,False,False,True,False
 123,123,3cd72848-7b99-4d46-96f5-53f297c9d2a0,An-Havva Inn,,3,uncommon,"You gain X plus 1 life, where X is the number of green creatures on the battlefield.",Sorcery,,,False,False,False,False,True,False
 124,124,40ae17be-9998-4ee4-9d95-82a08895405f,An-Havva Township,,0,uncommon,"{T}: Add {C}.
 {1}, {T}: Add {G}.
@@ -214,7 +214,7 @@ Flashback {9}{W}{W}{W} (You may cast this card from your graveyard for its flash
 143,143,8e1d3722-9bd1-4ab7-b4a5-9265fca3aba9,Ancient Hydra,古代のハイドラ,5,uncommon,"Fading 5 (This creature enters the battlefield with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
 {1}, Remove a fade counter from Ancient Hydra: It deals 1 damage to any target.",Creature — Hydra,5,1,False,False,False,True,False,False
 144,144,598a7347-b772-4839-a02f-b930076c1354,Ancient Kavu,年経たカヴー,4,common,{2}: Ancient Kavu becomes colorless until end of turn.,Creature — Kavu,3,3,False,False,False,True,False,False
-145,145,2076b2a7-6e07-4b6d-ae17-c1cfd0961022,Ancient Ooze,古代の軟泥,7,rare,Ancient Ooze's power and toughness are each equal to the total mana value of other creatures you control.,Creature — Ooze,*,*,False,False,False,False,True,False
+145,145,2076b2a7-6e07-4b6d-ae17-c1cfd0961022,Ancient Ooze,古代の軟泥,7,rare,Ancient Ooze's power and toughness are each equal to the total mana value of other creatures you control.,Creature — Ooze,0,0,False,False,False,False,True,False
 146,146,1a128c02-febf-4ce6-b4d1-28274b5c4ff0,Ancient Runes,古代ルーン文字,3,uncommon,"At the beginning of each player's upkeep, Ancient Runes deals damage to that player equal to the number of artifacts they control.",Enchantment,,,False,False,False,True,False,False
 147,147,5f12134c-d626-4a5e-8653-700681a491fc,Ancient Silverback,年経たシルバーバック,6,rare,"{G}: Regenerate Ancient Silverback. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",Creature — Ape,6,5,False,False,False,False,True,False
 148,148,28537019-3061-4efc-8e87-9bb805bf520f,Ancient Spider,年経た蜘蛛,4,rare,First strike; reach (This creature can block creatures with flying.),Creature — Spider,2,5,True,False,False,False,True,False
@@ -252,7 +252,7 @@ Flying",Creature — Wall,0,4,True,False,False,False,False,False
 168,168,eaabd151-2160-4bff-82c0-3fa88659be98,Anger,憤怒,4,uncommon,"Haste
 As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.",Creature — Incarnation,2,2,False,False,False,True,False,False
 169,169,967c2c79-7e49-448d-8d30-b2eb08b21d0a,Angry Mob,怒れる群衆,4,uncommon,"Trample
-As long as it's your turn, Angry Mob's power and toughness are each equal to 2 plus the number of Swamps your opponents control. As long as it's not your turn, Angry Mob's power and toughness are each 2.",Creature — Human,2+*,2+*,True,False,False,False,False,False
+As long as it's your turn, Angry Mob's power and toughness are each equal to 2 plus the number of Swamps your opponents control. As long as it's not your turn, Angry Mob's power and toughness are each 2.",Creature — Human,2,2,True,False,False,False,False,False
 170,170,6fa9debf-c60e-432d-86c8-aed16556c532,Animal Boneyard,獣の墓場,3,uncommon,"Enchant land
 Enchanted land has ""{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.""",Enchantment — Aura,,,True,False,False,False,False,False
 171,171,a1bdf7f1-e3f7-4a13-9cf0-a2394df6cc74,Animal Magnetism,動物の魅了,5,rare,Reveal the top five cards of your library. An opponent chooses a creature card from among them. Put that card onto the battlefield and the rest into your graveyard.,Sorcery,,,False,False,False,False,True,False
@@ -521,7 +521,7 @@ Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1
 {1}, {T}: Add {W}.
 {2}, {T}: Add {G} or {U}.",Land,,,False,False,False,False,False,True
 328,328,786b2028-cf24-4f00-b1d6-05b94e78d617,Aysen Bureaucrats,アイゼンの官吏,2,common,{T}: Tap target creature with power 2 or less.,Creature — Human Advisor,1,1,True,False,False,False,False,False
-329,329,3ebbe05c-7cc4-4845-87e5-ab93d7ac9623,Aysen Crusader,,4,rare,Aysen Crusader's power and toughness are each equal to 2 plus the number of Soldiers and Warriors you control.,Creature — Human Knight,2+*,2+*,True,False,False,False,False,False
+329,329,3ebbe05c-7cc4-4845-87e5-ab93d7ac9623,Aysen Crusader,,4,rare,Aysen Crusader's power and toughness are each equal to 2 plus the number of Soldiers and Warriors you control.,Creature — Human Knight,2,2,True,False,False,False,False,False
 330,330,415bc26d-60fb-41ac-8006-7dd861671c14,Aysen Highway,,6,rare,White creatures have plainswalk. (They can't be blocked as long as defending player controls a Plains.),Enchantment,,,True,False,False,False,False,False
 331,331,a82d9c9b-ec17-4f51-a6bf-5984ca4433e5,Azimaet Drake,アズィーマイエト・ドレイク,3,common,"Flying
 {U}: Azimaet Drake gets +1/+0 until end of turn. Activate only once each turn.",Creature — Drake,1,3,False,True,False,False,False,False
@@ -630,7 +630,7 @@ Nongreen creatures you control get +1/+0 until end of turn.",Instant,,,False,Fal
 400,400,e73131cd-b454-405b-9539-9d777e232b9e,Battle Screech,金切るときの声,4,uncommon,"Create two 1/1 white Bird creature tokens with flying.
 Flashback—Tap three untapped white creatures you control. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",Sorcery,,,True,False,False,False,False,False
 401,401,5783e71e-2497-4241-9d1a-8bced4745b1d,Battle Squadron,戦闘飛翔艇隊,5,rare,"Flying
-Battle Squadron's power and toughness are each equal to the number of creatures you control.",Creature — Goblin,*,*,False,False,False,True,False,False
+Battle Squadron's power and toughness are each equal to the number of creatures you control.",Creature — Goblin,0,0,False,False,False,True,False,False
 402,402,c4d49ecc-8650-4e91-9a39-a4a25213a5f7,Battle Strain,戦いの重圧,2,uncommon,"Whenever a creature blocks, Battle Strain deals 1 damage to that creature's controller.",Enchantment,,,False,False,False,True,False,False
 403,403,9b544415-841d-4038-841b-efb0cede5c24,Battle of Wits,機知の戦い,5,rare,"At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.",Enchantment,,,False,True,False,False,False,False
 404,404,6b75b94e-83b7-457e-ac41-7ca90b5a59aa,Battlefield Forge,戦場の鍛冶場,0,rare,"{T}: Add {C}.
@@ -652,7 +652,7 @@ Whenever a player casts a spell, counter it if a card with the same name is in a
 415,415,3f5acd90-199c-4ed3-9c8a-eeac4670d876,Beast Attack,獣の襲撃,5,uncommon,"Create a 4/4 green Beast creature token.
 Flashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",Instant,,,False,False,False,False,True,False
 416,416,68dfc626-66d5-4a40-9410-2b15676ebcec,Beast Walkers,,3,rare,"{G}: Beast Walkers gains banding until end of turn. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",Creature — Human Beast Soldier,2,2,True,False,False,False,False,False
-417,417,67389ccc-dacc-4ce3-a9a2-f551a0d6e9d3,Beast of Burden,役畜,6,rare,Beast of Burden's power and toughness are each equal to the number of creatures on the battlefield.,Artifact Creature — Golem,*,*,False,False,False,False,False,True
+417,417,67389ccc-dacc-4ce3-a9a2-f551a0d6e9d3,Beast of Burden,役畜,6,rare,Beast of Burden's power and toughness are each equal to the number of creatures on the battlefield.,Artifact Creature — Golem,0,0,False,False,False,False,False,True
 418,418,9b0bc2d3-d64b-455a-a258-d3c91892f1a7,Beasts of Bogardan,ボガーダンの獣,5,uncommon,"Protection from red
 Beasts of Bogardan gets +1/+1 as long as an opponent controls a nontoken white permanent.",Creature — Beast,3,3,False,False,False,True,False,False
 419,419,c28d4caf-9b7c-40b1-9cbe-275ca9dae06a,Bedlam,精神異常,4,rare,Creatures can't block.,Enchantment,,,False,False,False,True,False,False
@@ -1043,7 +1043,7 @@ At the beginning of the end step, if no creatures are on the battlefield, sacrif
 672,672,ec79255f-4b4d-4a0a-89d8-c59ba640275b,Caller of the Claw,鉤爪の統率者,3,rare,"Flash
 When Caller of the Claw enters the battlefield, create a 2/2 green Bear creature token for each nontoken creature put into your graveyard from the battlefield this turn.",Creature — Elf,2,2,False,False,False,False,True,False
 673,673,2ad60059-7a29-40a8-b595-3932f1222d33,Caller of the Hunt,狩りの統率者,3,rare,"As an additional cost to cast this spell, choose a creature type.
-Caller of the Hunt's power and toughness are each equal to the number of creatures of the chosen type on the battlefield.",Creature — Human,*,*,False,False,False,False,True,False
+Caller of the Hunt's power and toughness are each equal to the number of creatures of the chosen type on the battlefield.",Creature — Human,0,0,False,False,False,False,True,False
 674,674,7a2336ff-c8ed-4daa-b182-403c21bc8133,Callous Giant,無神経な巨人,6,rare,"If a source would deal 3 or less damage to Callous Giant, prevent that damage.",Creature — Giant,4,4,False,False,False,True,False,False
 675,675,de14f6a9-1c62-42e9-b174-3e8b1080e0dc,Callous Oppressor,無神経な抑圧者,3,rare,"You may choose not to untap Callous Oppressor during your untap step.
 As Callous Oppressor enters the battlefield, an opponent chooses a creature type.
@@ -1063,7 +1063,7 @@ Flashback {G} (You may cast this card from your graveyard for its flashback cost
 684,684,a151c45f-0b9e-41af-90b3-fafa12e3bbce,Canopy Surge,梢のうねり,2,uncommon,"Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Canopy Surge deals 1 damage to each creature with flying and each player. If this spell was kicked, it deals 4 damage to each creature with flying and each player instead.",Sorcery,,,False,False,False,False,True,False
 685,685,2ed5083e-1c58-48c0-8413-390971021d94,Cantivore,歌を食うもの,3,rare,"Vigilance
-Cantivore's power and toughness are each equal to the number of enchantment cards in all graveyards.",Creature — Lhurgoyf,*,*,True,False,False,False,False,False
+Cantivore's power and toughness are each equal to the number of enchantment cards in all graveyards.",Creature — Lhurgoyf,0,0,True,False,False,False,False,False
 686,686,b5b46c99-1cc1-465a-a831-3fd6665ef560,Canyon Drake,峡谷のドレイク,4,rare,"Flying
 {1}, Discard a card at random: Canyon Drake gets +2/+0 until end of turn.",Creature — Drake,1,2,False,False,False,True,False,False
 687,687,dbf7b3ef-1ca4-4b0d-bec2-f5e60b150013,Canyon Wildcat,峡谷の山猫,2,common,Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.),Creature — Cat,2,1,False,False,False,True,False,False
@@ -1228,7 +1228,7 @@ Threshold — {2}{R}, {T}: Chainflinger deals 2 damage to any target. Activate o
 Enchanted land has ""{T}, Discard a card: Gain control of target creature until end of turn.""",Enchantment — Aura,,,False,True,False,False,False,False
 791,791,0e1267d4-0155-4503-829a-03264c8d14a0,Chambered Nautilus,オウムガイ,3,uncommon,"Whenever Chambered Nautilus becomes blocked, you may draw a card.",Creature — Nautilus Beast,2,2,False,True,False,False,False,False
 792,792,9ae547df-d280-41fb-81b4-24e52d60c25b,Chameleon Spirit,カメレオン・スピリット,4,uncommon,"As Chameleon Spirit enters the battlefield, choose a color.
-Chameleon Spirit's power and toughness are each equal to the number of permanents of the chosen color your opponents control.",Creature — Illusion Spirit,*,*,False,True,False,False,False,False
+Chameleon Spirit's power and toughness are each equal to the number of permanents of the chosen color your opponents control.",Creature — Illusion Spirit,0,0,False,True,False,False,False,False
 793,793,2681bfb5-127b-4046-85ac-72be584999cb,Champion Lancer,,6,rare,Prevent all damage that would be dealt to Champion Lancer by creatures.,Creature — Human Knight,3,3,True,False,False,False,False,False
 794,794,8df38d95-1707-4f83-9d64-41f0be2a3b3b,Champion's Victory,勇者の勝利,1,uncommon,"Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Return target attacking creature to its owner's hand.",Instant,,,False,True,False,False,False,False
@@ -1455,9 +1455,9 @@ Flashback {B} (You may cast this card from your graveyard for its flashback cost
 924,924,c19ec6aa-aadd-4767-b695-384fd07b4ded,Coffin Queen,棺の女王,3,rare,"You may choose not to untap Coffin Queen during your untap step.
 {2}{B}, {T}: Put target creature card from a graveyard onto the battlefield under your control. When Coffin Queen becomes untapped or you lose control of Coffin Queen, exile that creature.",Creature — Zombie Wizard,1,1,False,False,True,False,False,False
 925,925,8b4aae48-be01-4b42-8d32-45071650da03,Cognivore,認識を食うもの,8,rare,"Flying
-Cognivore's power and toughness are each equal to the number of instant cards in all graveyards.",Creature — Lhurgoyf,*,*,False,True,False,False,False,False
+Cognivore's power and toughness are each equal to the number of instant cards in all graveyards.",Creature — Lhurgoyf,0,0,False,True,False,False,False,False
 926,926,b0bdc033-29f0-4dcb-87ff-ccd56126f7e5,Coiled Tinviper,とぐろ巻きブリキクサリヘビ,3,common,First strike,Artifact Creature — Snake,2,1,False,False,False,False,False,True
-927,927,75dcdf05-b392-4a96-98ae-5ec4cd425eee,Coiling Woodworm,とぐろ木食い虫,3,uncommon,Coiling Woodworm's power is equal to the number of Forests on the battlefield.,Creature — Insect Worm,*,1,False,False,False,False,True,False
+927,927,75dcdf05-b392-4a96-98ae-5ec4cd425eee,Coiling Woodworm,とぐろ木食い虫,3,uncommon,Coiling Woodworm's power is equal to the number of Forests on the battlefield.,Creature — Insect Worm,0,1,False,False,False,False,True,False
 928,928,02a8a4e6-2081-4903-81ad-96e5a949dff8,Coils of the Medusa,メドゥーサの髪,2,common,"Enchant creature
 Enchanted creature gets +1/-1.
 Sacrifice Coils of the Medusa: Destroy all non-Wall creatures blocking enchanted creature.",Enchantment — Aura,,,False,False,True,False,False,False
@@ -1728,13 +1728,13 @@ Enchanted creature has ""At the beginning of your upkeep, target opponent gains 
 1091,1091,fc9e82b2-f148-431b-9312-97b7101cffe4,Cyclone,サイクロン,4,rare,"At the beginning of your upkeep, put a wind counter on Cyclone, then sacrifice Cyclone unless you pay {G} for each wind counter on it. If you pay, Cyclone deals damage equal to the number of wind counters on it to each creature and each player.",Enchantment,,,False,False,False,False,True,False
 1092,1092,f5f2c98c-dd89-4b60-83e5-07f5fdc699ef,Cyclopean Mummy,隻眼のミイラ,2,common,"When Cyclopean Mummy dies, exile it.",Creature — Zombie,2,1,False,False,True,False,False,False
 1093,1093,81bc4a5e-812f-4809-b6df-271c3c22f4fc,D'Avenant Archer,ダブナントの射手,3,common,{T}: D'Avenant Archer deals 1 damage to target attacking or blocking creature.,Creature — Human Soldier Archer,1,2,True,False,False,False,False,False
-1094,1094,1aa78e3b-bf7e-4645-9521-4b3537c93f46,Dakkon Blackblade,黒き剣のダッコン,6,rare,Dakkon Blackblade's power and toughness are each equal to the number of lands you control.,Legendary Creature — Human Warrior,*,*,True,True,True,False,False,False
+1094,1094,1aa78e3b-bf7e-4645-9521-4b3537c93f46,Dakkon Blackblade,黒き剣のダッコン,6,rare,Dakkon Blackblade's power and toughness are each equal to the number of lands you control.,Legendary Creature — Human Warrior,0,0,True,True,True,False,False,False
 1095,1095,724d8247-33b1-42bf-a827-7b66e45504c1,Dakmor Bat,ダクムーアのコウモリ,2,common,Flying,Creature — Bat,1,1,False,False,True,False,False,False
 1096,1096,6b25b7d7-ebb1-474c-9898-e027dbf0bbdd,Dakmor Ghoul,,4,uncommon,"When Dakmor Ghoul enters the battlefield, target opponent loses 2 life and you gain 2 life.",Creature — Zombie,2,2,False,False,True,False,False,False
 1097,1097,00efb113-ba5a-4749-b42b-5693b980f26f,Dakmor Lancer,ダクムーアの槍騎兵,6,uncommon,"When Dakmor Lancer enters the battlefield, destroy target nonblack creature.",Creature — Human Knight,3,3,False,False,True,False,False,False
 1098,1098,a6cc516d-5a4b-455a-ab16-367d64215527,Dakmor Plague,ダクムーアの疫病,5,uncommon,Dakmor Plague deals 3 damage to each creature and each player.,Sorcery,,,False,False,True,False,False,False
 1099,1099,008290c2-499d-425b-9a6c-c4aeb47c33ff,Dakmor Scorpion,ダクムーアの蠍,2,common,,Creature — Scorpion,2,1,False,False,True,False,False,False
-1100,1100,be5d9522-40b4-4f45-978b-d78bd00f9491,Dakmor Sorceress,ダクムーアの女魔術師,6,rare,Dakmor Sorceress's power is equal to the number of Swamps you control.,Creature — Human Wizard,*,4,False,False,True,False,False,False
+1100,1100,be5d9522-40b4-4f45-978b-d78bd00f9491,Dakmor Sorceress,ダクムーアの女魔術師,6,rare,Dakmor Sorceress's power is equal to the number of Swamps you control.,Creature — Human Wizard,0,4,False,False,True,False,False,False
 1101,1101,3584a055-5220-4721-89f8-de33f779122f,Damping Engine,減衰機関,4,rare,"A player who controls more permanents than each other player can't play lands or cast artifact, creature, or enchantment spells. That player may sacrifice a permanent for that player to ignore this effect until end of turn.",Artifact,,,False,False,False,False,False,True
 1102,1102,72e1a239-11a7-4dbe-b093-65d395e3ccc9,Dance of Many,あまたの舞い,2,rare,"When Dance of Many enters the battlefield, create a token that's a copy of target nontoken creature.
 When Dance of Many leaves the battlefield, exile the token.
@@ -1819,7 +1819,7 @@ Whenever Dauthi Mindripper attacks and isn't blocked, you may sacrifice it. If y
 Dauthi Slayer attacks each combat if able.",Creature — Dauthi Soldier,2,2,False,False,True,False,False,False
 1148,1148,3aa64915-8b1b-4414-b11e-d2078c1732a5,Dauthi Trapper,ダウスィーのわな師,3,uncommon,{T}: Target creature gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.),Creature — Dauthi Minion,1,1,False,False,True,False,False,False
 1149,1149,42bb6537-fa54-43b7-84f2-dea41adc35fd,Dauthi Warlord,ダウスィーの大将軍,2,uncommon,"Shadow (This creature can block or be blocked by only creatures with shadow.)
-Dauthi Warlord's power is equal to the number of creatures with shadow on the battlefield.",Creature — Dauthi Soldier,*,1,False,False,True,False,False,False
+Dauthi Warlord's power is equal to the number of creatures with shadow on the battlefield.",Creature — Dauthi Soldier,0,1,False,False,True,False,False,False
 1150,1150,307421ed-aa59-4518-a0eb-689c60d7b709,Dawn Elemental,曙光の精霊,4,rare,"Flying
 Prevent all damage that would be dealt to Dawn Elemental.",Creature — Elemental,3,3,True,False,False,False,False,False
 1151,1151,309e61f5-1fc7-4481-8d3a-9b35d335c99f,Dawn of the Dead,死者の夜明け,5,rare,"At the beginning of your upkeep, you lose 1 life.
@@ -2108,7 +2108,7 @@ Whenever Doomsday Specter deals combat damage to a player, look at that player's
 When Dormant Volcano enters the battlefield, sacrifice it unless you return an untapped Mountain you control to its owner's hand.
 {T}: Add {C}{R}.",Land,,,False,False,False,False,False,True
 1340,1340,23425b11-e40d-4f68-8903-3084ad45319f,Doubtless One,疑念無き者,4,uncommon,"Doubtless One's power and toughness are each equal to the number of Clerics on the battlefield.
-Whenever Doubtless One deals damage, you gain that much life.",Creature — Cleric Avatar,*,*,True,False,False,False,False,False
+Whenever Doubtless One deals damage, you gain that much life.",Creature — Cleric Avatar,0,0,True,False,False,False,False,False
 1341,1341,3bdc96d9-7272-4e38-b81a-ec928dd49eaa,Douse,消火,3,uncommon,{1}{U}: Counter target red spell.,Enchantment,,,False,True,False,False,False,False
 1342,1342,c2508190-5aca-4511-adc8-2072cd228119,Downdraft,下方流,3,uncommon,"{G}: Target creature loses flying until end of turn.
 Sacrifice Downdraft: It deals 2 damage to each creature with flying.",Enchantment,,,False,False,False,False,True,False
@@ -2187,7 +2187,7 @@ At the beginning of each player's upkeep, that player may choose any number of t
 Draw a card.",Instant,,,False,False,True,False,False,False
 1384,1384,8126e60b-cf3d-4bf0-bfb5-f1e914d3e20e,Dregs of Sorrow,悲しみの残りカス,5,rare,Destroy X target nonblack creatures. Draw X cards.,Sorcery,,,False,False,True,False,False,False
 1385,1385,bcea5e7e-655d-48ea-871e-28ca49e5c574,Drift of the Dead,死者の漂い,4,uncommon,"Defender (This creature can't attack.)
-Drift of the Dead's power and toughness are each equal to the number of snow lands you control.",Creature — Wall,*,*,False,False,True,False,False,False
+Drift of the Dead's power and toughness are each equal to the number of snow lands you control.",Creature — Wall,0,0,False,False,True,False,False,False
 1386,1386,fdea1945-0bb6-4a83-8cb1-5ba6a4dc39bd,Drifting Djinn,漂うジン,6,rare,"Flying
 At the beginning of your upkeep, sacrifice Drifting Djinn unless you pay {1}{U}.
 Cycling {2} ({2}, Discard this card: Draw a card.)",Creature — Djinn,5,5,False,True,False,False,False,False
@@ -2468,7 +2468,7 @@ Enchanted creature can block any number of creatures.",Enchantment — Aura,,,Tr
 1564,1564,a9c44443-85c7-4d0a-82ab-36137151e4e5,Entropic Specter,無規律の死霊,5,rare,"Flying
 As Entropic Specter enters the battlefield, choose an opponent.
 Entropic Specter's power and toughness are each equal to the number of cards in the chosen player's hand.
-Whenever Entropic Specter deals damage to a player, that player discards a card.",Creature — Specter Spirit,*,*,False,False,True,False,False,False
+Whenever Entropic Specter deals damage to a player, that player discards a card.",Creature — Specter Spirit,0,0,False,False,True,False,False,False
 1565,1565,30062dd0-c049-4872-8011-8b4810a3fa26,Envelop,被覆,1,common,Counter target sorcery spell.,Instant,,,False,True,False,False,False,False
 1566,1566,e4f28144-71c8-4393-b383-047529fe8878,Ephemeron,カゲロウ獣,6,rare,"Flying
 Discard a card: Return Ephemeron to its owner's hand.",Creature — Illusion,4,4,False,True,False,False,False,False
@@ -3050,7 +3050,7 @@ Enchanted creature gets +3/+3 and has trample.
 {G}: Regenerate enchanted creature.",Enchantment — Aura,,,False,False,False,False,True,False
 1930,1930,f21c3d22-6149-475f-ae6e-37a25ef020e5,Gaea's Herald,ガイアの伝令,2,rare,Creature spells can't be countered.,Creature — Elf,1,1,False,False,False,False,True,False
 1931,1931,8d134a60-e1e5-4163-8bdc-36af91567185,Gaea's Liege,大地のしもべ,6,rare,"As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls.
-{T}: Target land becomes a Forest until Gaea's Liege leaves the battlefield.",Creature — Avatar,*,*,False,False,False,False,True,False
+{T}: Target land becomes a Forest until Gaea's Liege leaves the battlefield.",Creature — Avatar,0,0,False,False,False,False,True,False
 1932,1932,73b26f12-78eb-4d01-9dd6-ee643c7a80a8,Gaea's Might,ガイアの力,1,common,Domain — Target creature gets +1/+1 until end of turn for each basic land type among lands you control.,Instant,,,False,False,False,False,True,False
 1933,1933,dd0da475-55d0-462e-bfac-6eeb5d39a099,Gaea's Skyfolk,ガイアの空の民,2,common,Flying,Creature — Elf Merfolk,2,2,False,True,False,False,True,False
 1934,1934,5115eb6b-efae-4561-912a-f7909cc75775,Gainsay,反論,2,uncommon,Counter target blue spell.,Instant,,,False,True,False,False,False,False
@@ -3473,7 +3473,7 @@ Morph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 2219,2219,e9aac98a-6fad-463e-89fa-3ad3a7c7f53a,Haunted Crossroads,逢魔が辻,3,uncommon,{B}: Put target creature card from your graveyard on top of your library.,Enchantment,,,False,False,True,False,False,False
 2220,2220,ced9130c-2865-49df-abdd-84069aa1b180,Haunting Apparition,立ち去らぬ亡霊,3,uncommon,"Flying
 As Haunting Apparition enters the battlefield, choose an opponent.
-Haunting Apparition's power is equal to 1 plus the number of green creature cards in the chosen player's graveyard.",Creature — Spirit,1+*,2,False,True,True,False,False,False
+Haunting Apparition's power is equal to 1 plus the number of green creature cards in the chosen player's graveyard.",Creature — Spirit,1,2,False,True,True,False,False,False
 2221,2221,3abd345a-69a5-486e-ada9-dd1ca0decc28,Haunting Echoes,消えないこだま,5,rare,"Exile all cards from target player's graveyard other than basic land cards. For each card exiled this way, search that player's library for all cards with the same name as that card and exile them. Then that player shuffles.",Sorcery,,,False,False,True,False,False,False
 2222,2222,8db6651b-c368-46fd-b9c2-69a4d6562246,Haunting Misery,惨劇の記憶,3,common,"As an additional cost to cast this spell, exile X creature cards from your graveyard.
 Haunting Misery deals X damage to target player or planeswalker.",Sorcery,,,False,False,True,False,False,False
@@ -3531,7 +3531,7 @@ Prevent all damage that would be dealt to you this turn by attacking creatures."
 2253,2253,0ec153ee-2a91-4196-9105-212dd1864aea,Hecatomb,あまたの生け贄,3,rare,"When Hecatomb enters the battlefield, sacrifice Hecatomb unless you sacrifice four creatures.
 Tap an untapped Swamp you control: Hecatomb deals 1 damage to any target.",Enchantment,,,False,False,True,False,False,False
 2254,2254,c4ec45e9-1a4d-42a0-beca-e4dcdfc88fa3,Heedless One,頓着無き者,4,uncommon,"Trample
-Heedless One's power and toughness are each equal to the number of Elves on the battlefield.",Creature — Elf Avatar,*,*,False,False,False,False,True,False
+Heedless One's power and toughness are each equal to the number of Elves on the battlefield.",Creature — Elf Avatar,0,0,False,False,False,False,True,False
 2255,2255,a69a0720-35fb-450d-8d48-8e51a14ffa49,Heightened Awareness,研ぎすまされた知覚,5,rare,"As Heightened Awareness enters the battlefield, discard your hand.
 At the beginning of your draw step, draw an additional card.",Enchantment,,,False,True,False,False,False,False
 2256,2256,8d4de785-20e9-430e-8df1-f39dac0ef07d,Helionaut,陽光の降下兵,3,common,"Flying
@@ -4077,7 +4077,7 @@ When Keldon Champion enters the battlefield, it deals 3 damage to target player 
 2605,2605,c886a076-dbe2-4d80-8dab-537b84d0837a,Keldon Twilight,ケルドの黄昏,3,rare,"At the beginning of each player's end step, if no creatures attacked this turn, that player sacrifices a creature they controlled since the beginning of the turn.",Enchantment,,,False,False,True,True,False,False
 2606,2606,0aa7bd6a-0a8d-4413-a9e8-b7a459300841,Keldon Vandals,ケルドの蛮人,3,common,"Echo {2}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Keldon Vandals enters the battlefield, destroy target artifact.",Creature — Human Rogue,4,1,False,False,False,True,False,False
-2607,2607,acc869f8-dcbe-4d57-baa0-3eef4aceb251,Keldon Warlord,ケルドの大将軍,4,uncommon,Keldon Warlord's power and toughness are each equal to the number of non-Wall creatures you control.,Creature — Human Barbarian,*,*,False,False,False,True,False,False
+2607,2607,acc869f8-dcbe-4d57-baa0-3eef4aceb251,Keldon Warlord,ケルドの大将軍,4,uncommon,Keldon Warlord's power and toughness are each equal to the number of non-Wall creatures you control.,Creature — Human Barbarian,0,0,False,False,False,True,False,False
 2608,2608,4d47e598-690e-4850-97e4-7136bc7b497e,Kelsinko Ranger,,1,common,{1}{W}: Target green creature gains first strike until end of turn.,Creature — Human Ranger,1,1,True,False,False,False,False,False
 2609,2609,1523671c-0cf4-442c-a5f8-c74ae31016e6,Kezzerdrix,ケザードリックス,4,rare,"First strike
 At the beginning of your upkeep, if your opponents control no creatures, Kezzerdrix deals 4 damage to you.",Creature — Rabbit Beast,4,4,False,False,True,False,False,False
@@ -4326,7 +4326,7 @@ Leviathan can't attack unless you sacrifice two Islands. (This cost is paid as a
 2757,2757,94b703c4-5584-4913-8365-7e9f2f535c2d,Levitation,空中浮遊,4,uncommon,Creatures you control have flying.,Enchantment,,,False,True,False,False,False,False
 2758,2758,a4ae41c7-9631-407d-8fd3-04f403d940a8,Ley Druid,草原のドルイド僧,3,uncommon,{T}: Untap target land.,Creature — Human Druid,1,1,False,False,False,False,True,False
 2759,2759,230d79dd-15dd-431d-af22-bdc6eaf86341,Ley Line,魔力の道,4,uncommon,"At the beginning of each player's upkeep, that player may put a +1/+1 counter on target creature of their choice.",Enchantment,,,False,False,False,False,True,False
-2760,2760,0fe76004-b2f4-4b11-abce-75fd76f68b4d,Lhurgoyf,ルアゴイフ,4,rare,Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.,Creature — Lhurgoyf,*,1+*,False,False,False,False,True,False
+2760,2760,0fe76004-b2f4-4b11-abce-75fd76f68b4d,Lhurgoyf,ルアゴイフ,4,rare,Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.,Creature — Lhurgoyf,0,1,False,False,False,False,True,False
 2761,2761,65f1bebb-6441-4189-b6de-993ec9d24a59,Liability,責任,3,rare,"Whenever a nontoken permanent is put into a player's graveyard from the battlefield, that player loses 1 life.",Enchantment,,,False,False,True,False,False,False
 2762,2762,f17e6c85-4813-4b0f-a0e9-d295822e9bb5,Liberate,解放,2,uncommon,Exile target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.,Instant,,,True,False,False,False,False,False
 2763,2763,c5081f2d-ebe2-4ff3-a8ef-fe50f8ecde60,Liberated Dwarf,開放されたドワーフ,1,common,"{R}, Sacrifice Liberated Dwarf: Target green creature gets +1/+0 and gains first strike until end of turn.",Creature — Dwarf,1,1,False,False,False,True,False,False
@@ -4449,7 +4449,7 @@ At the beginning of your upkeep, sacrifice a creature other than Lord of the Pit
 2839,2839,7714af0e-41d9-4609-967f-27233b46055f,Lord of the Undead,アンデッドの王,3,rare,"Other Zombie creatures get +1/+1.
 {1}{B}, {T}: Return target Zombie card from your graveyard to your hand.",Creature — Zombie,2,2,False,False,True,False,False,False
 2840,2840,75f047dc-4a51-494d-8765-fa7502d1fd06,Lost Order of Jarkeld,,4,rare,"As Lost Order of Jarkeld enters the battlefield, choose an opponent.
-Lost Order of Jarkeld's power and toughness are each equal to 1 plus the number of creatures the chosen player controls.",Creature — Human Knight,1+*,1+*,True,False,False,False,False,False
+Lost Order of Jarkeld's power and toughness are each equal to 1 plus the number of creatures the chosen player controls.",Creature — Human Knight,1,1,True,False,False,False,False,False
 2841,2841,1c68e877-ee47-42bf-a867-3f7f479eae1c,Lost Soul,迷える魂,3,common,Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.),Creature — Spirit Minion,2,1,False,False,True,False,False,False
 2842,2842,820ba630-c543-491c-8c77-ada69b01c79d,Lost in Thought,ぼんやり,2,common,"Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated. Its controller may exile three cards from their graveyard for that player to ignore this effect until end of turn.",Enchantment — Aura,,,False,True,False,False,False,False
@@ -4529,7 +4529,7 @@ Whenever a creature with a magnet counter on it attacks, all creatures with magn
 2890,2890,421c661a-24d9-4797-b538-2a4243825628,Magnify,拡大,1,common,All creatures get +1/+1 until end of turn.,Instant,,,False,False,False,False,True,False
 2891,2891,b153e4c4-6557-43a6-8404-e4450f879945,Magnigoth Treefolk,マグニゴス・ツリーフォーク,5,rare,"Domain — For each basic land type among lands you control, Magnigoth Treefolk has landwalk of that type. (It can't be blocked as long as defending player controls a land of that type.)",Creature — Treefolk,2,6,False,False,False,False,True,False
 2892,2892,882da1c6-7b86-4de0-9161-ce7c50f9c90c,Magnivore,猛烈に食うもの,4,rare,"Haste (This creature can attack and {T} as soon as it comes under your control.)
-Magnivore's power and toughness are each equal to the number of sorcery cards in all graveyards.",Creature — Lhurgoyf,*,*,False,False,False,True,False,False
+Magnivore's power and toughness are each equal to the number of sorcery cards in all graveyards.",Creature — Lhurgoyf,0,0,False,False,False,True,False,False
 2893,2893,d8857977-c8a5-4703-9aaa-331b17c7a713,Magus of the Unseen,見えざる者の大魔道師,2,rare,"{1}{U}, {T}: Untap target artifact an opponent controls and gain control of it until end of turn. It gains haste until end of turn. When you lose control of the artifact, tap it.",Creature — Human Wizard,1,1,False,True,False,False,False,False
 2894,2894,c39ea5f9-6ec0-4697-897b-779e326754a7,Mahamoti Djinn,マハモティ・ジン,6,rare,Flying (This creature can't be blocked except by creatures with flying or reach.),Creature — Djinn,5,6,False,True,False,False,False,False
 2895,2895,fb52dbf1-0cbc-4e1d-8ded-0498b529b4b8,Major Teroh,ティーロ大隊長,4,rare,"Flying
@@ -4589,7 +4589,7 @@ When you control no Islands, sacrifice Manta Ray.",Creature — Fish,3,3,False,T
 {2}: Mantis Engine gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",Artifact Creature — Insect,3,3,False,False,False,False,False,True
 2929,2929,8745b061-d5c6-46c1-a3fc-4d71d717f19e,Marauding Knight,無法の騎士,4,rare,"Protection from white
 Marauding Knight gets +1/+1 for each Plains your opponents control.",Creature — Phyrexian Zombie Knight,2,2,False,False,True,False,False,False
-2930,2930,af4b67c5-53dc-4e4d-9ec4-fa51cc3cd49a,Maraxus of Keld,ケルドのマラクザス,6,rare,"Maraxus of Keld's power and toughness are each equal to the number of untapped artifacts, creatures, and lands you control.",Legendary Creature — Human Warrior,*,*,False,False,False,True,False,False
+2930,2930,af4b67c5-53dc-4e4d-9ec4-fa51cc3cd49a,Maraxus of Keld,ケルドのマラクザス,6,rare,"Maraxus of Keld's power and toughness are each equal to the number of untapped artifacts, creatures, and lands you control.",Legendary Creature — Human Warrior,0,0,False,False,False,True,False,False
 2931,2931,910488bf-66ab-415e-973b-1262b2ab7454,Marble Diamond,乳白色のダイアモンド,2,uncommon,"Marble Diamond enters the battlefield tapped.
 {T}: Add {W}.",Artifact,,,False,False,False,False,False,True
 2932,2932,62674cfd-f400-44d9-bfff-15bdfbd243fe,Marble Titan,大理石のタイタン,4,rare,Creatures with power 3 or greater don't untap during their controllers' untap steps.,Creature — Giant,3,3,True,False,False,False,False,False
@@ -4605,7 +4605,7 @@ Enchanted creature has haste.
 At the beginning of the end step, return Mark of Fury to its owner's hand.",Enchantment — Aura,,,False,False,False,True,False,False
 2937,2937,4b1614fd-2810-4d4d-a0d6-934f27adbe65,Marker Beetles,目印甲虫,3,common,"When Marker Beetles dies, target creature gets +1/+1 until end of turn.
 {2}, Sacrifice Marker Beetles: Draw a card.",Creature — Insect,2,3,False,False,False,False,True,False
-2938,2938,ef32258a-d567-4fbc-ab85-8c00080f5b36,Maro,マロー,4,rare,Maro's power and toughness are each equal to the number of cards in your hand.,Creature — Elemental,*,*,False,False,False,False,True,False
+2938,2938,ef32258a-d567-4fbc-ab85-8c00080f5b36,Maro,マロー,4,rare,Maro's power and toughness are each equal to the number of cards in your hand.,Creature — Elemental,0,0,False,False,False,False,True,False
 2939,2939,246f7446-036d-469c-9583-5699ebdcec6d,Marsh Boa,湿地のボア,1,common,Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.),Creature — Snake,1,1,False,False,False,False,True,False
 2940,2940,1d6f3934-d8f1-4758-b87a-8df8d7dc492c,Marsh Crocodile,湿地のクロコダイル,4,uncommon,"When Marsh Crocodile enters the battlefield, return a blue or black creature you control to its owner's hand.
 When Marsh Crocodile enters the battlefield, each player discards a card.",Creature — Crocodile,4,4,False,True,True,False,False,False
@@ -4771,7 +4771,7 @@ At the beginning of your upkeep, Minion of Leshrac deals 5 damage to you unless 
 {T}: Target creature gets +3/-2 until end of turn.",Creature — Demon Minion,4,4,False,False,True,False,False,False
 3049,3049,2593944c-1bde-4307-b3ca-f7ecbeb027c1,Minion of the Wastes,荒廃の下僕,6,rare,"Trample
 As Minion of the Wastes enters the battlefield, pay any amount of life.
-Minion of the Wastes's power and toughness are each equal to the life paid as it entered the battlefield.",Creature — Minion,*,*,False,False,True,False,False,False
+Minion of the Wastes's power and toughness are each equal to the life paid as it entered the battlefield.",Creature — Minion,0,0,False,False,True,False,False,False
 3050,3050,22374ec2-61b3-46eb-82ed-93bbb42403c4,Minotaur Explorer,ミノタウルスの探検者,2,uncommon,"When Minotaur Explorer enters the battlefield, sacrifice it unless you discard a card at random.",Creature — Minotaur Scout,3,3,False,False,False,True,False,False
 3051,3051,ee5fc6e9-0c10-4015-8853-dd1f33dcc27e,Minotaur Illusionist,ミノタウルスの幻術師,5,uncommon,"{1}{U}: Minotaur Illusionist gains shroud until end of turn. (It can't be the target of spells or abilities.)
 {R}, Sacrifice Minotaur Illusionist: It deals damage equal to its power to target creature.",Creature — Minotaur Wizard,3,4,False,True,False,True,False,False
@@ -4889,7 +4889,7 @@ Mogg Toady can't block unless you control more creatures than attacking player."
 3121,3121,b86ccfc1-a26b-4942-9d77-fef7676c77be,Mole Worms,穴掘り蟲,3,uncommon,"You may choose not to untap Mole Worms during your untap step.
 {T}: Tap target land. It doesn't untap during its controller's untap step for as long as Mole Worms remains tapped.",Creature — Worm,1,1,False,False,True,False,False,False
 3122,3122,b87a2d20-4e9f-4256-9d24-80c38515119e,"Molimo, Maro-Sorcerer",マローの魔術師モリモ,7,rare,"Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
-Molimo, Maro-Sorcerer's power and toughness are each equal to the number of lands you control.",Legendary Creature — Elemental,*,*,False,False,False,False,True,False
+Molimo, Maro-Sorcerer's power and toughness are each equal to the number of lands you control.",Legendary Creature — Elemental,0,0,False,False,False,False,True,False
 3123,3123,cd5bc95d-4915-4c5a-9b57-2730adf69797,Molten Hydra,高熱のハイドラ,2,rare,"{1}{R}{R}: Put a +1/+1 counter on Molten Hydra.
 {T}, Remove all +1/+1 counters from Molten Hydra: It deals damage to any target equal to the number of +1/+1 counters removed this way.",Creature — Hydra,1,1,False,False,False,True,False,False
 3124,3124,d955a26a-d474-4dff-9eba-69fcfe92d8ae,Molten Influence,溶岩操作,2,rare,Counter target instant or sorcery spell unless its controller has Molten Influence deal 4 damage to them.,Instant,,,False,False,False,True,False,False
@@ -4935,7 +4935,7 @@ When enchanted creature is dealt damage, destroy it.",Enchantment — Aura,,,Fal
 3151,3151,4fb8312c-058a-415c-93ab-59d37ebad270,Mortiphobia,死恐怖症,3,uncommon,"{1}{B}, Discard a card: Exile target card from a graveyard.
 {1}{B}, Sacrifice Mortiphobia: Exile target card from a graveyard.",Enchantment,,,False,False,True,False,False,False
 3152,3152,2f554218-2072-4d9b-b4d4-34f161f1f2a9,Mortivore,死を食うもの,4,rare,"Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.
-{B}: Regenerate Mortivore.",Creature — Lhurgoyf,*,*,False,False,True,False,False,False
+{B}: Regenerate Mortivore.",Creature — Lhurgoyf,0,0,False,False,True,False,False,False
 3153,3153,8bd2af55-5a48-4300-a893-ae6cd548db24,Mortuary,霊安室,4,rare,"Whenever a creature is put into your graveyard from the battlefield, put that card on top of your library.",Enchantment,,,False,False,True,False,False,False
 3154,3154,02500f21-6e15-423e-93ff-891e09fe9904,Moss Diamond,苔色のダイアモンド,2,uncommon,"Moss Diamond enters the battlefield tapped.
 {T}: Add {G}.",Artifact,,,False,False,False,False,False,True
@@ -4975,7 +4975,7 @@ When Multani's Acolyte enters the battlefield, draw a card.",Creature — Elf,2,
 Enchanted creature has ""{T}: Add one mana of any color.""",Enchantment — Aura,,,False,False,False,False,True,False
 3179,3179,adad1be7-8d3d-4857-a3b0-be33db4c5746,Multani's Presence,ムルタニの存在,1,uncommon,"Whenever a spell you've cast is countered, draw a card.",Enchantment,,,False,False,False,False,True,False
 3180,3180,bce5b327-7da1-4136-b76f-069e2fef5d2a,"Multani, Maro-Sorcerer",マローの魔術師ムルタニ,6,rare,"Shroud (This creature can't be the target of spells or abilities.)
-Multani, Maro-Sorcerer's power and toughness are each equal to the total number of cards in all players' hands.",Legendary Creature — Elemental,*,*,False,False,False,False,True,False
+Multani, Maro-Sorcerer's power and toughness are each equal to the total number of cards in all players' hands.",Legendary Creature — Elemental,0,0,False,False,False,False,True,False
 3181,3181,3fb4161d-a5b9-411d-942c-2fdb039e7bde,Mundungu,ムンドゥングー,3,uncommon,{T}: Counter target spell unless its controller pays {1} and 1 life.,Creature — Human Wizard,1,1,False,True,True,False,False,False
 3182,3182,fe6ff20b-5e4d-44d5-b011-c6e512169294,Mungha Wurm,ムンガ・ワーム,4,rare,You can't untap more than one land during your untap step.,Creature — Wurm,6,5,False,False,False,False,True,False
 3183,3183,a2fe1e2b-b621-4406-b5e0-f2eebd12c2ba,Murderous Betrayal,残忍な裏切り,3,rare,"{B}{B}, Pay half your life, rounded up: Destroy target nonblack creature. It can't be regenerated.",Enchantment,,,False,False,True,False,False,False
@@ -4988,7 +4988,7 @@ Multani, Maro-Sorcerer's power and toughness are each equal to the total number 
 3189,3189,bdf497b5-166f-46a7-8e18-ae0b8f97768c,Muzzle,口輪,2,common,"Enchant creature
 Prevent all damage that would be dealt by enchanted creature.",Enchantment — Aura,,,True,False,False,False,False,False
 3190,3190,42b2c6d0-e0da-41b0-8876-f17dbe5db79a,Mwonvuli Ooze,ムウォンヴーリーの軟泥,1,rare,"Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay {2} for each age counter on it.)
-Mwonvuli Ooze's power and toughness are each equal to 1 plus twice the number of age counters on it.",Creature — Ooze,1+*,1+*,False,False,False,False,True,False
+Mwonvuli Ooze's power and toughness are each equal to 1 plus twice the number of age counters on it.",Creature — Ooze,1,1,False,False,False,False,True,False
 3191,3191,87bafa97-38fd-41a2-8b1d-315e88d9d0bf,Mystic Compass,秘儀のコンパス,2,uncommon,"{1}, {T}: Target land becomes the basic land type of your choice until end of turn.",Artifact,,,False,False,False,False,False,True
 3192,3192,937d663d-c9a7-4312-a4cc-fcb54faa92bc,Mystic Crusader,秘教の十字軍,3,rare,"Protection from black and from red
 Threshold — As long as seven or more cards are in your graveyard, Mystic Crusader gets +1/+1 and has flying.",Creature — Human Nomad Mystic,2,1,True,False,False,False,False,False
@@ -5025,7 +5025,7 @@ If tapped for mana, Plains produce {R}, Islands produce {G}, Swamps produce {W},
 3211,3211,0887dc95-3e75-4f72-bf05-4067d3785376,Nalathni Dragon,ナラスニ・ドラゴン,4,rare,"Flying; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 {R}: Nalathni Dragon gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Nalathni Dragon at the beginning of the next end step.",Creature — Dragon,1,1,False,False,False,True,False,False
 3212,3212,bd8d0498-53f9-484c-a59a-78daca468859,Nameless One,名も無き者,4,uncommon,"Nameless One's power and toughness are each equal to the number of Wizards on the battlefield.
-Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",Creature — Wizard Avatar,*,*,False,True,False,False,False,False
+Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",Creature — Wizard Avatar,0,0,False,True,False,False,False,False
 3213,3213,c40bd057-d1be-45e2-9ebf-4ab176195f17,Nantuko Blightcutter,ナントゥーコの病木刈り,3,rare,"Protection from black
 Threshold — Nantuko Blightcutter gets +1/+1 for each black permanent your opponents control as long as seven or more cards are in your graveyard.",Creature — Insect Druid,2,2,False,False,False,False,True,False
 3214,3214,d4409b15-b9f8-4bdb-9857-5cd70a0d3193,Nantuko Calmer,ナントゥーコの鎮め役,4,common,"{G}, {T}, Sacrifice Nantuko Calmer: Destroy target enchantment.
@@ -5112,7 +5112,7 @@ At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.
 Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.",Legendary Creature — Elder Dragon,7,7,False,True,True,True,False,False
 3268,3268,cb32ab3e-ef76-4afb-959f-f8cc2d18416e,Night // Day,夜 // 昼,4,uncommon,Target creature gets -1/-1 until end of turn.,Instant,,,False,False,True,False,False,False
 3269,3269,375932e6-1b3e-48dc-8154-9b664c3add34,Nightmare,夢魔,6,rare,"Flying (This creature can't be blocked except by creatures with flying or reach.)
-Nightmare's power and toughness are each equal to the number of Swamps you control.",Creature — Nightmare Horse,*,*,False,False,True,False,False,False
+Nightmare's power and toughness are each equal to the number of Swamps you control.",Creature — Nightmare Horse,0,0,False,False,True,False,False,False
 3270,3270,429de3c3-3f2e-4d55-a04a-f414912aff3a,Nightscape Apprentice,夜景学院の弟子,1,common,"{U}, {T}: Put target creature you control on top of its owner's library.
 {R}, {T}: Target creature gains first strike until end of turn.",Creature — Zombie Wizard,1,1,False,False,True,False,False,False
 3271,3271,e96e68b4-cb32-4b75-a885-e1781f4b74ab,Nightscape Battlemage,夜景学院の戦闘魔道士,3,uncommon,"Kicker {2}{U} and/or {2}{R} (You may pay an additional {2}{U} and/or {2}{R} as you cast this spell.)
@@ -5123,7 +5123,7 @@ When Nightscape Battlemage enters the battlefield, if it was kicked with its {2}
 3273,3273,e5f9bd6b-0aa6-4f61-b101-ec194af6d632,Nightscape Master,夜景学院の師匠,4,rare,"{U}{U}, {T}: Return target creature to its owner's hand.
 {R}{R}, {T}: Nightscape Master deals 2 damage to target creature.",Creature — Zombie Wizard,2,2,False,False,True,False,False,False
 3274,3274,9bcf66d0-8a4d-4c57-b4de-4cc35399465e,Nightshade Seer,ベラドンナの予見者,4,uncommon,"{2}{B}, {T}: Reveal any number of black cards in your hand. Target creature gets -X/-X until end of turn, where X is the number of cards revealed this way.",Creature — Human Wizard,1,1,False,False,True,False,False,False
-3275,3275,128b6751-4b47-4d7d-895e-c5d85776f6c4,Nightstalker Engine,夜魔のエンジン,5,rare,Nightstalker Engine's power is equal to the number of creature cards in your graveyard.,Creature — Nightstalker,*,3,False,False,True,False,False,False
+3275,3275,128b6751-4b47-4d7d-895e-c5d85776f6c4,Nightstalker Engine,夜魔のエンジン,5,rare,Nightstalker Engine's power is equal to the number of creature cards in your graveyard.,Creature — Nightstalker,0,3,False,False,True,False,False,False
 3276,3276,9a642db9-c337-481c-b260-11e01f64e68e,Nightwind Glider,夜風の滑空者,3,common,"Flying, protection from black",Creature — Human Rebel,2,1,True,False,False,False,False,False
 3277,3277,1059f089-2693-4c89-92c5-39fe49beebb3,Nimble Mongoose,敏捷なマングース,1,uncommon,"Shroud (This creature can't be the target of spells or abilities.)
 Threshold — Nimble Mongoose gets +2/+2 as long as seven or more cards are in your graveyard.",Creature — Mongoose,1,1,False,False,False,False,True,False
@@ -5318,7 +5318,7 @@ When Palinchron enters the battlefield, untap up to seven lands.
 3418,3418,d7121ac7-e425-46cd-b006-1af391d97f87,Palladia-Mors,パラディア＝モルス,8,rare,"Flying, trample
 At the beginning of your upkeep, sacrifice Palladia-Mors unless you pay {R}{G}{W}.",Legendary Creature — Elder Dragon,7,7,True,False,False,True,True,False
 3419,3419,cad0f865-62e0-47ba-84ae-8e97cb52bbd1,Pallimud,パリムッド,3,rare,"As Pallimud enters the battlefield, choose an opponent.
-Pallimud's power is equal to the number of tapped lands the chosen player controls.",Creature — Beast,*,3,False,False,False,True,False,False
+Pallimud's power is equal to the number of tapped lands the chosen player controls.",Creature — Beast,0,3,False,False,False,True,False,False
 3420,3420,08ee7879-3c9d-43c6-a44e-f81180f938fd,Panacea,万能薬,4,uncommon,"{X}{X}, {T}: Prevent the next X damage that would be dealt to any target this turn.",Artifact,,,False,False,False,False,False,True
 3421,3421,073551ca-2e84-4d49-8484-9890718cc483,Pandemonium,伏魔殿,4,rare,"Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to any target of their choice.",Enchantment,,,False,False,False,True,False,False
 3422,3422,6d9dc632-414e-480c-85ef-c2b98a6460ad,"Pang Tong, ""Young Phoenix""",鳳雛 ホウ統,3,rare,"{T}: Target creature gets +0/+2 until end of turn. Activate only during your turn, before attackers are declared.",Legendary Creature — Human Advisor,1,2,True,False,False,False,False,False
@@ -5438,7 +5438,7 @@ When Personal Incarnation dies, its owner loses half their life, rounded up.",Cr
 You control enchanted creature.",Enchantment — Aura,,,False,True,False,False,False,False
 3491,3491,dafe63ef-f3d6-45e7-877a-573da92ba85e,Pestilence,黒死病,4,common,"At the beginning of the end step, if no creatures are on the battlefield, sacrifice Pestilence.
 {B}: Pestilence deals 1 damage to each creature and each player.",Enchantment,,,False,False,True,False,False,False
-3492,3492,bc6449c8-f0cd-4c07-8acf-436f97e8bbb2,Pestilence Rats,,3,common,"Pestilence Rats's power is equal to the number of other Rats on the battlefield. (For example, as long as there are two other Rats on the battlefield, Pestilence Rats's power and toughness are 2/3.)",Creature — Rat,*,3,False,False,True,False,False,False
+3492,3492,bc6449c8-f0cd-4c07-8acf-436f97e8bbb2,Pestilence Rats,,3,common,"Pestilence Rats's power is equal to the number of other Rats on the battlefield. (For example, as long as there are two other Rats on the battlefield, Pestilence Rats's power and toughness are 2/3.)",Creature — Rat,0,3,False,False,True,False,False,False
 3493,3493,f1ae89ff-b23b-44b2-a30c-6f2ae3216189,Petra Sphinx,ペトラ・スフィンクス,5,rare,"{T}: Target player chooses a card name, then reveals the top card of their library. If that card has the chosen name, that player puts it into their hand. If it doesn't, the player puts it into their graveyard.",Creature — Sphinx,3,4,True,False,False,False,False,False
 3494,3494,ef2e711f-7362-4eed-8f91-f3d653e7f434,Petradon,土喰い巨獣,8,rare,"When Petradon enters the battlefield, exile two target lands.
 When Petradon leaves the battlefield, return the exiled cards to the battlefield under their owners' control.
@@ -5595,7 +5595,7 @@ Whenever you discard a card, you may sacrifice Pitchstone Wall. If you do, retur
 3581,3581,a7cc69fd-0c67-44fc-be9d-d8f5b1bd54f5,Plague Dogs,疫病犬,5,uncommon,"When Plague Dogs dies, all creatures get -1/-1 until end of turn.
 {2}, Sacrifice Plague Dogs: Draw a card.",Creature — Phyrexian Zombie Dog,3,3,False,False,True,False,False,False
 3582,3582,d287c11e-0684-42ed-abdb-758852ed0502,Plague Fiend,疫病悪鬼,2,common,"Whenever Plague Fiend deals combat damage to a creature, destroy that creature unless its controller pays {2}.",Creature — Insect,1,1,False,False,True,False,False,False
-3583,3583,16cf1cf9-6900-406c-a5b4-0e5750f530e0,Plague Rats,疫病ネズミ,3,common,Plague Rats's power and toughness are each equal to the number of creatures named Plague Rats on the battlefield.,Creature — Rat,*,*,False,False,True,False,False,False
+3583,3583,16cf1cf9-6900-406c-a5b4-0e5750f530e0,Plague Rats,疫病ネズミ,3,common,Plague Rats's power and toughness are each equal to the number of creatures named Plague Rats on the battlefield.,Creature — Rat,0,0,False,False,True,False,False,False
 3584,3584,5feedfb0-30e6-400d-9e28-d541ea1aa14e,Plague Spitter,疫病吐き,3,uncommon,"At the beginning of your upkeep, Plague Spitter deals 1 damage to each creature and each player.
 When Plague Spitter dies, Plague Spitter deals 1 damage to each creature and each player.",Creature — Phyrexian Horror,2,2,False,False,True,False,False,False
 3585,3585,f79f5cb7-d238-41ab-85f0-eb21cc6bf561,Plague Spores,疫病の胞子,6,common,Destroy target nonblack creature and target land. They can't be regenerated.,Sorcery,,,False,False,True,True,False,False
@@ -5687,7 +5687,7 @@ Whenever enchanted creature becomes blocked, tap all lands defending player cont
 3650,3650,902e7d4b-7ab4-40b5-b3a5-c83ef604989a,Primal Boost,原初の支援,3,uncommon,"Target creature gets +4/+4 until end of turn.
 Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)
 When you cycle Primal Boost, you may have target creature get +1/+1 until end of turn.",Instant,,,False,False,False,False,True,False
-3651,3651,dccf2ca8-8c87-41c9-8373-351859396d05,Primal Clay,原初の土,4,rare,"As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)",Artifact Creature — Shapeshifter,*,*,False,False,False,False,False,True
+3651,3651,dccf2ca8-8c87-41c9-8373-351859396d05,Primal Clay,原初の土,4,rare,"As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)",Artifact Creature — Shapeshifter,0,0,False,False,False,False,False,True
 3652,3652,705b4da3-d463-4808-b79c-dc0c1830945a,Primal Frenzy,原初の激情,1,common,"Enchant creature
 Enchanted creature has trample.",Enchantment — Aura,,,False,False,False,False,True,False
 3653,3653,3cbdf37b-7fe3-4791-b33c-8591158b0ce5,Primal Growth,原初の成長,3,common,"Kicker—Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)
@@ -5990,7 +5990,7 @@ Flashback {2}{R} (You may cast this card from your graveyard for its flashback c
 3850,3850,5771296a-16f8-423e-9b83-8e6f687cbb34,Reckless Embermage,無謀なるエンバーの魔道士,4,rare,{1}{R}: Reckless Embermage deals 1 damage to any target and 1 damage to itself.,Creature — Human Wizard,2,2,False,False,False,True,False,False
 3851,3851,fe455177-d9e5-4893-ad87-ebbba5e2fa45,Reckless Ogre,無謀なオーガ,4,common,"Whenever Reckless Ogre attacks alone, it gets +3/+0 until end of turn.",Creature — Ogre,3,2,False,False,False,True,False,False
 3852,3852,6c8a8a7a-ee4f-4005-b6a2-fc418e396748,Reckless One,思慮無き者,4,uncommon,"Haste
-Reckless One's power and toughness are each equal to the number of Goblins on the battlefield.",Creature — Goblin Avatar,*,*,False,False,False,True,False,False
+Reckless One's power and toughness are each equal to the number of Goblins on the battlefield.",Creature — Goblin Avatar,0,0,False,False,False,True,False,False
 3853,3853,a684df3a-5441-4daa-86d1-c47a91b35e6a,Reckless Spite,無謀な悪意,3,uncommon,Destroy two target nonblack creatures. You lose 5 life.,Instant,,,False,False,True,False,False,False
 3854,3854,797155cd-faf4-4321-8629-c8c352392748,Reclaim,回収,1,common,Put target card from your graveyard on top of your library.,Instant,,,False,False,False,False,True,False
 3855,3855,ff942899-a70d-4fca-b125-9712aa635fff,Reclamation,,4,rare,Black creatures can't attack unless their controller sacrifices a land for each black creature they control that's attacking. (This cost is paid as attackers are declared.),Enchantment,,,True,False,False,False,True,False
@@ -6118,7 +6118,7 @@ Draw a card.",Instant,,,True,False,False,False,False,False
 3935,3935,7085d5c6-da96-465e-90cf-8469fcacb474,"Reveka, Wizard Savant",,4,rare,"{T}: Reveka, Wizard Savant deals 2 damage to any target and doesn't untap during your next untap step.",Legendary Creature — Dwarf Wizard,0,1,False,True,False,False,False,False
 3936,3936,251ff4e4-3be4-424e-8dd7-eb4ede7b415c,Revelation,天啓,1,rare,Players play with their hands revealed.,World Enchantment,,,False,False,False,False,True,False
 3937,3937,05fc62d3-9b3c-409a-a623-9f81f395a5a0,Revenant,黄泉からの帰還者,5,rare,"Flying
-Revenant's power and toughness are each equal to the number of creature cards in your graveyard.",Creature — Spirit,*,*,False,False,True,False,False,False
+Revenant's power and toughness are each equal to the number of creature cards in your graveyard.",Creature — Spirit,0,0,False,False,True,False,False,False
 3938,3938,e8d18dc7-f44b-47f6-8400-3f563c2f19b7,Revered Elder,有徳の古老,3,common,{1}: Prevent the next 1 damage that would be dealt to Revered Elder this turn.,Creature — Human Cleric,1,2,True,False,False,False,False,False
 3939,3939,18a8b50b-2328-459b-979d-04c4c769e569,Revered Unicorn,有徳の一角獣,2,uncommon,"Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 When Revered Unicorn leaves the battlefield, you gain life equal to the number of age counters on it.",Creature — Unicorn,2,3,True,False,False,False,False,False
@@ -6342,7 +6342,7 @@ At the beginning of your upkeep, you may put a +1/+1 counter on Rushwood Element
 4085,4085,2e35bcef-505a-4559-a1fe-f42f4543197f,Rushwood Herbalist,ラッシュウッドの薬草医,3,common,"{G}, {T}, Discard a card: Regenerate target creature.",Creature — Human Spellshaper,2,2,False,False,False,False,True,False
 4086,4086,f3623759-bf3a-4846-9ef7-1b732ad4355f,Rushwood Legate,ラッシュウッドの使節,3,uncommon,"If an opponent controls an Island and you control a Forest, you may cast this spell without paying its mana cost.",Creature — Dryad,2,1,False,False,False,False,True,False
 4087,4087,688c232f-385b-4bd5-aed0-e55059111fb3,Rusting Golem,錆びゆくゴーレム,4,uncommon,"Fading 5 (This creature enters the battlefield with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
-Rusting Golem's power and toughness are each equal to the number of fade counters on it.",Artifact Creature — Golem,*,*,False,False,False,False,False,True
+Rusting Golem's power and toughness are each equal to the number of fade counters on it.",Artifact Creature — Golem,0,0,False,False,False,False,False,True
 4088,4088,cf9fc317-3184-4999-84ef-945a8842096e,Rysorian Badger,,3,rare,"Whenever Rysorian Badger attacks and isn't blocked, you may exile up to two target creature cards from defending player's graveyard. If you do, you gain 1 life for each card exiled this way and Rysorian Badger assigns no combat damage this turn.",Creature — Badger,2,2,False,False,False,False,True,False
 4089,4089,9c3c9a22-e092-4845-b661-047590746498,Saber Ants,剣歯蟻,4,uncommon,"Whenever Saber Ants is dealt damage, you may create that many 1/1 green Insect creature tokens.",Creature — Insect,2,3,False,False,False,False,True,False
 4090,4090,115c7ca7-c27b-43ca-9281-be6913e90059,Sabertooth Cobra,剣歯コブラ,3,common,"Whenever Sabertooth Cobra deals damage to a player, that player gets a poison counter. The player gets another poison counter at the beginning of their next upkeep unless they pay {2} before that step. (A player with ten or more poison counters loses the game.)",Creature — Snake,2,2,False,False,False,False,True,False
@@ -6625,7 +6625,7 @@ Morph {1}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Tur
 {T}: Target attacking or blocking creature gets +2/+2 until end of turn.",Creature — Angel,2,2,True,False,False,False,False,False
 4275,4275,4b7ac066-e5c7-43e6-9e7e-2739b24a905d,Serra Angel,セラの天使,5,uncommon,"Flying, vigilance",Creature — Angel,4,4,True,False,False,False,False,False
 4276,4276,c363725f-15cf-4955-aaf1-536b1f8daaed,Serra Avatar,セラのアバター,7,rare,"Serra Avatar's power and toughness are each equal to your life total.
-When Serra Avatar is put into a graveyard from anywhere, shuffle it into its owner's library.",Creature — Avatar,*,*,True,False,False,False,False,False
+When Serra Avatar is put into a graveyard from anywhere, shuffle it into its owner's library.",Creature — Avatar,0,0,True,False,False,False,False,False
 4277,4277,7a06483b-e71c-4d11-86ea-3b48e2a9cdaf,Serra Aviary,,4,rare,Creatures with flying get +1/+1.,World Enchantment,,,True,False,False,False,False,False
 4278,4278,320d8f2b-005d-4769-80d2-f46d96afffe7,Serra Bestiary,セラの獣小屋,2,uncommon,"Enchant creature
 At the beginning of your upkeep, sacrifice Serra Bestiary unless you pay {W}{W}.
@@ -6690,7 +6690,7 @@ When Shaleskin Plower is turned face up, destroy target land.",Creature — Beas
 {B}, {T}: Target creature gets +1/+0 until end of turn.",Creature — Human Wizard,1,1,False,True,False,False,False,False
 4317,4317,82a6d89d-9215-4540-b7d5-26cdd6afb05b,Shapeshifter,多相の戦士,6,uncommon,"As Shapeshifter enters the battlefield, choose a number between 0 and 7.
 At the beginning of your upkeep, you may choose a number between 0 and 7.
-Shapeshifter's power is equal to the last chosen number and its toughness is equal to 7 minus that number.",Artifact Creature — Shapeshifter,*,7-*,False,False,False,False,False,True
+Shapeshifter's power is equal to the last chosen number and its toughness is equal to 7 minus that number.",Artifact Creature — Shapeshifter,0,7,False,False,False,False,False,True
 4318,4318,3b629793-0efb-4d60-9d82-38b7b400abfd,Shard Phoenix,陶片のフェニックス,5,rare,"Flying (This creature can't be blocked except by creatures with flying or reach.)
 Sacrifice Shard Phoenix: It deals 2 damage to each creature without flying.
 {R}{R}{R}: Return Shard Phoenix from your graveyard to your hand. Activate only during your upkeep.",Creature — Phoenix,2,2,False,False,False,True,False,False
@@ -6838,7 +6838,7 @@ Threshold — Other creatures you control get +2/+2 as long as seven or more car
 4410,4410,ac00d3db-d9e4-4fc3-a4ea-dd1187f406bb,Silverglade Pathfinder,シルバーグレイド峡谷の開拓者,2,uncommon,"{1}{G}, {T}, Discard a card: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",Creature — Dryad Spellshaper,1,1,False,False,False,False,True,False
 4411,4411,665b8bbf-c30b-4875-a5c2-fc3b9767ecac,"Silvos, Rogue Elemental",悪辣な精霊シルヴォス,6,rare,"Trample
 {G}: Regenerate Silvos, Rogue Elemental.",Legendary Creature — Elemental,8,5,False,False,False,False,True,False
-4412,4412,eefa9a94-9915-4dcd-b5dc-7f8e9aa621a7,"Sima Yi, Wei Field Marshal",魏の大将軍 司馬懿,6,rare,"Sima Yi, Wei Field Marshal's power is equal to the number of Swamps you control.",Legendary Creature — Human Soldier,*,4,False,False,True,False,False,False
+4412,4412,eefa9a94-9915-4dcd-b5dc-7f8e9aa621a7,"Sima Yi, Wei Field Marshal",魏の大将軍 司馬懿,6,rare,"Sima Yi, Wei Field Marshal's power is equal to the number of Swamps you control.",Legendary Creature — Human Soldier,0,4,False,False,True,False,False,False
 4413,4413,158f4e87-60f1-43c1-b03d-9bbe4b824b39,Simian Grunts,うなる類人猿,3,common,"Flash
 Echo {2}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",Creature — Ape,3,4,False,False,False,False,True,False
 4414,4414,128e201a-f520-4917-a1a4-2f3836f1f92d,Simoon,サイムーン,2,uncommon,Simoon deals 1 damage to each creature target opponent controls.,Instant,,,False,False,False,True,True,False
@@ -6945,7 +6945,7 @@ Flying",Creature — Bird,2,2,False,True,False,False,False,False
 Discard a creature card: Skyshroud Vampire gets +2/+2 until end of turn.",Creature — Vampire,3,3,False,False,True,False,False,False
 4481,4481,c6ad434b-6e34-439b-8046-f0047c06e371,Skyshroud War Beast,スカイシュラウドの軍獣,2,rare,"Trample
 As Skyshroud War Beast enters the battlefield, choose an opponent.
-Skyshroud War Beast's power and toughness are each equal to the number of nonbasic lands the chosen player controls.",Creature — Beast,*,*,False,False,False,False,True,False
+Skyshroud War Beast's power and toughness are each equal to the number of nonbasic lands the chosen player controls.",Creature — Beast,0,0,False,False,False,False,True,False
 4482,4482,afc3a65e-7a7a-4bd9-bca4-aa762b9bbbcb,Skywing Aven,空翼のエイヴン,3,common,"Flying
 Discard a card: Return Skywing Aven to its owner's hand.",Creature — Bird Soldier,2,1,False,True,False,False,False,False
 4483,4483,c07a86de-ec29-478c-b6cb-057eb9d3e126,Slashing Tiger,猛虎,4,rare,"Whenever Slashing Tiger becomes blocked, it gets +2/+2 until end of turn.",Creature — Cat,3,3,False,False,False,False,True,False
@@ -7147,7 +7147,7 @@ Bird creatures get +1/+1 for each feather counter on Soulcatchers' Aerie.",Encha
 4596,4596,cbbcd3a3-6ddd-4511-a352-3055d0102e7c,Soulgorger Orgg,魂喰らいのオーグ,5,uncommon,"Trample
 When Soulgorger Orgg enters the battlefield, you lose all but 1 life.
 When Soulgorger Orgg leaves the battlefield, you gain life equal to the life you lost when it entered the battlefield.",Creature — Nightmare Orgg,6,6,False,False,False,True,False,False
-4597,4597,27d98b94-a8a1-442b-8940-4ffab51b5164,Soulless One,魂無き者,4,uncommon,Soulless One's power and toughness are each equal to the number of Zombies on the battlefield plus the number of Zombie cards in all graveyards.,Creature — Zombie Avatar,*,*,False,False,True,False,False,False
+4597,4597,27d98b94-a8a1-442b-8940-4ffab51b5164,Soulless One,魂無き者,4,uncommon,Soulless One's power and toughness are each equal to the number of Zombies on the battlefield plus the number of Zombie cards in all graveyards.,Creature — Zombie Avatar,0,0,False,False,True,False,False,False
 4598,4598,77ae796e-fc56-47b9-b8a0-97e24fbd60f7,Soulshriek,魂の悲鳴,1,common,"Target creature you control gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard. Sacrifice that creature at the beginning of the next end step.",Instant,,,False,False,True,False,False,False
 4599,4599,79de2319-078d-46db-9044-0088c623b73f,Southern Elephant,南蛮の象,4,common,,Creature — Elephant,3,4,False,False,False,False,True,False
 4600,4600,cab96aa8-13e3-4dd4-9d44-9e298f807388,Southern Paladin,南の聖騎士,4,rare,"{W}{W}, {T}: Destroy target red permanent.",Creature — Human Knight,3,3,True,False,False,False,False,False
@@ -7554,14 +7554,14 @@ Damage that would reduce your life total to less than 1 reduces it to 1 instead.
 4857,4857,d32a32d2-203d-4be1-8a33-e037747053c7,Sustenance,命の糧,2,uncommon,"{1}, Sacrifice a land: Target creature gets +1/+1 until end of turn.",Enchantment,,,False,False,False,False,True,False
 4858,4858,8b4715b0-63d9-4ff8-a667-21a762518687,Sutured Ghoul,縫合グール,7,rare,"Trample
 As Sutured Ghoul enters the battlefield, exile any number of creature cards from your graveyard.
-Sutured Ghoul's power is equal to the total power of the exiled cards and its toughness is equal to their total toughness.",Creature — Zombie,*,*,False,False,True,False,False,False
+Sutured Ghoul's power is equal to the total power of the exiled cards and its toughness is equal to their total toughness.",Creature — Zombie,0,0,False,False,True,False,False,False
 4859,4859,5578cf33-62f5-456c-a58c-f744a25df79b,Svyelunite Temple,シヴィエルナイトの寺院,0,uncommon,"Svyelunite Temple enters the battlefield tapped.
 {T}: Add {U}.
 {T}, Sacrifice Svyelunite Temple: Add {U}{U}.",Land,,,False,False,False,False,False,True
 4860,4860,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,Swamp,沼,0,common,({T}: Add {B}.),Basic Land — Swamp,,,False,False,False,False,False,True
 4861,4861,4bb4844c-2678-45c7-8f5e-9cf185fd484b,Swamp Mosquito,沼地の蚊,2,common,"Flying
 Whenever Swamp Mosquito attacks and isn't blocked, defending player gets a poison counter. (A player with ten or more poison counters loses the game.)",Creature — Insect,0,1,False,False,True,False,False,False
-4862,4862,7fe21ade-01f1-45ff-9b70-bc6302c3d284,Swarm of Rats,ネズミの大群,2,common,Swarm of Rats's power is equal to the number of Rats you control.,Creature — Rat,*,1,False,False,True,False,False,False
+4862,4862,7fe21ade-01f1-45ff-9b70-bc6302c3d284,Swarm of Rats,ネズミの大群,2,common,Swarm of Rats's power is equal to the number of Rats you control.,Creature — Rat,0,1,False,False,True,False,False,False
 4863,4863,7bb5c5af-6943-4958-a666-0c322d5b9f33,Swat,虫つぶし,3,common,"Destroy target creature with power 2 or less.
 Cycling {2} ({2}, Discard this card: Draw a card.)",Instant,,,False,False,True,False,False,False
 4864,4864,9a7e2298-8855-43a7-8cb1-4b31e4058c3f,Sway of Illusion,幻影の影響,2,uncommon,"Any number of target creatures become the color of your choice until end of turn.
@@ -7584,7 +7584,7 @@ When Sylvan Messenger enters the battlefield, reveal the top four cards of your 
 Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",Instant,,,False,False,False,False,True,False
 4877,4877,bddf8f4a-3149-4dd6-a9e5-7747e7e45a1c,Sylvan Safekeeper,森を護る者,1,rare,Sacrifice a land: Target creature you control gains shroud until end of turn. (It can't be the target of spells or abilities.),Creature — Human Wizard,1,1,False,False,False,False,True,False
 4878,4878,935e0cac-51ee-4cb7-a209-f085e0f099ed,Sylvan Tutor,森の教示者,1,rare,"Search your library for a creature card, reveal it, then shuffle and put that card on top.",Sorcery,,,False,False,False,False,True,False
-4879,4879,6493960b-4bbb-4ef0-8efb-abb122b1697d,Sylvan Yeti,森イエティ,4,rare,Sylvan Yeti's power is equal to the number of cards in your hand.,Creature — Yeti,*,4,False,False,False,False,True,False
+4879,4879,6493960b-4bbb-4ef0-8efb-abb122b1697d,Sylvan Yeti,森イエティ,4,rare,Sylvan Yeti's power is equal to the number of cards in your hand.,Creature — Yeti,0,4,False,False,False,False,True,False
 4880,4880,787b494b-731b-4e99-8e46-157bc86f6eea,Symbiosis,共生,2,common,Two target creatures each get +2/+2 until end of turn.,Instant,,,False,False,False,False,True,False
 4881,4881,70ecc25b-2004-4a3c-80c3-6d97bf0711eb,Symbiotic Beast,共生する獣,6,uncommon,"When Symbiotic Beast dies, create four 1/1 green Insect creature tokens.",Creature — Insect Beast,4,4,False,False,False,False,True,False
 4882,4882,a6872d7a-b647-4baf-bd1e-06707ccbb71a,Symbiotic Deployment,共生的配置,3,rare,"Skip your draw step.
@@ -7732,7 +7732,7 @@ Threshold — As long as seven or more cards are in your graveyard, Teroh's Vang
 4976,4976,a949c96c-362c-45a3-bd5c-ce5ce153ee9e,Terrain Generator,地形形成装置,0,uncommon,"{T}: Add {C}.
 {2}, {T}: You may put a basic land card from your hand onto the battlefield tapped.",Land,,,False,False,False,False,False,True
 4977,4977,f44fb61a-9aa5-4178-b958-5115d62a7f50,Terravore,土を食うもの,3,rare,"Trample
-Terravore's power and toughness are each equal to the number of land cards in all graveyards.",Creature — Lhurgoyf,*,*,False,False,False,False,True,False
+Terravore's power and toughness are each equal to the number of land cards in all graveyards.",Creature — Lhurgoyf,0,0,False,False,False,False,True,False
 4978,4978,a1785817-f17b-471b-a63b-866e7972df1f,Territorial Dispute,領土論争,6,rare,"At the beginning of your upkeep, sacrifice Territorial Dispute unless you sacrifice a land.
 Players can't play lands.",Enchantment,,,False,False,False,True,False,False
 4979,4979,b81f041d-98db-4408-9472-c483e4a502bc,Terror,恐怖,2,common,"Destroy target nonartifact, nonblack creature. It can't be regenerated.",Instant,,,False,False,True,False,False,False
@@ -8041,7 +8041,7 @@ You control enchanted creature.",Enchantment — Aura,,,False,True,False,False,F
 5163,5163,d7318464-e400-424f-ae6d-a9070c64df04,Tree Monkey,樹上生活の猿,1,common,Reach (This creature can block creatures with flying.),Creature — Monkey,1,1,False,False,False,False,True,False
 5164,5164,a5ef15b5-83d2-4b23-9403-a9a52be46154,Treefolk Healer,ツリーフォークの癒し手,5,uncommon,"{2}{W}, {T}: Prevent the next 2 damage that would be dealt to any target this turn.",Creature — Treefolk Cleric,2,3,False,False,False,False,True,False
 5165,5165,68a6fd00-9cb0-4518-97aa-b7f475da58c1,Treefolk Mystic,ツリーフォークの神秘家,4,common,"Whenever Treefolk Mystic blocks or becomes blocked by a creature, destroy all Auras attached to that creature.",Creature — Treefolk,2,4,False,False,False,False,True,False
-5166,5166,87285539-29c8-4cc7-a22c-4a4b96a61e82,Treefolk Seedlings,ツリーフォークの若木,3,uncommon,Treefolk Seedlings's toughness is equal to the number of Forests you control.,Creature — Treefolk,2,*,False,False,False,False,True,False
+5166,5166,87285539-29c8-4cc7-a22c-4a4b96a61e82,Treefolk Seedlings,ツリーフォークの若木,3,uncommon,Treefolk Seedlings's toughness is equal to the number of Forests you control.,Creature — Treefolk,2,0,False,False,False,False,True,False
 5167,5167,6f3ed8a1-ff5f-411b-9d87-0cce52f42344,Treespring Lorian,樹を跳ねるロリアン,6,common,Morph {5}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.),Creature — Beast,5,4,False,False,False,False,True,False
 5168,5168,ba71eb8a-f9f8-4608-88d8-963a1770d8d4,Treetop Bracers,樹上の篭手,2,common,"Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
 Enchanted creature gets +1/+1 and can't be blocked except by creatures with flying.",Enchantment — Aura,,,False,False,False,False,True,False
@@ -8129,7 +8129,7 @@ Two-Headed Dragon can block an additional creature each combat.
 {3}{G}, Sacrifice Uktabi Faerie: Destroy target artifact.",Creature — Faerie,1,1,False,False,False,False,True,False
 5222,5222,6cc07a7e-e70c-45c5-83c5-a2704e57dbc5,Uktabi Orangutan,ウークタビー・オランウータン,3,uncommon,"When Uktabi Orangutan enters the battlefield, destroy target artifact.",Creature — Ape,2,2,False,False,False,False,True,False
 5223,5223,dd25afe0-a69a-4e0b-b364-b88d3a522ed3,Uktabi Wildcats,ウークタビー・ワイルドキャット,5,rare,"Uktabi Wildcats's power and toughness are each equal to the number of Forests you control.
-{G}, Sacrifice a Forest: Regenerate Uktabi Wildcats.",Creature — Cat,*,*,False,False,False,False,True,False
+{G}, Sacrifice a Forest: Regenerate Uktabi Wildcats.",Creature — Cat,0,0,False,False,False,False,True,False
 5224,5224,c9132e72-d016-4cb7-8662-a16b7d932bef,Umbilicus,生命維持コード,4,rare,"At the beginning of each player's upkeep, that player returns a permanent they control to its owner's hand unless they pay 2 life.",Artifact,,,False,False,False,False,False,True
 5225,5225,97acd3aa-ae4a-4e9d-a5b9-36eaba158735,Unburden,荷降ろし,3,common,"Target player discards two cards.
 Cycling {2} ({2}, Discard this card: Draw a card.)",Sorcery,,,False,False,True,False,False,False
@@ -8891,7 +8891,7 @@ When Yavimaya Granger enters the battlefield, you may search your library for a 
 5710,5710,53d6113d-acdb-4754-9641-f7991a96c7b9,Yavimaya Hollow,ヤヴィマヤのうろ穴,0,rare,"{T}: Add {C}.
 {G}, {T}: Regenerate target creature.",Legendary Land,,,False,False,False,False,False,True
 5711,5711,285c9f49-4aeb-468c-bb41-f5ccb5257e2b,Yavimaya Kavu,ヤヴィマヤのカヴー,4,uncommon,"Yavimaya Kavu's power is equal to the number of red creatures on the battlefield.
-Yavimaya Kavu's toughness is equal to the number of green creatures on the battlefield.",Creature — Kavu,*,*,False,False,False,True,True,False
+Yavimaya Kavu's toughness is equal to the number of green creatures on the battlefield.",Creature — Kavu,0,0,False,False,False,True,True,False
 5712,5712,6e06b5cc-444c-49c9-b08a-81ef8d97c9ab,Yavimaya Scion,ヤヴィマヤの接ぎ穂,5,common,Protection from artifacts,Creature — Treefolk,4,4,False,False,False,False,True,False
 5713,5713,93514874-41e8-49e7-8935-d06e852dd1e3,Yavimaya Wurm,ヤヴィマヤのワーム,6,common,Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.),Creature — Wurm,6,4,False,False,False,False,True,False
 5714,5714,d5cb0370-a6f0-40c0-8b8f-553fca23778d,Yavimaya's Embrace,ヤヴィマヤの抱擁,8,rare,"Enchant creature
