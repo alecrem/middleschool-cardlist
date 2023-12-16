@@ -54,6 +54,14 @@ def get_locale():
                 "en": "Mana value:",
                 "ja": "マナ総量：",
             },
+            "search_by_pow": {
+                "en": "Power:",
+                "ja": "パワー：",
+            },
+            "search_by_tou": {
+                "en": "Toughness:",
+                "ja": "タフネス：",
+            },
             "cards_found": {
                 "en": " cards were found.",
                 "ja": "枚 のカードが見つかりました。",
