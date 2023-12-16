@@ -79,7 +79,7 @@ if colorcol5.checkbox(_["basic"]["color_g"][l]):
 if colorcol6.checkbox(_["basic"]["color_c"][l]):
     results_df = results_df[results_df["c"] == True]
 
-# Filter by mana value
+# Filter by mana value range
 min_mv = mslist_df["mv"].min()
 max_mv = mslist_df["mv"].max()
 mv_options = [mv for mv in range(min_mv, max_mv + 1)]
@@ -117,6 +117,38 @@ input_text = st.text_input(
     placeholder=_["search"]["search_by_text_placeholder"][l],
 ).strip()
 results_df = results_df[results_df["text"].str.contains(input_text, case=False)]
+
+# Filter by power and toughness ranges
+
+powtou_df = mslist_df[mslist_df["power"].isin(range(0, 100))]
+
+min_pow = int(powtou_df["power"].min(skipna=True))
+max_pow = int(powtou_df["power"].max(skipna=True))
+pow_range = range(min_pow, max_pow + 1)
+pow_options = [pow for pow in pow_range]
+start_pow, end_pow = st.select_slider(
+    f'**{_["search"]["search_by_pow"][l]}**',
+    options=pow_options,
+    value=(min_pow, max_pow),
+)
+if start_pow > min_pow or end_pow < max_pow:
+    results_df = results_df[results_df["power"].isin(pow_range)]
+    results_df = results_df[results_df["power"] >= start_pow]
+    results_df = results_df[results_df["power"] <= end_pow]
+
+min_tou = int(powtou_df["toughness"].min(skipna=True))
+max_tou = int(powtou_df["toughness"].max(skipna=True))
+tou_range = range(min_tou, max_tou + 1)
+tou_options = [tou for tou in tou_range]
+start_tou, end_tou = st.select_slider(
+    f'**{_["search"]["search_by_tou"][l]}**',
+    options=tou_options,
+    value=(min_tou, max_tou),
+)
+if start_tou > min_tou or end_tou < max_tou:
+    results_df = results_df[results_df["toughness"].isin(tou_range)]
+    results_df = results_df[results_df["toughness"] >= start_tou]
+    results_df = results_df[results_df["toughness"] <= end_tou]
 
 if results_df.shape[0] < mslist_df.shape[0]:
     if exact_match[0]:
