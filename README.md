@@ -48,3 +48,8 @@ To run the Streamlit app locally, install the [streamlit](https://docs.streamlit
 ```sh
 streamlit run Middle_School_Card_Search.py
 ```
+
+## Next.js web interface (deprecated)
+
+- [Repository](https://github.com/alecrem/middleschool-tutor)
+- [Last version deployed](https://middleschooltutor.vercel.app)
