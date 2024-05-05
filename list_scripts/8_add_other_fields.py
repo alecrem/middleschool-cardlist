@@ -37,7 +37,7 @@ def add_other_fields(row: pd.DataFrame) -> pd.DataFrame:
     return row
 
 
-middleschool_df = pd.read_csv("output/middleschool.csv")
+middleschool_df = pd.read_csv("static/middleschool.csv")
 with open("data/middleschool.json") as json_data:
     cards = json.loads(json_data.read())
 
@@ -45,5 +45,5 @@ middleschool_df = middleschool_df.apply(add_other_fields, axis=1)
 middleschool_df["power"] = middleschool_df["power"].astype("Int64")
 middleschool_df["toughness"] = middleschool_df["toughness"].astype("Int64")
 
-middleschool_df.to_csv("output/middleschool_extra_fields.csv")
-middleschool_df.to_json("output/middleschool_extra_fields.json")
+middleschool_df.to_csv("static/middleschool_extra_fields.csv")
+middleschool_df.to_json("static/middleschool_extra_fields.json")

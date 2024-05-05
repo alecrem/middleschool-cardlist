@@ -4,7 +4,7 @@ import streamlit_common.footer
 import streamlit_common.lib as lib
 import streamlit_common.locale
 
-mslist_path = "output/middleschool_extra_fields.csv"
+mslist_path = "static/middleschool_extra_fields.csv"
 _ = streamlit_common.locale.get_locale()
 
 if "number_shown_results" not in st.session_state:
