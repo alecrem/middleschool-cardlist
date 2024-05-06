@@ -52,5 +52,5 @@ middleschool_df = middleschool_df[["oracle_id", "name", "name_ja"]]
 middleschool_df = middleschool_df.sort_values(by=["name", "name_ja"])
 
 # Write a CSV file
-middleschool_df.to_csv("output/middleschool.csv")
-middleschool_df.to_json("output/middleschool.json")
+middleschool_df.to_csv("static/middleschool.csv")
+middleschool_df.to_json("static/middleschool.json")
