@@ -35,6 +35,7 @@ banlist = [
 ]
 
 middleschool_df = pd.read_csv("data/middleschool_all_sets_added_japanese_names.csv")
+ms_with_banned_df = middleschool_df
 
 print("Cards legal by set:", middleschool_df.shape[0])
 # Find the rows with the banned cards
@@ -42,6 +43,7 @@ banned_df = middleschool_df[
     pd.DataFrame(middleschool_df.name.tolist()).isin(banlist).any(axis=1).values
 ]
 print("Banned cards:", banned_df.shape[0])
+
 # Append the banned cards to the main Middle School DataFrame,
 # then remove any rows that appear twice,
 # effectively leaving only the legal cards
@@ -51,6 +53,16 @@ middleschool_df = middleschool_df.reset_index(drop=True)
 middleschool_df = middleschool_df[["oracle_id", "name", "name_ja"]]
 middleschool_df = middleschool_df.sort_values(by=["name", "name_ja"])
 
-# Write a CSV file
+# Make a dataframe including the banned cards,
+ms_with_banned_df["banned"] = ms_with_banned_df["name"].apply(lambda x: x in banlist)
+ms_with_banned_df = ms_with_banned_df.reset_index(drop=True)
+ms_with_banned_df = ms_with_banned_df[["oracle_id", "name", "name_ja", "banned"]]
+ms_with_banned_df = ms_with_banned_df.sort_values(by=["name", "name_ja"])
+print(ms_with_banned_df[ms_with_banned_df["name"] == "Balance"])
+print(ms_with_banned_df[ms_with_banned_df["name"] == "Lightning Bolt"])
+
+# Write CSV and JSON files
 middleschool_df.to_csv("static/middleschool.csv")
 middleschool_df.to_json("static/middleschool.json")
+ms_with_banned_df.to_csv("static/middleschool_with_banned.csv")
+ms_with_banned_df.to_json("static/middleschool_with_banned.json")
