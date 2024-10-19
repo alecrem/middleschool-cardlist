@@ -38,6 +38,7 @@ def add_other_fields(row: pd.DataFrame) -> pd.DataFrame:
 
 
 middleschool_df = pd.read_csv("static/middleschool.csv")
+ms_with_banned_df = pd.read_csv("static/middleschool_with_banned.csv")
 with open("data/middleschool.json") as json_data:
     cards = json.loads(json_data.read())
 
@@ -45,5 +46,11 @@ middleschool_df = middleschool_df.apply(add_other_fields, axis=1)
 middleschool_df["power"] = middleschool_df["power"].astype("Int64")
 middleschool_df["toughness"] = middleschool_df["toughness"].astype("Int64")
 
+ms_with_banned_df = ms_with_banned_df.apply(add_other_fields, axis=1)
+ms_with_banned_df["power"] = ms_with_banned_df["power"].astype("Int64")
+ms_with_banned_df["toughness"] = ms_with_banned_df["toughness"].astype("Int64")
+
 middleschool_df.to_csv("static/middleschool_extra_fields.csv")
 middleschool_df.to_json("static/middleschool_extra_fields.json")
+ms_with_banned_df.to_csv("static/middleschool_extra_fields_with_banned.csv")
+ms_with_banned_df.to_json("static/middleschool_extra_fields_with_banned.json")
