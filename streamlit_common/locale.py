@@ -46,6 +46,10 @@ def get_locale():
                 "en": "is an exact match.",
                 "ja": "が完全一致します。",
             },
+            "banned_match": {
+                "en": "is an exact match, but it is banned.",
+                "ja": "が完全一致しますが、使用禁止になっています。",
+            },
             "search_by_color": {
                 "en": "Color:",
                 "ja": "色：",
@@ -63,8 +67,8 @@ def get_locale():
                 "ja": "タフネス：",
             },
             "cards_found": {
-                "en": " cards were found.",
-                "ja": "枚 のカードが見つかりました。",
+                "en": " cards were found in the card pool.",
+                "ja": "枚 のカードがカードプール見つかりました。",
             },
             "top_results": {
                 "en": "Top results:",
@@ -77,6 +81,20 @@ def get_locale():
             "see_20": {
                 "en": "Reset to 20 results",
                 "ja": "上位20枚表示に戻す",
+            },
+        },
+        "legality": {
+            "legal": {
+                "en": "Legal",
+                "ja": "使用可能",
+            },
+            "banned": {
+                "en": "Banned",
+                "ja": "禁止カード",
+            },
+            "not_legal": {
+                "en": "Not legal",
+                "ja": "使用不可",
             },
         },
         "check": {

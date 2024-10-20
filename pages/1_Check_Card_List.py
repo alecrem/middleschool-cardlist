@@ -4,8 +4,20 @@ import streamlit_common.footer
 import streamlit_common.lib as lib
 import streamlit_common.locale
 
-mslist_path = "static/middleschool.csv"
+mslist_path = "static/middleschool_with_banned.csv"
 _ = streamlit_common.locale.get_locale()
+
+
+def legal_to_checkmark(row: pd.DataFrame) -> pd.DataFrame:
+    if row["isbanned"]:
+        row["Legal"] = f"🈲 {_['legality']['banned'][l]}"
+        return row
+    if row["islegal"]:
+        row["Legal"] = f"✅ {_['legality']['legal'][l]}"
+        return row
+    row["Legal"] = f"🚫 {_['legality']['not_legal'][l]}"
+    return row
+
 
 if "lang" not in st.session_state:
     st.session_state["lang"] = "en"
@@ -51,13 +63,15 @@ input_cards["legalnames"] = input_cards["cardname"].apply(
     lib.get_legal_cardnames, args=[mslist_df]
 )
 input_cards = input_cards.apply(lib.split_names_list, axis=1)
-input_cards = input_cards.apply(lib.legal_to_checkmark, axis=1)
+input_cards = input_cards.apply(legal_to_checkmark, axis=1)
 if input_cards.shape[0] > 0:
     input_cards = input_cards.sort_values(by="Legal", ascending=False)
 
 illegal_cards = 0
 if input_cards.shape[0] > 0:
-    illegal_cards = input_cards[input_cards["Legal"] != "✅"].shape[0]
+    illegal_cards = input_cards[
+        input_cards["Legal"] != f"✅ {_['legality']['legal'][l]}"
+    ].shape[0]
 
 col2.write(
     f'##### {_["check"]["illegal_cards_1"][l]}{illegal_cards}{_["check"]["illegal_cards_2"][l]}'
@@ -70,6 +84,8 @@ if "English" in input_cards and "日本語" in input_cards:
     )
 
 if input_cards.shape[0] > 0:
-    input_cards[input_cards["Legal"] == "✅"].apply(lib.row_to_button_link, axis=1)
+    input_cards[input_cards["Legal"] == f"✅ {_['legality']['legal'][l]}"].apply(
+        lib.row_to_button_link, axis=1
+    )
 
 streamlit_common.footer.write_footer()
