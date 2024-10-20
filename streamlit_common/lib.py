@@ -9,14 +9,6 @@ def compose_scryfall_url(cardname: str) -> str:
     return f"https://scryfall.com/search?q=prefer%3Aoldest%20!%22{urllib.parse.quote_plus(cardname)}%22"
 
 
-def row_to_link(row: pd.DataFrame) -> None:
-    """Prints a list item with a Scryfall link for the card in the row passed"""
-    cardname = row["name"]
-    if row.name_ja is not "":
-        cardname = f"{cardname} / {row.name_ja}"
-    st.write(f"- [{cardname}]({row.link})")
-
-
 def row_to_button_link(row: pd.DataFrame) -> None:
     """Prints a list item with a Scryfall link for the card in the row passed"""
     cardname = row.English
@@ -33,17 +25,21 @@ def get_legal_cardnames(cardname: str, mslist_df: pd.DataFrame) -> list:
         return [False, [], []]
     cardname_en_list = []
     cardname_ja_list = []
+    banned_list = []
     legal = False
+    banned = False
     english_match = mslist_df[mslist_df["name"].str.lower() == cardname.lower()]
     if english_match.shape[0] > 0:
         legal = True
         cardname_en_list = english_match["name"].to_list()
         cardname_ja_list = english_match["name_ja"].to_list()
+        banned_list = english_match["banned"].to_list()
     japanese_match = mslist_df[mslist_df["name_ja"] == cardname]
     if japanese_match.shape[0] > 0:
         legal = True
         cardname_en_list = japanese_match["name"].to_list()
         cardname_ja_list = japanese_match["name_ja"].to_list()
+        banned_list = japanese_match["banned"].to_list()
     if len(cardname_en_list) > 0:
         legalname_en = cardname_en_list[0]
     else:
@@ -52,11 +48,11 @@ def get_legal_cardnames(cardname: str, mslist_df: pd.DataFrame) -> list:
         legalname_ja = cardname_ja_list[0]
     else:
         legalname_ja = cardname
-    return [
-        legal,
-        legalname_en,
-        legalname_ja,
-    ]
+    if len(banned_list) > 0:
+        banned = banned_list[0]
+    else:
+        banned = False
+    return [legal, legalname_en, legalname_ja, banned]
 
 
 def remove_number_of_copies(line: str) -> str:
@@ -78,14 +74,6 @@ def is_cardname_legal(cardname: str, mslist_df: pd.DataFrame) -> bool:
     return False
 
 
-def legal_to_checkmark(row: pd.DataFrame) -> pd.DataFrame:
-    if row["islegal"]:
-        row["Legal"] = "✅"
-        return row
-    row["Legal"] = "🚫"
-    return row
-
-
 def split_names_list(row: pd.DataFrame):
     """Splits the English and Japanese card names in a list into two different columns"""
     if not isinstance(row["legalnames"], list):
@@ -94,4 +82,5 @@ def split_names_list(row: pd.DataFrame):
     row["English"] = row["legalnames"][1]
     if row["legalnames"][1] is not None:
         row["日本語"] = row["legalnames"][2]
+    row["isbanned"] = row["legalnames"][3]
     return row

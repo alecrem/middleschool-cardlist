@@ -4,8 +4,21 @@ import streamlit_common.footer
 import streamlit_common.lib as lib
 import streamlit_common.locale
 
-mslist_path = "static/middleschool_extra_fields.csv"
+mslist_path = "static/middleschool_extra_fields_with_banned.csv"
 _ = streamlit_common.locale.get_locale()
+
+
+def row_to_link(row: pd.DataFrame) -> None:
+    """Prints a list item with a Scryfall link for the card in the row passed"""
+    cardname = row["name"]
+    if row.name_ja is not "":
+        cardname = f"{cardname} / {row.name_ja}"
+    link = f"[{cardname}]({row.link})"
+    if row.banned:
+        link = f"🈲 {link} ({_['legality']['banned'][l]})"
+    link = f"- {link}"
+    st.write(link)
+
 
 if "number_shown_results" not in st.session_state:
     st.session_state["number_shown_results"] = 20
@@ -41,7 +54,9 @@ st.write(_["search"]["instructions"][l])
 
 mslist_df = pd.read_csv(mslist_path)
 mslist_df.fillna("", inplace=True)
-st.write(f'**{mslist_df.shape[0]}**{_["search"]["cards_are_legal"][l]}')
+st.write(
+    f'**{mslist_df[mslist_df["banned"]==False].shape[0]}**{_["search"]["cards_are_legal"][l]}'
+)
 
 results_df = mslist_df
 
@@ -155,16 +170,21 @@ if results_df.shape[0] < mslist_df.shape[0]:
         cardname = exact_match[1]
         if exact_match[2] is not None:
             cardname = f"{cardname} / {exact_match[2]}"
-        st.write(
-            f'✅ [{cardname}]({lib.compose_scryfall_url(exact_match[1])}) {_["search"]["exact_match"][l]}'
-        )
+        if exact_match[3]:
+            st.write(
+                f'🈲 [{cardname}]({lib.compose_scryfall_url(exact_match[1])}) {_["search"]["banned_match"][l]}'
+            )
+        else:
+            st.write(
+                f'✅ [{cardname}]({lib.compose_scryfall_url(exact_match[1])}) {_["search"]["exact_match"][l]}'
+            )
     st.write(f'**{results_df.shape[0]}**{_["search"]["cards_found"][l]}')
     if results_df.shape[0] > st.session_state["number_shown_results"]:
         st.write(_["search"]["top_results"][l])
 
     results_df["link"] = results_df["name"].apply(lib.compose_scryfall_url)
     results_df[: st.session_state["number_shown_results"]].transpose().apply(
-        lib.row_to_link
+        row_to_link
     )
 
     if results_df.shape[0] > st.session_state["number_shown_results"]:
