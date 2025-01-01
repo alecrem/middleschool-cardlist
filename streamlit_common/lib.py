@@ -12,7 +12,7 @@ def compose_scryfall_url(cardname: str) -> str:
 def row_to_button_link(row: pd.DataFrame) -> None:
     """Prints a list item with a Scryfall link for the card in the row passed"""
     cardname = row.English
-    if row.日本語 is not "":
+    if row.日本語 != "":
         cardname = f"{cardname} / {row.日本語}"
     st.write(f"- [{cardname}]({compose_scryfall_url(row.English)})")
 

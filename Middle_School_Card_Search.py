@@ -11,7 +11,7 @@ _ = streamlit_common.locale.get_locale()
 def row_to_link(row: pd.DataFrame) -> None:
     """Prints a list item with a Scryfall link for the card in the row passed"""
     cardname = row["name"]
-    if row.name_ja is not "":
+    if row.name_ja != "":
         cardname = f"{cardname} / {row.name_ja}"
     link = f"[{cardname}]({row.link})"
     if row.banned:
@@ -53,7 +53,8 @@ st.write(f'## {_["search"]["title"][l]}')
 st.write(_["search"]["instructions"][l])
 
 mslist_df = pd.read_csv(mslist_path)
-mslist_df.fillna("", inplace=True)
+mslist_df["name_ja"].fillna("", inplace=True)
+mslist_df["text"].fillna("", inplace=True)
 st.write(
     f'**{mslist_df[mslist_df["banned"]==False].shape[0]}**{_["search"]["cards_are_legal"][l]}'
 )
