@@ -53,8 +53,8 @@ st.write(f'## {_["search"]["title"][l]}')
 st.write(_["search"]["instructions"][l])
 
 mslist_df = pd.read_csv(mslist_path)
-mslist_df["name_ja"].fillna("", inplace=True)
-mslist_df["text"].fillna("", inplace=True)
+mslist_df.fillna({"name_ja": ""}, inplace=True)
+mslist_df.fillna({"text": ""}, inplace=True)
 st.write(
     f'**{mslist_df[mslist_df["banned"]==False].shape[0]}**{_["search"]["cards_are_legal"][l]}'
 )
