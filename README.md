@@ -56,6 +56,8 @@ To run the Streamlit app locally, install the [streamlit](https://docs.streamlit
 streamlit run Middle_School_Card_Search.py
 ```
 
+Note: the Streamlit version is pinned to 1.25.0 because that's the latest version supported by Hugging Face.
+
 ## Next.js web interface (deprecated)
 
 - [Repository](https://github.com/alecrem/middleschool-tutor)
