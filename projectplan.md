@@ -46,3 +46,32 @@ Following the pattern of existing scripts:
 - `README.md` (update)
 
 This plan focuses on creating a simple, focused script that adds image URI functionality while following the existing patterns in the codebase.
+
+## Review
+
+### Changes Made:
+- ✅ Created `list_scripts/9_add_image_uris.py` script
+- ✅ Implemented Scryfall API integration with proper rate limiting (0.1s delay = max 10 requests/second)
+- ✅ Added comprehensive error handling for API failures and missing cards
+- ✅ Included --test flag for development and testing with first 20 cards
+- ✅ Updated README.md with new file listings and script documentation
+- ✅ Added `requests` to Python module requirements
+- ✅ Added `.claude` to .gitignore
+- ✅ Successfully tested script with sample data
+
+### Script Features:
+- Reads from `static/middleschool_extra_fields_with_banned.csv`
+- Maps cards to their sets using `data/middleschool.json`
+- Queries Scryfall API `cards/named` endpoint with exact name and set
+- Extracts `image_uris.small` property and adds to `image_small` column
+- Generates both CSV and JSON output files
+- Includes progress tracking and success/failure reporting
+- Respects Scryfall's API rate limits
+
+### Test Results:
+- Successfully processed 20 test cards with 100% success rate
+- All image URLs are valid and return proper images
+- Script handles various card types and sets correctly
+- Error handling works for missing data scenarios
+
+The implementation is complete and ready for production use. The script will take approximately 10 minutes to process all ~5,800 cards due to API rate limiting, which is acceptable given the constraint.
