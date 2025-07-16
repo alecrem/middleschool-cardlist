@@ -57,6 +57,24 @@ python3 list_scripts/9_add_image_uris.py --test
 
 **Note:** The full script may take several minutes to complete due to API rate limiting.
 
+### Fixing Split Card Data
+
+To fix split card data issues (missing colors and rules text), run the `10_fix_split_cards.py` script:
+
+```sh
+python3 list_scripts/10_fix_split_cards.py
+```
+
+This script:
+- Reads the card data from `static/middleschool_extra_fields_with_banned_images.csv`
+- Identifies all split cards (cards with "//" in the name)
+- Fixes color representation by combining colors from both halves using MTG JSON data
+- Combines rules text from both halves with " // " separator
+- Fixes corrupted Japanese names for split cards
+- Generates corrected output files with accurate split card data
+
+The script addresses issues where split cards like "Fire // Ice" only showed colors from the first half (red only) instead of both halves (red and blue).
+
 ### Requirements
 
 Command line utilities:
